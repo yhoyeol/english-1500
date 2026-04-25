@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1500 Core Sentences · 학습 인덱스</title>
+<style>
+  :root { --bg:#0f1115; --card:#1a1d24; --card2:#232732; --text:#e6e8ee; --muted:#8a93a6; --accent:#6ea8fe; --accent2:#ffb86b; --border:#2c3140; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:24px; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif; line-height:1.5; max-width:820px; margin-left:auto; margin-right:auto; }
+  header { margin-bottom:24px; padding-bottom:14px; border-bottom:1px solid var(--border); }
+  h1 { font-size:24px; margin:0 0 6px 0; }
+  .sub { color:var(--muted); font-size:14px; }
+  .stats { display:flex; gap:14px; flex-wrap:wrap; margin-top:14px; }
+  .stat { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:10px 14px; flex:1; min-width:120px; }
+  .stat .label { font-size:12px; color:var(--muted); }
+  .stat .value { font-size:18px; font-weight:700; color:var(--accent2); }
+  .day-card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-bottom:12px; transition:border-color 0.15s; }
+  .day-card:hover { border-color:var(--accent); }
+  .day-head { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:6px; }
+  .day-num { font-weight:700; color:var(--accent2); font-size:16px; }
+  .day-date { color:var(--muted); font-size:14px; }
+  .day-theme { color:var(--text); font-size:14px; margin:6px 0; }
+  .day-actions { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+  .btn { background:var(--accent); color:#0b1220; padding:8px 12px; border-radius:8px; font-size:13px; font-weight:600; text-decoration:none; display:inline-block; }
+  .btn.secondary { background:var(--card2); color:var(--text); border:1px solid var(--border); }
+  footer { margin-top:32px; padding-top:14px; border-top:1px solid var(--border); color:var(--muted); font-size:12px; text-align:center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🌅 1500 Core Sentences</h1>
+  <div class="sub">하루 5문장 × 50주 = 1500개 · 월~토 매일 06:30 KST 업데이트</div>
+  <div class="stats">
+    <div class="stat"><div class="label">진행</div><div class="value" id="stat-done">5 / 1500</div></div>
+    <div class="stat"><div class="label">진행률</div><div class="value" id="stat-pct">0.3%</div></div>
+    <div class="stat"><div class="label">관용구·구동사</div><div class="value" id="stat-idiom">60%</div></div>
+    <div class="stat"><div class="label">남은 일수</div><div class="value" id="stat-remain">D-299</div></div>
+  </div>
+</header>
+
+<div id="day-list">
+  <div class="day-card">
+    <div class="day-head">
+      <span class="day-num">Day 1</span>
+      <span class="day-date">2026-04-25 (토)</span>
+    </div>
+    <div class="day-theme">기본 일상 + 상황별 회화 · 일상 인사 & 가벼운 반응</div>
+    <div class="day-actions">
+      <a class="btn" href="2026-04-25_player.html">🔊 음성 학습</a>
+      <a class="btn secondary" href="2026-04-25.md">📝 텍스트</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Updated automatically each day at 06:30 KST · 1500 Core Sentences Project
+</footer>
+</body>
+</html>

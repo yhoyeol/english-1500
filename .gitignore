@@ -1,0 +1,19 @@
+# Secrets - 절대 push하지 않을 파일
+github_token.txt
+.github_token
+*.token
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 임시 폴더
+audio/
+*.mp3
+*.tmp
+*~
+
+# 기타
+.vscode/
+.idea/

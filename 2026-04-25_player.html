@@ -94,7 +94,7 @@ function setStatus(t, lvl) { statusEl.textContent = t; statusEl.classList.remove
 function setActiveCard(idx) { currentCardIdx = idx; document.querySelectorAll(".card").forEach((el,i) => { el.classList.toggle("active", i===idx); const b = el.querySelector(".play-one"); if (b) b.classList.toggle("playing", i===idx); }); }
 function updateProgress(pct) { document.getElementById("globalBar").style.width = pct + "%"; }
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-function mp3Url(comboId, idx) { const i = String(idx+1).padStart(2,"0"); return "audio/" + FILE_DATE + "/" + comboId + "/" + i + ".mp3"; }
+function mp3Url(comboId, idx) { const i = String(idx+1).padStart(2,"0"); return "audio/" + FILE_DATE + "/" + i + ".mp3"; }
 async function checkMp3Mode() {
   if (!FILE_DATE) { debugEl.textContent = "진단: 날짜 추출 실패"; return false; }
   setStatus("mp3 파일 확인 중...");

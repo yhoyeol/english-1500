@@ -17,13 +17,13 @@
   button { background:var(--accent); color:#0b1220; border:0; border-radius:8px; padding:10px 14px; font-weight:600; font-size:14px; cursor:pointer; }
   button.secondary { background:var(--card2); color:var(--text); border:1px solid var(--border); }
   button:disabled { opacity:0.5; cursor:not-allowed; }
-  select { background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:14px; max-width:200px; }
+  select { background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:14px; max-width:240px; }
   label { color:var(--muted); font-size:13px; display:flex; align-items:center; gap:6px; }
   #voiceStatus { margin-left:auto; font-size:12px; color:var(--muted); }
   #voiceStatus.ok { color:var(--ok); }
   #voiceStatus.warn { color:var(--warn); }
   #voiceStatus.err { color:var(--err); }
-  .voice-row { display:flex; gap:8px; flex-wrap:wrap; flex-basis:100%; padding-top:6px; border-top:1px dashed var(--border); margin-top:4px; }
+  .combo-row, .voice-row { display:flex; gap:8px; flex-wrap:wrap; flex-basis:100%; padding-top:6px; border-top:1px dashed var(--border); margin-top:4px; }
   #debugInfo { font-size:11px; color:var(--muted); margin-top:6px; flex-basis:100%; word-break:break-all; }
   #modeBadge { font-size:11px; padding:3px 8px; border-radius:6px; margin-left:6px; }
   #modeBadge.mp3 { background:rgba(95,208,124,0.15); color:var(--ok); border:1px solid rgba(95,208,124,0.3); }
@@ -55,11 +55,14 @@
   <button id="pause" class="secondary">일시정지</button>
   <button id="stop" class="secondary">정지</button>
   <label>속도 <select id="rate"><option value="0.8">0.8x</option><option value="0.9">0.9x</option><option value="1.0" selected>1.0x</option><option value="1.1">1.1x</option><option value="1.25">1.25x</option></select></label>
-  <label>반복(쌍) <select id="repeats"><option>3</option><option selected>5</option><option>7</option></select></label>
   <span id="voiceStatus">음성 시스템 확인 중...</span>
-  <div class="voice-row" id="voiceRow">
+  <div class="combo-row" id="comboRow" style="display:none;">
+    <label>음성 조합 <select id="comboSel"></select></label>
+  </div>
+  <div class="voice-row" id="voiceRow" style="display:none;">
     <label>영어 음성 <select id="enVoice"><option value="">자동 선택</option></select></label>
     <label>한국어 음성 <select id="koVoice"><option value="">자동 선택</option></select></label>
+    <label>반복 <select id="repeats"><option>3</option><option selected>5</option><option>7</option></select></label>
   </div>
   <div id="debugInfo"></div>
   <div class="progress"><div id="globalBar" class="bar"></div></div>
@@ -74,37 +77,65 @@ const SENTENCES = [
   {tag: "[기본 일상]", en: "I'm running a bit late.", ko: "나 조금 늦을 것 같아."},
   {tag: "[상황별 + 관용구]", en: "It slipped my mind.", ko: "깜빡했어."}
 ];
+const VOICE_COMBOS = [
+  {id: "FF", label: "Aria 여 + SunHi 여"},
+  {id: "FM", label: "Aria 여 + InJoon 남"},
+  {id: "MF", label: "Christopher 남 + SunHi 여"},
+  {id: "MM", label: "Christopher 남 + InJoon 남"}
+];
 const FILE_DATE = (location.pathname.match(/(\d{4}-\d{2}-\d{2})_player\.html/) || [])[1] || null;
+const STORAGE_COMBO = "english1500_combo";
 const STORAGE_EN = "english1500_voice_en", STORAGE_KO = "english1500_voice_ko";
-let mode = "checking", mp3Players = [], currentAudio = null, playing = false, currentCardIdx = -1;
+let mode = "checking", currentCombo = null, mp3Players = [], currentAudio = null, playing = false, currentCardIdx = -1;
 const synth = window.speechSynthesis;
 let voices = [], voiceEN = null, voiceKO = null, queue = [], qIdx = 0, voicesReady = false, pollTimer = null;
 const wakeBtn = document.getElementById("wakeBtn"), playAllBtn = document.getElementById("playAll");
 const statusEl = document.getElementById("voiceStatus"), debugEl = document.getElementById("debugInfo");
-const modeBadge = document.getElementById("modeBadge"), ttsHint = document.getElementById("ttsHint"), voiceRow = document.getElementById("voiceRow");
+const modeBadge = document.getElementById("modeBadge"), ttsHint = document.getElementById("ttsHint");
+const voiceRow = document.getElementById("voiceRow"), comboRow = document.getElementById("comboRow");
 function setStatus(t, lvl) { statusEl.textContent = t; statusEl.classList.remove("ok","warn","err"); if (lvl) statusEl.classList.add(lvl); }
 function setActiveCard(idx) { currentCardIdx = idx; document.querySelectorAll(".card").forEach((el,i) => { el.classList.toggle("active", i===idx); const b = el.querySelector(".play-one"); if (b) b.classList.toggle("playing", i===idx); }); }
 function updateProgress(pct) { document.getElementById("globalBar").style.width = pct + "%"; }
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+function mp3Url(comboId, idx) { const i = String(idx+1).padStart(2,"0"); return "audio/" + FILE_DATE + "/" + comboId + "/" + i + ".mp3"; }
 async function checkMp3Mode() {
   if (!FILE_DATE) { debugEl.textContent = "진단: 날짜 추출 실패"; return false; }
   setStatus("mp3 파일 확인 중...");
   try {
     const ctrl = new AbortController(); const tid = setTimeout(() => ctrl.abort(), 5000);
-    const r = await fetch("audio/" + FILE_DATE + "/01.mp3", {method:"HEAD", cache:"no-store", signal: ctrl.signal});
+    const r = await fetch(mp3Url("FF", 0), {method:"HEAD", cache:"no-store", signal: ctrl.signal});
     clearTimeout(tid);
     debugEl.textContent = "진단: mp3 HEAD = " + r.status;
     return r.ok;
   } catch(e) { debugEl.textContent = "진단: fetch 실패 (" + e.name + ": " + e.message + ")"; return false; }
 }
+function rebuildMp3Players() {
+  if (currentAudio) { currentAudio.pause(); currentAudio.currentTime = 0; }
+  mp3Players = SENTENCES.map((_,i) => { const a = new Audio(mp3Url(currentCombo, i)); a.preload = "metadata"; return a; });
+}
 function setupMp3Mode() {
   mode = "mp3";
-  mp3Players = SENTENCES.map((_,i) => { const idx = String(i+1).padStart(2,"0"); const a = new Audio("audio/" + FILE_DATE + "/" + idx + ".mp3"); a.preload = "metadata"; return a; });
+  // combo 드롭다운 채우기
+  const sel = document.getElementById("comboSel"); sel.innerHTML = "";
+  VOICE_COMBOS.forEach(c => { const o = document.createElement("option"); o.value = c.id; o.textContent = c.label; sel.appendChild(o); });
+  const saved = localStorage.getItem(STORAGE_COMBO);
+  currentCombo = (saved && VOICE_COMBOS.find(c => c.id === saved)) ? saved : "FF";
+  sel.value = currentCombo;
+  sel.addEventListener("change", e => {
+    currentCombo = e.target.value;
+    localStorage.setItem(STORAGE_COMBO, currentCombo);
+    rebuildMp3Players();
+    const c = VOICE_COMBOS.find(x => x.id === currentCombo);
+    setStatus("Edge Neural · " + (c ? c.label : currentCombo), "ok");
+  });
+  rebuildMp3Players();
   modeBadge.className = "mp3"; modeBadge.textContent = "고품질 음성";
-  setStatus("Edge Neural TTS (Aria · SunHi)", "ok");
-  voiceRow.style.display = "none"; wakeBtn.classList.remove("show"); ttsHint.style.display = "none";
+  const c = VOICE_COMBOS.find(x => x.id === currentCombo);
+  setStatus("Edge Neural · " + (c ? c.label : currentCombo), "ok");
+  comboRow.style.display = "flex"; voiceRow.style.display = "none";
+  wakeBtn.classList.remove("show"); ttsHint.style.display = "none";
   playAllBtn.disabled = false;
-  debugEl.textContent = "진단: MP3 모드 활성 · audio/" + FILE_DATE + "/";
+  debugEl.textContent = "진단: MP3 모드 · audio/" + FILE_DATE + "/" + currentCombo + "/";
 }
 async function playAllMp3() {
   playing = true;
@@ -134,7 +165,7 @@ function pauseMp3() { if (!currentAudio) return; if (!currentAudio.paused) { cur
 function stopMp3() { playing = false; if (currentAudio) { currentAudio.pause(); currentAudio.currentTime = 0; } setActiveCard(-1); updateProgress(0); }
 function setupTtsMode() {
   mode = "tts"; modeBadge.className = "tts"; modeBadge.textContent = "OS 음성 (폴백)";
-  ttsHint.style.display = "block"; voiceRow.style.display = "flex";
+  ttsHint.style.display = "block"; voiceRow.style.display = "flex"; comboRow.style.display = "none";
   setStatus("음성 로딩 중..."); startTtsLoad();
 }
 function setDebugTts() {
@@ -162,7 +193,7 @@ function updateActiveVoices() {
   voiceEN = en ? voices.find(v => v.name === en) : autoPick("en", ["aria","jenny","samantha","natural","neural"]);
   voiceKO = ko ? voices.find(v => v.name === ko) : autoPick("ko", ["yuna","sora","sunhi","heami(natural)","natural","neural","heami"]);
   if (voiceEN && voiceKO) setStatus("EN: " + voiceEN.name.split(" - ")[0] + " · KO: " + voiceKO.name.split(" - ")[0], "ok");
-  else if (voiceEN) setStatus("한국어 없음. 영어만 가능. (" + voiceEN.name + ")", "warn");
+  else if (voiceEN) setStatus("한국어 없음. 영어만. (" + voiceEN.name + ")", "warn");
   else if (voiceKO) setStatus("영어 없음. (" + voiceKO.name + ")", "warn");
   else setStatus("음성 없음", "err");
 }
@@ -196,12 +227,10 @@ wakeBtn.addEventListener("click", () => {
     polls++;
     if (tryLoadVoices() || polls > 30) {
       clearInterval(t);
-      if (!voicesReady) setStatus("활성화 실패. iOS 설정에서 한국어 음성 다운로드.", "err");
+      if (!voicesReady) setStatus("활성화 실패. iOS에서 한국어 음성 다운로드.", "err");
     }
   }, 100);
 });
-document.getElementById("enVoice").addEventListener("change", e => { if (e.target.value) localStorage.setItem(STORAGE_EN, e.target.value); else localStorage.removeItem(STORAGE_EN); updateActiveVoices(); });
-document.getElementById("koVoice").addEventListener("change", e => { if (e.target.value) localStorage.setItem(STORAGE_KO, e.target.value); else localStorage.removeItem(STORAGE_KO); updateActiveVoices(); });
 function speakOne(text, voice, lang, rate) {
   return new Promise(res => { const u = new SpeechSynthesisUtterance(text); if (voice) u.voice = voice; u.lang = lang; u.rate = rate; u.pitch = 1.0; u.onend = () => res(); u.onerror = () => res(); synth.speak(u); });
 }
@@ -265,6 +294,8 @@ function render() {
     });
   });
 }
+document.getElementById("enVoice").addEventListener("change", e => { if (e.target.value) localStorage.setItem(STORAGE_EN, e.target.value); else localStorage.removeItem(STORAGE_EN); updateActiveVoices(); });
+document.getElementById("koVoice").addEventListener("change", e => { if (e.target.value) localStorage.setItem(STORAGE_KO, e.target.value); else localStorage.removeItem(STORAGE_KO); updateActiveVoices(); });
 render();
 (async () => { const ok = await checkMp3Mode(); if (ok) setupMp3Mode(); else setupTtsMode(); })();
 </script>

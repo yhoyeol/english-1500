@@ -1,15 +1,10 @@
 {
   "date": "2026-04-25",
   "day": 1,
-  "voiceEN": "en-US-AriaNeural",
-  "voiceKO": "ko-KR-SunHiNeural",
   "rate": "-5%",
   "repeats": 5,
-  "sentences": [
-    {"en": "I'm just hanging in there.", "ko": "그럭저럭 지내고 있어."},
-    {"en": "Sounds good to me.", "ko": "나는 좋아, 그렇게 하자."},
-    {"en": "Let me get back to you on that.", "ko": "그건 좀 이따 답 줄게."},
-    {"en": "I'm running a bit late.", "ko": "나 조금 늦을 것 같아."},
-    {"en": "It slipped my mind.", "ko": "깜빡했어."}
-  ]
-}
+  "voiceCombos": [
+    {"id": "FF", "voiceEN": "en-US-AriaNeural",        "voiceKO": "ko-KR-SunHiNeural",  "label": "Aria 여 + SunHi 여"},
+    {"id": "FM", "voiceEN": "en-US-AriaNeural",        "voiceKO": "ko-KR-InJoonNeural", "label": "Aria 여 + InJoon 남"},
+    {"id": "MF", "voiceEN": "en-US-ChristopherNeural", "voiceKO": "ko-KR-SunHiNeural",  "label": "Christopher 남 + SunHi 여"},
+    {"id": "MM", "voiceEN": "en-US-ChristopherNeural", "voiceKO": "ko-KR-InJ

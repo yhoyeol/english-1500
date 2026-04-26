@@ -1,16 +1,12 @@
 name: Generate TTS Audio
 
-# *_audio.json 파일이 push될 때 자동 실행
-# 또는 수동 실행 가능 (workflow_dispatch)
+# 모든 push에 트리거 (paths 필터 제거 - 디버깅용)
 on:
   push:
-    paths:
-      - '*_audio.json'
-      - 'scripts/generate_tts.py'
-      - '.github/workflows/tts.yml'
+    branches:
+      - main
   workflow_dispatch:
 
-# Actions가 audio/ 폴더에 mp3를 commit & push할 권한
 permissions:
   contents: write
 
@@ -36,19 +32,29 @@ jobs:
       - name: Install Python deps
         run: pip install --quiet edge-tts pydub
 
+      - name: List audio.json files (debug)
+        run: |
+          ls -la *_audio.json 2>&1 || echo "no audio.json"
+          echo "---"
+          for f in *_audio.json; do echo "=== $f ==="; cat "$f"; done 2>&1
+
       - name: Generate audio mp3 files
         run: python3 scripts/generate_tts.py
+
+      - name: Show generated files (debug)
+        run: |
+          echo "=== audio/ 구조 ==="
+          find audio/ -type f 2>&1 | head -50
 
       - name: Commit & push audio
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add audio/
+          git status
           if git diff --cached --quiet; then
             echo "No new audio to commit."
           else
             git commit -m "🔊 Auto-generate TTS audio [skip ci]"
             git push
           fi
-# rerun-trigger
-# rerun-soonbok-1777185048

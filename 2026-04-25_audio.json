@@ -4,13 +4,34 @@
   "rate": "-5%",
   "repeats": 5,
   "voiceCombos": [
-    {"id": "FF", "voiceEN": "en-US-AriaNeural", "voiceKO": "ko-KR-SoonBokNeural", "label": "Aria 여 + SoonBok 여"}
+    {
+      "id": "FF",
+      "voiceEN": "en-US-AriaNeural",
+      "voiceKO": "ko-KR-SoonBokNeural",
+      "label": "Aria 여 + SoonBok 여"
+    }
   ],
   "sentences": [
-    {"en": "I'm just hanging in there.", "ko": "그럭저럭 지내고 있어."},
-    {"en": "Sounds good to me.", "ko": "나는 좋아, 그렇게 하자."},
-    {"en": "Let me get back to you on that.", "ko": "그건 좀 이따 답 줄게."},
-    {"en": "I'm running a bit late.", "ko": "나 조금 늦을 것 같아."},
-    {"en": "It slipped my mind.", "ko": "깜빡했어."}
-  ]
+    {
+      "en": "I'm just hanging in there.",
+      "ko": "그럭저럭 지내고 있어."
+    },
+    {
+      "en": "Sounds good to me.",
+      "ko": "나는 좋아, 그렇게 하자."
+    },
+    {
+      "en": "Let me get back to you on that.",
+      "ko": "그건 좀 이따 답 줄게."
+    },
+    {
+      "en": "I'm running a bit late.",
+      "ko": "나 조금 늦을 것 같아."
+    },
+    {
+      "en": "It slipped my mind.",
+      "ko": "깜빡했어."
+    }
+  ],
+  "_rerun": "soonbok-aria-1777185048.4152958"
 }

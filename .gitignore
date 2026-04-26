@@ -3,17 +3,21 @@ github_token.txt
 .github_token
 *.token
 
+# 자동 생성 스크립트 (로컬 전용)
+_publish.py
+__pycache__/
+
 # 시스템 파일
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# 임시 폴더
-audio/
-*.mp3
+# 로컬 임시
 *.tmp
 *~
 
-# 기타
+# 에디터
 .vscode/
 .idea/
+
+# weekly 

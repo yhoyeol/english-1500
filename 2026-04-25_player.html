@@ -16,6 +16,7 @@
   #controls { display:flex; flex-wrap:wrap; gap:8px; align-items:center; background:var(--card); padding:14px; border-radius:12px; border:1px solid var(--border); margin-bottom:18px; position:sticky; top:8px; z-index:10; }
   button { background:var(--accent); color:#0b1220; border:0; border-radius:8px; padding:10px 14px; font-weight:600; font-size:14px; cursor:pointer; }
   button.secondary { background:var(--card2); color:var(--text); border:1px solid var(--border); }
+  button:disabled { opacity:0.5; cursor:not-allowed; }
   select { background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:14px; max-width:200px; }
   label { color:var(--muted); font-size:13px; display:flex; align-items:center; gap:6px; }
   #voiceStatus { margin-left:auto; font-size:12px; color:var(--muted); }
@@ -24,6 +25,9 @@
   #voiceStatus.err { color:var(--err); }
   .voice-row { display:flex; gap:8px; flex-wrap:wrap; flex-basis:100%; padding-top:6px; border-top:1px dashed var(--border); margin-top:4px; }
   #debugInfo { font-size:11px; color:var(--muted); margin-top:6px; flex-basis:100%; word-break:break-all; }
+  #modeBadge { font-size:11px; padding:3px 8px; border-radius:6px; margin-left:6px; }
+  #modeBadge.mp3 { background:rgba(95,208,124,0.15); color:var(--ok); border:1px solid rgba(95,208,124,0.3); }
+  #modeBadge.tts { background:rgba(255,184,107,0.15); color:var(--warn); border:1px solid rgba(255,184,107,0.3); }
   .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-bottom:14px; transition:outline 0.15s ease; }
   .card.active { outline:2px solid var(--accent); }
   .card-head { display:flex; align-items:center; gap:8px; margin-bottom:6px; flex-wrap:wrap; }
@@ -42,11 +46,11 @@
 </head>
 <body>
 <header>
-  <h1>🌅 Day 1/300 · 2026-04-25 (토)</h1>
+  <h1>🌅 Day 1/300 · 2026-04-25 (토) <span id="modeBadge"></span></h1>
   <div class="sub">기본 일상 + 상황별 회화 · 일상 인사 & 가벼운 반응 · 5문장</div>
 </header>
 
-<div class="hint">
+<div class="hint" id="ttsHint" style="display:none;">
   💡 <strong>iOS</strong>: 한국어 음성 'Yuna' 또는 'Sora(프리미엄)' 권장. 설정 → 손쉬운 사용 → 음성 콘텐츠 → 음성 → 한국어에서 다운로드.
 </div>
 
@@ -56,10 +60,10 @@
   <button id="playAll" disabled>▶ 전체 재생</button>
   <button id="pause" class="secondary">⏸ 일시정지</button>
   <button id="stop" class="secondary">■ 정지</button>
-  <label>속도 <select id="rate"><option value="0.8">0.8×</option><option value="0.9" selected>0.9×</option><option value="1.0">1.0×</option><option value="1.1">1.1×</option></select></label>
+  <label>속도 <select id="rate"><option value="0.8">0.8×</option><option value="0.9">0.9×</option><option value="1.0" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.25">1.25×</option></select></label>
   <label>반복(쌍) <select id="repeats"><option>3</option><option selected>5</option><option>7</option></select></label>
-  <span id="voiceStatus">음성 로딩 중…</span>
-  <div class="voice-row">
+  <span id="voiceStatus">음성 시스템 확인 중…</span>
+  <div class="voice-row" id="voiceRow">
     <label>영어 음성 <select id="enVoice"><option value="">자동 선택</option></select></label>
     <label>한국어 음성 <select id="koVoice"><option value="">자동 선택</option></select></label>
   </div>
@@ -80,30 +84,132 @@ const SENTENCES = [
   {tag: "[상황별 + 관용구]", en: "It slipped my mind.",       ko: "깜빡했어."},
 ];
 
+const FILE_DATE = (() => {
+  const m = location.pathname.match(/(\d{4}-\d{2}-\d{2})_player\.html/);
+  return m ? m[1] : null;
+})();
+
 const STORAGE_EN = "english1500_voice_en";
 const STORAGE_KO = "english1500_voice_ko";
 
+let mode = "checking"; // "mp3" | "tts" | "checking"
+let mp3Players = [];   // 5 HTMLAudioElement
+let currentAudio = null;
+let playing = false, currentCardIdx = -1;
+
+// Web Speech state
 const synth = window.speechSynthesis;
 let voices = [], voiceEN = null, voiceKO = null;
-let queue = [], qIdx = 0, playing = false, currentCardIdx = -1;
-let voicesReady = false;
+let queue = [], qIdx = 0, voicesReady = false;
 let pollTimer = null;
 
 const wakeBtn = document.getElementById("wakeBtn");
 const playAllBtn = document.getElementById("playAll");
 const statusEl = document.getElementById("voiceStatus");
 const debugEl = document.getElementById("debugInfo");
+const modeBadge = document.getElementById("modeBadge");
+const ttsHint = document.getElementById("ttsHint");
+const voiceRow = document.getElementById("voiceRow");
 
-function setStatus(text, level) {
-  statusEl.textContent = text;
-  statusEl.classList.remove("ok","warn","err");
-  if (level) statusEl.classList.add(level);
+function setStatus(text, level) { statusEl.textContent = text; statusEl.classList.remove("ok","warn","err"); if (level) statusEl.classList.add(level); }
+function setActiveCard(idx) { currentCardIdx = idx; document.querySelectorAll(".card").forEach((el, i) => { el.classList.toggle("active", i === idx); const btn = el.querySelector(".play-one"); if (btn) btn.classList.toggle("playing", i === idx); }); }
+function updateProgress(pct) { document.getElementById("globalBar").style.width = pct + "%"; }
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+// =========================================================
+// MP3 모드 (GitHub Actions가 생성한 고품질 음성)
+// =========================================================
+async function checkMp3Mode() {
+  if (!FILE_DATE) return false;
+  try {
+    const r = await fetch(`audio/${FILE_DATE}/01.mp3`, {method: "HEAD", cache: "no-store"});
+    if (!r.ok) return false;
+    return true;
+  } catch (e) { return false; }
 }
 
-function setDebug() {
+function setupMp3Mode() {
+  mode = "mp3";
+  mp3Players = SENTENCES.map((_, i) => {
+    const idx = String(i + 1).padStart(2, "0");
+    const a = new Audio(`audio/${FILE_DATE}/${idx}.mp3`);
+    a.preload = "metadata";
+    return a;
+  });
+  modeBadge.className = "mp3";
+  modeBadge.textContent = "🎧 고품질 음성";
+  setStatus("Edge Neural TTS (Aria · SunHi)", "ok");
+  voiceRow.style.display = "none";
+  wakeBtn.classList.remove("show");
+  ttsHint.style.display = "none";
+  playAllBtn.disabled = false;
+  debugEl.textContent = `진단: MP3 모드 활성 · audio/${FILE_DATE}/`;
+}
+
+async function playAllMp3() {
+  playing = true;
+  for (let i = 0; i < mp3Players.length; i++) {
+    if (!playing) break;
+    setActiveCard(i);
+    currentAudio = mp3Players[i];
+    currentAudio.playbackRate = parseFloat(document.getElementById("rate").value);
+    currentAudio.currentTime = 0;
+    await new Promise((res) => {
+      currentAudio.onended = () => res();
+      currentAudio.onerror = () => res();
+      const p = currentAudio.play();
+      if (p && p.catch) p.catch(() => res());
+    });
+    updateProgress(((i + 1) / mp3Players.length) * 100);
+    if (i < mp3Players.length - 1 && playing) await sleep(700);
+  }
+  setActiveCard(-1);
+  playing = false;
+}
+
+function playOneMp3(i) {
+  if (currentAudio) { currentAudio.pause(); currentAudio.currentTime = 0; }
+  playing = true;
+  setActiveCard(i);
+  currentAudio = mp3Players[i];
+  currentAudio.playbackRate = parseFloat(document.getElementById("rate").value);
+  currentAudio.currentTime = 0;
+  currentAudio.onended = () => { setActiveCard(-1); playing = false; };
+  currentAudio.onerror = () => { setActiveCard(-1); playing = false; };
+  const p = currentAudio.play();
+  if (p && p.catch) p.catch(() => { setActiveCard(-1); playing = false; });
+}
+
+function pauseMp3() {
+  if (!currentAudio) return;
+  if (!currentAudio.paused) { currentAudio.pause(); document.getElementById("pause").textContent = "▶ 재개"; }
+  else { currentAudio.play(); document.getElementById("pause").textContent = "⏸ 일시정지"; }
+}
+
+function stopMp3() {
+  playing = false;
+  if (currentAudio) { currentAudio.pause(); currentAudio.currentTime = 0; }
+  setActiveCard(-1);
+  updateProgress(0);
+}
+
+// =========================================================
+// Web Speech (TTS) 모드 - mp3 없을 때 폴백
+// =========================================================
+function setupTtsMode() {
+  mode = "tts";
+  modeBadge.className = "tts";
+  modeBadge.textContent = "📱 OS 음성 (폴백)";
+  ttsHint.style.display = "block";
+  voiceRow.style.display = "flex";
+  setStatus("음성 로딩 중…");
+  startTtsLoad();
+}
+
+function setDebugTts() {
   const enCount = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith("en")).length;
   const koCount = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith("ko")).length;
-  debugEl.textContent = `진단: 전체 ${voices.length}개 · 영어 ${enCount}개 · 한국어 ${koCount}개 · UA: ${navigator.userAgent.substring(0, 50)}`;
+  debugEl.textContent = `진단: TTS 폴백 모드 · 전체 ${voices.length}개 · 영어 ${enCount}개 · 한국어 ${koCount}개`;
 }
 
 function autoPick(lang, prefer) {
@@ -130,15 +236,15 @@ function updateActiveVoices() {
   const koName = document.getElementById("koVoice").value;
   voiceEN = enName ? voices.find(v => v.name === enName) : autoPick("en", ["aria","jenny","samantha","natural","neural"]);
   voiceKO = koName ? voices.find(v => v.name === koName) : autoPick("ko", ["yuna","sora","sunhi","heami(natural)","natural","neural","heami"]);
-  if (voiceEN && voiceKO) { setStatus(`EN: ${voiceEN.name.split(" - ")[0]} · KO: ${voiceKO.name.split(" - ")[0]}`, "ok"); }
-  else if (voiceEN && !voiceKO) { setStatus(`⚠ 한국어 음성 없음. 영어만 가능. (EN: ${voiceEN.name})`, "warn"); }
-  else if (!voiceEN && voiceKO) { setStatus(`⚠ 영어 음성 없음. (KO: ${voiceKO.name})`, "warn"); }
-  else { setStatus("음성을 찾을 수 없음", "err"); }
+  if (voiceEN && voiceKO) setStatus(`EN: ${voiceEN.name.split(" - ")[0]} · KO: ${voiceKO.name.split(" - ")[0]}`, "ok");
+  else if (voiceEN && !voiceKO) setStatus(`⚠ 한국어 음성 없음. 영어만 가능. (EN: ${voiceEN.name})`, "warn");
+  else if (!voiceEN && voiceKO) setStatus(`⚠ 영어 음성 없음. (KO: ${voiceKO.name})`, "warn");
+  else setStatus("음성을 찾을 수 없음", "err");
 }
 
 function tryLoadVoices() {
   voices = synth.getVoices();
-  setDebug();
+  setDebugTts();
   if (voices.length === 0) return false;
   voicesReady = true;
   populateVoiceSelect("enVoice", "en", STORAGE_EN);
@@ -150,122 +256,25 @@ function tryLoadVoices() {
   return true;
 }
 
-// 1) onvoiceschanged 이벤트로 시도
-if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = tryLoadVoices;
-
-// 2) 즉시 시도
-if (!tryLoadVoices()) {
-  // 3) 100ms 간격 폴링 (3초까지)
-  let polls = 0;
-  pollTimer = setInterval(() => {
-    polls++;
-    if (tryLoadVoices() || polls > 30) {
-      clearInterval(pollTimer); pollTimer = null;
-      // 4) 폴링 실패 → 사용자 제스처 필요
-      if (!voicesReady) {
-        setStatus("음성 로딩 대기 중. 아래 노란 버튼을 누르세요.", "warn");
-        wakeBtn.classList.add("show");
+function startTtsLoad() {
+  if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = tryLoadVoices;
+  if (!tryLoadVoices()) {
+    let polls = 0;
+    pollTimer = setInterval(() => {
+      polls++;
+      if (tryLoadVoices() || polls > 30) {
+        clearInterval(pollTimer); pollTimer = null;
+        if (!voicesReady) { setStatus("음성 로딩 대기 중. 아래 노란 버튼을 누르세요.", "warn"); wakeBtn.classList.add("show"); }
       }
-    }
-  }, 100);
+    }, 100);
+  }
 }
 
-// 5) 노란 버튼: 사용자 제스처 + 무음 발화로 voices 강제 깨우기
 wakeBtn.addEventListener("click", () => {
   setStatus("활성화 중…", "warn");
-  try {
-    const u = new SpeechSynthesisUtterance(" ");
-    u.volume = 0;
-    u.rate = 10;
-    synth.speak(u);
-  } catch(e) {}
-  // 깨운 후 폴링 재개
+  try { const u = new SpeechSynthesisUtterance(" "); u.volume = 0; u.rate = 10; synth.speak(u); } catch(e) {}
   let polls = 0;
-  const t = setInterval(() => {
-    polls++;
-    if (tryLoadVoices() || polls > 30) {
-      clearInterval(t);
-      if (!voicesReady) setStatus("음성 활성화 실패. iOS 설정에서 한국어 음성 다운로드 후 새로고침해주세요.", "err");
-    }
-  }, 100);
+  const t = setInterval(() => { polls++; if (tryLoadVoices() || polls > 30) { clearInterval(t); if (!voicesReady) setStatus("음성 활성화 실패. iOS 설정에서 한국어 음성 다운로드 후 새로고침해주세요.", "err"); } }, 100);
 });
 
-// 음성 변경 핸들러
-document.getElementById("enVoice").addEventListener("change", e => {
-  if (e.target.value) localStorage.setItem(STORAGE_EN, e.target.value);
-  else localStorage.removeItem(STORAGE_EN);
-  updateActiveVoices();
-});
-document.getElementById("koVoice").addEventListener("change", e => {
-  if (e.target.value) localStorage.setItem(STORAGE_KO, e.target.value);
-  else localStorage.removeItem(STORAGE_KO);
-  updateActiveVoices();
-});
-
-function speakOne(text, voice, lang, rate) {
-  return new Promise(res => { const u = new SpeechSynthesisUtterance(text); if (voice) u.voice = voice; u.lang = lang; u.rate = rate; u.pitch = 1.0; u.onend = () => res(); u.onerror = () => res(); synth.speak(u); });
-}
-const sleep = ms => new Promise(r => setTimeout(r, ms));
-
-function buildQueueForSentence(idx, repeats) {
-  const s = SENTENCES[idx]; const ops = [];
-  for (let r = 0; r < repeats; r++) {
-    if (voiceEN) { ops.push({type:"speak", text:s.en, voice:voiceEN, lang:"en-US"}); ops.push({type:"wait", ms:280}); }
-    if (voiceKO) ops.push({type:"speak", text:s.ko, voice:voiceKO, lang:"ko-KR"});
-    if (r < repeats - 1) ops.push({type:"wait", ms:550});
-  }
-  return ops;
-}
-
-async function runQueue() {
-  playing = true;
-  while (qIdx < queue.length && playing) {
-    const op = queue[qIdx];
-    if (op.cardIdx !== undefined && op.cardIdx !== currentCardIdx) setActiveCard(op.cardIdx);
-    if (op.type === "speak") { const rate = parseFloat(document.getElementById("rate").value); await speakOne(op.text, op.voice, op.lang, rate); }
-    else if (op.type === "wait") await sleep(op.ms);
-    qIdx++; updateProgress(); if (!playing) break;
-  }
-  if (qIdx >= queue.length) { playing = false; setActiveCard(-1); updateProgress(true); }
-}
-
-function setActiveCard(idx) { currentCardIdx = idx; document.querySelectorAll(".card").forEach((el, i) => { el.classList.toggle("active", i === idx); const btn = el.querySelector(".play-one"); if (btn) btn.classList.toggle("playing", i === idx); }); }
-function updateProgress(done) { const bar = document.getElementById("globalBar"); if (!bar) return; const pct = done ? 100 : (queue.length === 0 ? 0 : (qIdx / queue.length) * 100); bar.style.width = pct + "%"; }
-
-function render() {
-  const root = document.getElementById("sentences"); root.innerHTML = "";
-  SENTENCES.forEach((s, i) => {
-    const div = document.createElement("div"); div.className = "card";
-    div.innerHTML = `<div class="card-head"><span class="num">${i+1}.</span><span class="tag">${s.tag}</span></div><div class="en">"${s.en}"</div><div class="ko">${s.ko}</div><button class="play-one" data-i="${i}">▶ 이 문장만 5쌍</button>`;
-    root.appendChild(div);
-  });
-  document.querySelectorAll(".play-one").forEach(btn => {
-    btn.addEventListener("click", () => {
-      if (!voicesReady) { wakeBtn.click(); return; }
-      const i = parseInt(btn.dataset.i, 10); const repeats = parseInt(document.getElementById("repeats").value, 10);
-      synth.cancel(); queue = buildQueueForSentence(i, repeats).map(op => ({...op, cardIdx:i})); qIdx = 0; setActiveCard(i); runQueue();
-    });
-  });
-}
-
-playAllBtn.addEventListener("click", () => {
-  if (!voicesReady) { wakeBtn.click(); return; }
-  const repeats = parseInt(document.getElementById("repeats").value, 10);
-  synth.cancel(); queue = [];
-  for (let i = 0; i < SENTENCES.length; i++) {
-    const ops = buildQueueForSentence(i, repeats).map(op => ({...op, cardIdx:i})); queue.push(...ops);
-    if (i < SENTENCES.length - 1) queue.push({type:"wait", ms:1300, cardIdx:i});
-  }
-  qIdx = 0; runQueue();
-});
-document.getElementById("pause").addEventListener("click", () => {
-  if (synth.speaking && !synth.paused) { synth.pause(); document.getElementById("pause").textContent = "▶ 재개"; }
-  else if (synth.paused) { synth.resume(); document.getElementById("pause").textContent = "⏸ 일시정지"; }
-});
-document.getElementById("stop").addEventListener("click", () => { playing = false; synth.cancel(); qIdx = queue.length; setActiveCard(-1); updateProgress(false); });
-
-render();
-setDebug();
-</script>
-</body>
-</html>
+documen

@@ -4,10 +4,7 @@
   "rate": "-5%",
   "repeats": 5,
   "voiceCombos": [
-    {"id": "FF", "voiceEN": "en-US-AriaNeural", "voiceKO": "ko-KR-SunHiNeural", "label": "Aria 여 + SunHi 여"},
-    {"id": "FM", "voiceEN": "en-US-AriaNeural", "voiceKO": "ko-KR-InJoonNeural", "label": "Aria 여 + InJoon 남"},
-    {"id": "MF", "voiceEN": "en-US-ChristopherNeural", "voiceKO": "ko-KR-SunHiNeural", "label": "Christopher 남 + SunHi 여"},
-    {"id": "MM", "voiceEN": "en-US-ChristopherNeural", "voiceKO": "ko-KR-InJoonNeural", "label": "Christopher 남 + InJoon 남"}
+    {"id": "FF", "voiceEN": "en-US-AriaNeural", "voiceKO": "ko-KR-SoonBokNeural", "label": "Aria 여 + SoonBok 여"}
   ],
   "sentences": [
     {"en": "I'm just hanging in there.", "ko": "그럭저럭 지내고 있어."},

@@ -50,3 +50,4 @@ jobs:
             git commit -m "🔊 Auto-generate TTS audio [skip ci]"
             git push
           fi
+# rerun-trigger

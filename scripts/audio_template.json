@@ -1,0 +1,9 @@
+{
+  "date": "<<<DATE>>>",
+  "day": <<<DAY>>>,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": <<<SENTENCES_JSON>>>
+}

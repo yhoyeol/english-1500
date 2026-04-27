@@ -4,12 +4,27 @@
   "rate": "-5%",
   "repeats": 5,
   "voiceEN": "en-US-AriaNeural",
-  "voiceKO": "ko-KR-SoonBokNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
   "sentences": [
-    {"en": "Could you fill me in on this?", "ko": "이거 좀 알려주실래요?"},
-    {"en": "Sorry to bother you, but...", "ko": "방해해서 죄송한데요..."},
-    {"en": "I owe you one.", "ko": "신세 졌어요."},
-    {"en": "Let's circle back to this later.", "ko": "이건 나중에 다시 얘기해요."},
-    {"en": "It's on me.", "ko": "이건 제가 낼게요."}
+    {
+      "en": "Could you fill me in on this?",
+      "ko": "이거 좀 알려주실래요?"
+    },
+    {
+      "en": "Sorry to bother you, but...",
+      "ko": "방해해서 죄송한데요..."
+    },
+    {
+      "en": "I owe you one.",
+      "ko": "신세 졌어요."
+    },
+    {
+      "en": "Let's circle back to this later.",
+      "ko": "이건 나중에 다시 얘기해요."
+    },
+    {
+      "en": "It's on me.",
+      "ko": "이건 제가 낼게요."
+    }
   ]
 }

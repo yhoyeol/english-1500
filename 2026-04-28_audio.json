@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-28",
+  "day": 3,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm dead tired today.", "ko": "오늘 완전 녹초야."},
+    {"en": "Let me look into it.", "ko": "제가 한번 알아볼게요."},
+    {"en": "I could use a coffee.", "ko": "커피 한 잔이 절실해."},
+    {"en": "It's a piece of cake.", "ko": "그건 식은 죽 먹기야."},
+    {"en": "Can you spell that out for me?", "ko": "그거 좀 더 자세히 설명해줄래요?"}
+  ]
+}

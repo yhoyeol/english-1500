@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-30",
+  "day": 5,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Let's catch up sometime soon.", "ko": "우리 조만간 한번 보자."},
+    {"en": "What time works best for you?", "ko": "몇 시가 가장 좋으세요?"},
+    {"en": "I've been meaning to call you.", "ko": "너한테 전화하려고 했었어."},
+    {"en": "Let's pencil it in for Friday.", "ko": "일단 금요일로 잡아두자."},
+    {"en": "Thanks for making time for me.", "ko": "시간 내줘서 고마워."}
+  ]
+}

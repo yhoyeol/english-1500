@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 25 / 1500
+진행: 30 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 6 / 450
-- 상황별 회화: 8 / 525
-- 관계·소통: 6 / 300
-- 비즈니스 기본: 5 / 225
+- 기본 일상: 11 / 450
+- 상황별 회화: 12 / 525
+- 관계·소통: 5 / 300
+- 비즈니스 기본: 2 / 225
 
-## 관용구·구동사 포함 문장: 16 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 19 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -47,3 +47,10 @@
 - I've been meaning to call you.
 - Let's pencil it in for Friday.
 - Thanks for making time for me.
+
+### 2026-05-01 (Day 6)
+- I'm heading out for a quick bite.
+- Could I take a look at the menu, please?
+- I'll have the same as her.
+- It's on the house.
+- Could we get the check, please?

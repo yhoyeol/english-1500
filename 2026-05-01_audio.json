@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-01",
+  "day": 6,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm heading out for a quick bite.", "ko": "잠깐 뭐 좀 먹으러 나갈게."},
+    {"en": "Could I take a look at the menu, please?", "ko": "메뉴 좀 봐도 될까요?"},
+    {"en": "I'll have the same as her.", "ko": "저도 그녀와 같은 걸로 할게요."},
+    {"en": "It's on the house.", "ko": "이건 가게에서 서비스로 드리는 거예요."},
+    {"en": "Could we get the check, please?", "ko": "계산서 좀 받을 수 있을까요?"}
+  ]
+}

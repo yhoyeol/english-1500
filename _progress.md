@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 30 / 1500
+진행: 35 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 11 / 450
 - 상황별 회화: 12 / 525
-- 관계·소통: 5 / 300
-- 비즈니스 기본: 2 / 225
+- 관계·소통: 7 / 300
+- 비즈니스 기본: 5 / 225
 
-## 관용구·구동사 포함 문장: 19 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 23 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -54,3 +54,10 @@
 - I'll have the same as her.
 - It's on the house.
 - Could we get the check, please?
+
+### 2026-05-02 (Day 7)
+- Could you put me through to the manager?
+- May I leave a message?
+- I'm calling to follow up on our last meeting.
+- I'm rooting for you.
+- You've got this!

@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-02",
+  "day": 7,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could you put me through to the manager?", "ko": "매니저께 연결해 주시겠어요?"},
+    {"en": "May I leave a message?", "ko": "메시지를 남겨도 될까요?"},
+    {"en": "I'm calling to follow up on our last meeting.", "ko": "지난 회의 후속 차 전화드렸습니다."},
+    {"en": "I'm rooting for you.", "ko": "난 너를 응원하고 있어."},
+    {"en": "You've got this!", "ko": "넌 할 수 있어!"}
+  ]
+}

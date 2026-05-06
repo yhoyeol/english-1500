@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 35 / 1500
+진행: 40 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 11 / 450
-- 상황별 회화: 12 / 525
-- 관계·소통: 7 / 300
+- 상황별 회화: 15 / 525
+- 관계·소통: 9 / 300
 - 비즈니스 기본: 5 / 225
 
-## 관용구·구동사 포함 문장: 23 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 26 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -61,3 +61,10 @@
 - I'm calling to follow up on our last meeting.
 - I'm rooting for you.
 - You've got this!
+
+### 2026-05-06 (Day 8)
+- Could I get a refill, please?
+- I'd like the check, please.
+- Let's catch up over coffee sometime.
+- It's been ages since we last met.
+- This dish is to die for!

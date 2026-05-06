@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-07",
+  "day": 9,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'll touch base with you later.", "ko": "이따 다시 연락드릴게요."},
+    {"en": "Traffic is a nightmare today.", "ko": "오늘 교통이 정말 끔찍하네요."},
+    {"en": "Let's wrap up this meeting.", "ko": "이 회의 이쯤에서 마무리하시죠."},
+    {"en": "I just got off the bus.", "ko": "방금 버스에서 내렸어요."},
+    {"en": "Could you walk me through the report?", "ko": "그 보고서 좀 처음부터 차근차근 설명해 주실래요?"}
+  ]
+}

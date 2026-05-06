@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 40 / 1500
+진행: 45 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 11 / 450
+- 기본 일상: 13 / 450
 - 상황별 회화: 15 / 525
 - 관계·소통: 9 / 300
-- 비즈니스 기본: 5 / 225
+- 비즈니스 기본: 8 / 225
 
-## 관용구·구동사 포함 문장: 26 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 29 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -68,3 +68,10 @@
 - Let's catch up over coffee sometime.
 - It's been ages since we last met.
 - This dish is to die for!
+
+### 2026-05-07 (Day 9)
+- I'll touch base with you later.
+- Traffic is a nightmare today.
+- Let's wrap up this meeting.
+- I just got off the bus.
+- Could you walk me through the report?

@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 45 / 1500
+진행: 50 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 13 / 450
-- 상황별 회화: 15 / 525
+- 기본 일상: 15 / 450
+- 상황별 회화: 18 / 525
 - 관계·소통: 9 / 300
 - 비즈니스 기본: 8 / 225
 
-## 관용구·구동사 포함 문장: 29 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 32 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -75,3 +75,10 @@
 - Let's wrap up this meeting.
 - I just got off the bus.
 - Could you walk me through the report?
+
+### 2026-05-08 (Day 10)
+- I'm just looking around, thanks.
+- How much does this cost?
+- This is a steal at that price!
+- Do you take credit cards?
+- Let me think it over.

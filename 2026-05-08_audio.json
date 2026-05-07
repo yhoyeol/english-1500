@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-08",
+  "day": 10,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm just looking around, thanks.", "ko": "그냥 둘러보는 중이에요, 감사합니다."},
+    {"en": "How much does this cost?", "ko": "이거 얼마예요?"},
+    {"en": "This is a steal at that price!", "ko": "이 가격이면 거저나 다름없어요!"},
+    {"en": "Do you take credit cards?", "ko": "신용카드 받으세요?"},
+    {"en": "Let me think it over.", "ko": "좀 더 생각해 볼게요."}
+  ]
+}

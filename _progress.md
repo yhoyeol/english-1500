@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 50 / 1500
+진행: 55 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 15 / 450
+- 기본 일상: 17 / 450
 - 상황별 회화: 18 / 525
-- 관계·소통: 9 / 300
+- 관계·소통: 12 / 300
 - 비즈니스 기본: 8 / 225
 
-## 관용구·구동사 포함 문장: 32 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 35 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -82,3 +82,10 @@
 - This is a steal at that price!
 - Do you take credit cards?
 - Let me think it over.
+
+### 2026-05-09 (Day 11)
+- What have you been up to lately?
+- I'm just taking it easy this weekend.
+- Long time no see!
+- How's everything going with you?
+- I'm just chilling out at home.

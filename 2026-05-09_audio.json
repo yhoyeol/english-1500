@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-09",
+  "day": 11,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "What have you been up to lately?", "ko": "요즘 뭐 하고 지냈어?"},
+    {"en": "I'm just taking it easy this weekend.", "ko": "이번 주말은 그냥 쉬엄쉬엄 보낼 거야."},
+    {"en": "Long time no see!", "ko": "오랜만이야!"},
+    {"en": "How's everything going with you?", "ko": "요즘 다 잘 되고 있어?"},
+    {"en": "I'm just chilling out at home.", "ko": "그냥 집에서 쉬고 있어."}
+  ]
+}

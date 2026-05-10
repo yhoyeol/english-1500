@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 55 / 1500
+진행: 60 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 17 / 450
-- 상황별 회화: 18 / 525
+- 상황별 회화: 21 / 525
 - 관계·소통: 12 / 300
-- 비즈니스 기본: 8 / 225
+- 비즈니스 기본: 10 / 225
 
-## 관용구·구동사 포함 문장: 35 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 37 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -89,3 +89,10 @@
 - Long time no see!
 - How's everything going with you?
 - I'm just chilling out at home.
+
+### 2026-05-11 (Day 12)
+- I'd like to check in, please.
+- I have a reservation under the name Yoo.
+- Could I get a wake-up call at seven, please?
+- I need to print out my boarding pass.
+- Is breakfast included in the room rate?

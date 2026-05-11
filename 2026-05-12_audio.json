@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-12",
+  "day": 13,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "It's freezing cold outside today.", "ko": "오늘 밖이 진짜 춥네요."},
+    {"en": "I overslept this morning.", "ko": "오늘 아침에 늦잠 잤어요."},
+    {"en": "I'm not a morning person.", "ko": "저는 아침형 인간이 아니에요."},
+    {"en": "How have you been holding up?", "ko": "요즘 잘 버티고 있어요?"},
+    {"en": "Let's keep in touch.", "ko": "계속 연락하고 지내요."}
+  ]
+}

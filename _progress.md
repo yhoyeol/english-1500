@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 60 / 1500
+진행: 65 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 17 / 450
+- 기본 일상: 20 / 450
 - 상황별 회화: 21 / 525
-- 관계·소통: 12 / 300
+- 관계·소통: 14 / 300
 - 비즈니스 기본: 10 / 225
 
-## 관용구·구동사 포함 문장: 37 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 40 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -96,3 +96,10 @@
 - Could I get a wake-up call at seven, please?
 - I need to print out my boarding pass.
 - Is breakfast included in the room rate?
+
+### 2026-05-12 (Day 13)
+- It's freezing cold outside today.
+- I overslept this morning.
+- I'm not a morning person.
+- How have you been holding up?
+- Let's keep in touch.

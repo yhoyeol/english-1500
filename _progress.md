@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 65 / 1500
+진행: 70 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 20 / 450
-- 상황별 회화: 21 / 525
+- 기본 일상: 22 / 450
+- 상황별 회화: 24 / 525
 - 관계·소통: 14 / 300
 - 비즈니스 기본: 10 / 225
 
-## 관용구·구동사 포함 문장: 40 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 43 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -103,3 +103,10 @@
 - I'm not a morning person.
 - How have you been holding up?
 - Let's keep in touch.
+
+### 2026-05-13 (Day 14)
+- Could you point me in the right direction?
+- Is it within walking distance?
+- Could you drop me off at the corner?
+- I'm running out of time.
+- How long does it take to get there?

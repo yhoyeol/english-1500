@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-13",
+  "day": 14,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could you point me in the right direction?", "ko": "어느 쪽으로 가야 하는지 알려주실 수 있나요?"},
+    {"en": "Is it within walking distance?", "ko": "거기까지 걸어갈 만한 거리인가요?"},
+    {"en": "Could you drop me off at the corner?", "ko": "모퉁이에서 내려주시겠어요?"},
+    {"en": "I'm running out of time.", "ko": "시간이 모자라요."},
+    {"en": "How long does it take to get there?", "ko": "거기까지 가는 데 얼마나 걸려요?"}
+  ]
+}

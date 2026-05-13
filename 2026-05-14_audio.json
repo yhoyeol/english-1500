@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-14",
+  "day": 15,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm just dropping you a line to check in.", "ko": "안부 차 짧게 연락드립니다."},
+    {"en": "Could you keep me in the loop on this?", "ko": "이 건 진행 상황을 계속 공유해 주실 수 있나요?"},
+    {"en": "Let's hammer out the details tomorrow.", "ko": "세부 사항은 내일 정리합시다."},
+    {"en": "I'm afraid I have to cancel our meeting.", "ko": "죄송하지만 미팅을 취소해야 할 것 같아요."},
+    {"en": "I'll get back to you by end of day.", "ko": "오늘 안으로 답변 드리겠습니다."}
+  ]
+}

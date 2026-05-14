@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 75 / 1500
+진행: 80 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 22 / 450
+- 기본 일상: 24 / 450
 - 상황별 회화: 26 / 525
-- 관계·소통: 14 / 300
+- 관계·소통: 17 / 300
 - 비즈니스 기본: 13 / 225
 
-## 관용구·구동사 포함 문장: 47 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 52 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -117,3 +117,10 @@
 - Let's hammer out the details tomorrow.
 - I'm afraid I have to cancel our meeting.
 - I'll get back to you by end of day.
+
+### 2026-05-15 (Day 16)
+- Cheer up, things will get better.
+- Don't take it personally.
+- I'm here for you whenever you need me.
+- I need to wind down before bed.
+- I always doze off on the couch after dinner.

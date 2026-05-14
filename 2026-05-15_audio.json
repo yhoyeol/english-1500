@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-15",
+  "day": 16,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Cheer up, things will get better.", "ko": "기운 내, 다 잘될 거야."},
+    {"en": "Don't take it personally.", "ko": "너무 개인적으로 받아들이지 마."},
+    {"en": "I'm here for you whenever you need me.", "ko": "필요할 땐 언제든 내가 곁에 있을게."},
+    {"en": "I need to wind down before bed.", "ko": "자기 전에 긴장을 좀 풀어야 해."},
+    {"en": "I always doze off on the couch after dinner.", "ko": "저녁 먹고 나면 항상 소파에서 꾸벅꾸벅 졸아."}
+  ]
+}

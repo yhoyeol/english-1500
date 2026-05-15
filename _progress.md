@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 80 / 1500
+진행: 85 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 24 / 450
-- 상황별 회화: 26 / 525
+- 기본 일상: 26 / 450
+- 상황별 회화: 29 / 525
 - 관계·소통: 17 / 300
 - 비즈니스 기본: 13 / 225
 
-## 관용구·구동사 포함 문장: 52 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 56 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -124,3 +124,10 @@
 - I'm here for you whenever you need me.
 - I need to wind down before bed.
 - I always doze off on the couch after dinner.
+
+### 2026-05-16 (Day 17)
+- Could you ring me up, please?
+- I need to stock up on groceries this weekend.
+- Where can I find the dairy aisle?
+- We're running low on milk at home.
+- Do you have a loyalty card I can sign up for?

@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-16",
+  "day": 17,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could you ring me up, please?", "ko": "계산 좀 해주시겠어요?"},
+    {"en": "I need to stock up on groceries this weekend.", "ko": "이번 주말에 식료품을 잔뜩 사둬야 해요."},
+    {"en": "Where can I find the dairy aisle?", "ko": "유제품 코너는 어디에 있나요?"},
+    {"en": "We're running low on milk at home.", "ko": "집에 우유가 거의 다 떨어져 가요."},
+    {"en": "Do you have a loyalty card I can sign up for?", "ko": "제가 가입할 수 있는 멤버십 카드가 있나요?"}
+  ]
+}

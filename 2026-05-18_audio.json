@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-18",
+  "day": 18,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm coming down with a cold.", "ko": "감기 기운이 좀 있는 것 같아."},
+    {"en": "I'd like to make an appointment to see the doctor.", "ko": "진료 예약을 하고 싶어요."},
+    {"en": "I'm feeling under the weather today.", "ko": "오늘은 컨디션이 좀 안 좋아."},
+    {"en": "Take care of yourself and get well soon.", "ko": "몸조리 잘하고 얼른 나아."},
+    {"en": "Let me know if there's anything I can do to help.", "ko": "내가 도울 일 있으면 언제든 말해."}
+  ]
+}

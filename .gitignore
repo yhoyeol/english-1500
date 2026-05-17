@@ -21,7 +21,6 @@ desktop.ini
 .idea/
 
 # weekly 폴더 (별도 task 영역)
-weekly/
 
 # 참고: audio/ 폴더와 *.mp3 는 이전에는 ignore 되어 있었으나
 # 이제 GitHub Actions가 자동 생성/commit 하므로 push 허용해야 함.

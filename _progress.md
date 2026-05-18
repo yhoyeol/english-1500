@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 90 / 1500
+진행: 95 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 26 / 450
+- 기본 일상: 28 / 450
 - 상황별 회화: 32 / 525
 - 관계·소통: 19 / 300
-- 비즈니스 기본: 13 / 225
+- 비즈니스 기본: 16 / 225
 
-## 관용구·구동사 포함 문장: 59 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 63 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -138,3 +138,10 @@
 - I'm feeling under the weather today.
 - Take care of yourself and get well soon.
 - Let me know if there's anything I can do to help.
+
+### 2026-05-19 (Day 19)
+- We need to push back the deadline by a week.
+- Let's get the ball rolling on this project.
+- Could you send me the meeting agenda?
+- I need to tidy up before my guests arrive.
+- The dishes are piling up in the sink.

@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-19",
+  "day": 19,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "We need to push back the deadline by a week.", "ko": "마감을 일주일 미뤄야 할 것 같아요."},
+    {"en": "Let's get the ball rolling on this project.", "ko": "이 프로젝트를 본격적으로 시작해 봅시다."},
+    {"en": "Could you send me the meeting agenda?", "ko": "회의 안건을 보내주실 수 있을까요?"},
+    {"en": "I need to tidy up before my guests arrive.", "ko": "손님 오기 전에 정리 좀 해야 해."},
+    {"en": "The dishes are piling up in the sink.", "ko": "싱크대에 설거지가 잔뜩 쌓이고 있어."}
+  ]
+}

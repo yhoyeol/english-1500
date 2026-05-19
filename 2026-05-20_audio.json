@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-20",
+  "day": 20,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could I withdraw some cash from my account?", "ko": "계좌에서 현금을 좀 인출할 수 있을까요?"},
+    {"en": "I'm strapped for cash this month.", "ko": "이번 달은 돈이 빠듯해요."},
+    {"en": "Where can I exchange foreign currency?", "ko": "외화 환전은 어디서 할 수 있나요?"},
+    {"en": "I'm really into reading novels these days.", "ko": "요즘 소설 읽기에 푹 빠져 있어요."},
+    {"en": "I usually unwind by listening to music.", "ko": "저는 보통 음악을 들으면서 긴장을 풀어요."}
+  ]
+}

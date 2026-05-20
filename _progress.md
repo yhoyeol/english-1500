@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 100 / 1500
+진행: 105 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 30 / 450
 - 상황별 회화: 35 / 525
-- 관계·소통: 19 / 300
-- 비즈니스 기본: 16 / 225
+- 관계·소통: 22 / 300
+- 비즈니스 기본: 18 / 225
 
-## 관용구·구동사 포함 문장: 65 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 68 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -152,3 +152,10 @@
 - Where can I exchange foreign currency?
 - I'm really into reading novels these days.
 - I usually unwind by listening to music.
+
+### 2026-05-21 (Day 21)
+- I'm really sorry for letting you down.
+- Thank you for being so understanding.
+- Don't worry, it happens to the best of us.
+- Could you give me a hand with this?
+- I'll have the report ready by tomorrow.

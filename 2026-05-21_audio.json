@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-21",
+  "day": 21,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm really sorry for letting you down.", "ko": "실망시켜 드려서 정말 죄송해요."},
+    {"en": "Thank you for being so understanding.", "ko": "이렇게 이해해 주셔서 감사해요."},
+    {"en": "Don't worry, it happens to the best of us.", "ko": "걱정 마세요, 누구에게나 있는 일이에요."},
+    {"en": "Could you give me a hand with this?", "ko": "이것 좀 도와주실 수 있나요?"},
+    {"en": "I'll have the report ready by tomorrow.", "ko": "내일까지 보고서를 준비해 두겠습니다."}
+  ]
+}

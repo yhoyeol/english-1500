@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 105 / 1500
+진행: 110 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 30 / 450
-- 상황별 회화: 35 / 525
+- 기본 일상: 32 / 450
+- 상황별 회화: 38 / 525
 - 관계·소통: 22 / 300
 - 비즈니스 기본: 18 / 225
 
-## 관용구·구동사 포함 문장: 68 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 70 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -159,3 +159,10 @@
 - Don't worry, it happens to the best of us.
 - Could you give me a hand with this?
 - I'll have the report ready by tomorrow.
+
+### 2026-05-22 (Day 22)
+- My screen cracked. Can you fix it?
+- Can you back up my photos first?
+- Is this still under warranty?
+- My phone is about to die.
+- My battery drains so fast these days.

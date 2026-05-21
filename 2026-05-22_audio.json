@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-22",
+  "day": 22,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "My screen cracked. Can you fix it?", "ko": "화면이 깨졌어요. 고칠 수 있나요?"},
+    {"en": "Can you back up my photos first?", "ko": "먼저 제 사진을 백업해 주실 수 있나요?"},
+    {"en": "Is this still under warranty?", "ko": "이거 아직 보증 기간 안에 들어가나요?"},
+    {"en": "My phone is about to die.", "ko": "핸드폰 배터리가 곧 나가요."},
+    {"en": "My battery drains so fast these days.", "ko": "요즘 배터리가 너무 빨리 닳아요."}
+  ]
+}

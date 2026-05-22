@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-23",
+  "day": 23,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I love sleeping in on weekends.", "ko": "저는 주말에 늦잠 자는 걸 정말 좋아해요."},
+    {"en": "I'm in no rush this morning.", "ko": "오늘 아침은 전혀 서두를 일이 없어요."},
+    {"en": "Let me make a fresh pot of coffee.", "ko": "커피 새로 한 주전자 내릴게요."},
+    {"en": "Can I get a latte to go, please?", "ko": "라떼 한 잔 포장으로 주시겠어요?"},
+    {"en": "Could you make it less sweet?", "ko": "덜 달게 만들어 주실 수 있나요?"}
+  ]
+}

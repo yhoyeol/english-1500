@@ -1,0 +1,196 @@
+{
+  "date": "2026-05-24",
+  "type": "weekly",
+  "week_start": "2026-05-18",
+  "week_end": "2026-05-23",
+  "rate": "-5%",
+  "repeats": 2,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "[Monday morning — Alice and Chris at home]",
+      "ko": "(월요일 아침 — 집에 있는 Alice와 Chris)"
+    },
+    {
+      "en": "[Chris] Morning, Alice. You look pale — are you okay?",
+      "ko": "좋은 아침이야, Alice. 안색이 안 좋아 보여 — 괜찮아?"
+    },
+    {
+      "en": "[Alice] Ugh, I think I'm coming down with a cold.",
+      "ko": "으, 감기 기운이 좀 있는 것 같아."
+    },
+    {
+      "en": "[Alice] Honestly, I'm feeling under the weather today.",
+      "ko": "솔직히 오늘은 컨디션이 좀 안 좋아."
+    },
+    {
+      "en": "[Chris] Oh no. Take care of yourself and get well soon.",
+      "ko": "저런. 몸조리 잘하고 얼른 나아."
+    },
+    {
+      "en": "[Chris] Let me know if there's anything I can do to help.",
+      "ko": "내가 도울 일 있으면 언제든 말해."
+    },
+    {
+      "en": "[Alice] Thanks. First, I'd like to make an appointment to see the doctor.",
+      "ko": "고마워. 먼저 진료 예약을 하고 싶어."
+    },
+    {
+      "en": "[Afternoon — at the office with her manager Bob]",
+      "ko": "(오후 — 사무실에서 상사 Bob과)"
+    },
+    {
+      "en": "[Alice] Bob, since I'm sick, we need to push back the deadline by a week.",
+      "ko": "Bob, 제가 아파서 마감을 일주일 미뤄야 할 것 같아요."
+    },
+    {
+      "en": "[Bob] I see. But first, let's get the ball rolling on this project.",
+      "ko": "그렇군요. 그래도 일단 이 프로젝트를 본격적으로 시작해 봅시다."
+    },
+    {
+      "en": "[Alice] Got it. Could you send me the meeting agenda?",
+      "ko": "알겠습니다. 회의 안건을 보내주실 수 있을까요?"
+    },
+    {
+      "en": "[Bob] Sure, I'll forward it right away.",
+      "ko": "물론이죠, 바로 전달해 드릴게요."
+    },
+    {
+      "en": "[Alice] And I'm really sorry for letting you down.",
+      "ko": "그리고 실망시켜 드려서 정말 죄송해요."
+    },
+    {
+      "en": "[Bob] Don't worry, it happens to the best of us.",
+      "ko": "걱정 마세요, 누구에게나 있는 일이에요."
+    },
+    {
+      "en": "[Alice] Thank you for being so understanding.",
+      "ko": "이렇게 이해해 주셔서 감사해요."
+    },
+    {
+      "en": "[Alice] Could you give me a hand with this?",
+      "ko": "이것 좀 도와주실 수 있나요?"
+    },
+    {
+      "en": "[Bob] Of course. Just send it over.",
+      "ko": "물론이죠. 그냥 보내 주세요."
+    },
+    {
+      "en": "[Alice] I'll have the report ready by tomorrow.",
+      "ko": "내일까지 보고서를 준비해 두겠습니다."
+    },
+    {
+      "en": "[Lunch break — at the bank with teller Dana]",
+      "ko": "(점심시간 — 은행에서 은행원 Dana와)"
+    },
+    {
+      "en": "[Alice] I'm strapped for cash this month.",
+      "ko": "이번 달은 돈이 빠듯해요."
+    },
+    {
+      "en": "[Alice] Hi, could I withdraw some cash from my account?",
+      "ko": "안녕하세요, 계좌에서 현금을 좀 인출할 수 있을까요?"
+    },
+    {
+      "en": "[Dana] Of course. Will that be all?",
+      "ko": "물론이죠. 그게 전부일까요?"
+    },
+    {
+      "en": "[Alice] One more thing — where can I exchange foreign currency?",
+      "ko": "하나 더요 — 외화 환전은 어디서 할 수 있나요?"
+    },
+    {
+      "en": "[Dana] Right over at counter three.",
+      "ko": "바로 3번 창구에서 하시면 됩니다."
+    },
+    {
+      "en": "[On the way home — at the phone repair shop]",
+      "ko": "(퇴근길 — 휴대폰 수리점에서)"
+    },
+    {
+      "en": "[Alice] My screen cracked. Can you fix it?",
+      "ko": "화면이 깨졌어요. 고칠 수 있나요?"
+    },
+    {
+      "en": "[Dana] Let me take a look. What model is it?",
+      "ko": "한번 볼게요. 기종이 어떻게 되나요?"
+    },
+    {
+      "en": "[Alice] Wait — is this still under warranty?",
+      "ko": "잠깐만요 — 이거 아직 보증 기간 안에 들어가나요?"
+    },
+    {
+      "en": "[Alice] And can you back up my photos first?",
+      "ko": "그리고 먼저 제 사진을 백업해 주실 수 있나요?"
+    },
+    {
+      "en": "[Alice] Please hurry, my phone is about to die.",
+      "ko": "서둘러 주세요, 핸드폰 배터리가 곧 나가요."
+    },
+    {
+      "en": "[Alice] Honestly, my battery drains so fast these days.",
+      "ko": "솔직히 요즘 배터리가 너무 빨리 닳아요."
+    },
+    {
+      "en": "[Evening — tidying up at home before guests arrive]",
+      "ko": "(저녁 — 손님 오기 전 집 정리)"
+    },
+    {
+      "en": "[Alice] I need to tidy up before my guests arrive.",
+      "ko": "손님 오기 전에 정리 좀 해야 해."
+    },
+    {
+      "en": "[Chris] Good idea — the dishes are piling up in the sink.",
+      "ko": "좋은 생각이야 — 싱크대에 설거지가 잔뜩 쌓이고 있어."
+    },
+    {
+      "en": "[Chris] You've had a rough week. How do you relax?",
+      "ko": "이번 주 힘들었지. 넌 어떻게 쉬어?"
+    },
+    {
+      "en": "[Alice] I'm really into reading novels these days.",
+      "ko": "요즘 소설 읽기에 푹 빠져 있어요."
+    },
+    {
+      "en": "[Alice] And I usually unwind by listening to music.",
+      "ko": "그리고 저는 보통 음악을 들으면서 긴장을 풀어요."
+    },
+    {
+      "en": "[Saturday morning — the weekend, then off to a cafe]",
+      "ko": "(토요일 아침 — 주말, 그리고 카페로)"
+    },
+    {
+      "en": "[Alice] Ah, I love sleeping in on weekends.",
+      "ko": "아, 저는 주말에 늦잠 자는 걸 정말 좋아해요."
+    },
+    {
+      "en": "[Alice] There's no meeting today — I'm in no rush this morning.",
+      "ko": "오늘은 회의가 없어서 — 오늘 아침은 전혀 서두를 일이 없어요."
+    },
+    {
+      "en": "[Chris] Nice. Let me make a fresh pot of coffee.",
+      "ko": "좋네. 커피 새로 한 주전자 내릴게."
+    },
+    {
+      "en": "[Alice] Actually, let's treat ourselves at the cafe.",
+      "ko": "아니다, 우리 카페 가서 좀 즐기자."
+    },
+    {
+      "en": "[Dana] [At the cafe] Hi there, what can I get you?",
+      "ko": "(카페에서) 어서 오세요, 뭐 드릴까요?"
+    },
+    {
+      "en": "[Alice] Hi, can I get a latte to go, please?",
+      "ko": "안녕하세요, 라떼 한 잔 포장으로 주시겠어요?"
+    },
+    {
+      "en": "[Alice] Oh, and could you make it less sweet?",
+      "ko": "아, 그리고 덜 달게 만들어 주실 수 있나요?"
+    },
+    {
+      "en": "[Dana] You got it. Have a great weekend!",
+      "ko": "알겠습니다. 즐거운 주말 보내세요!"
+    }
+  ]
+}

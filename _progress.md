@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 115 / 1500
+진행: 120 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 35 / 450
-- 상황별 회화: 40 / 525
-- 관계·소통: 22 / 300
+- 상황별 회화: 42 / 525
+- 관계·소통: 25 / 300
 - 비즈니스 기본: 18 / 225
 
-## 관용구·구동사 포함 문장: 72 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 75 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -173,3 +173,10 @@
 - Let me make a fresh pot of coffee.
 - Can I get a latte to go, please?
 - Could you make it less sweet?
+
+### 2026-05-25 (Day 24)
+- Congratulations on your promotion! You earned it.
+- I knew everything would work out for you.
+- I'm so proud of how far you've come.
+- Let's go out for dinner to celebrate.
+- This calls for a celebration!

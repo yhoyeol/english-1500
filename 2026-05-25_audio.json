@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-25",
+  "day": 24,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "Congratulations on your promotion! You earned it.",
+      "ko": "승진 축하해! 네가 받을 만했어."
+    },
+    {
+      "en": "I knew everything would work out for you.",
+      "ko": "다 잘 풀릴 줄 알았어."
+    },
+    {
+      "en": "I'm so proud of how far you've come.",
+      "ko": "네가 이만큼 해낸 게 정말 자랑스러워."
+    },
+    {
+      "en": "Let's go out for dinner to celebrate.",
+      "ko": "축하하러 저녁 먹으러 나가자."
+    },
+    {
+      "en": "This calls for a celebration!",
+      "ko": "이건 정말 축하할 일이야!"
+    }
+  ]
+}

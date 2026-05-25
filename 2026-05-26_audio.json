@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-26",
+  "day": 25,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I like to plan out my day over breakfast.",
+      "ko": "저는 아침을 먹으며 하루 일정을 짜는 걸 좋아해요."
+    },
+    {
+      "en": "Let me settle in before we get started.",
+      "ko": "시작하기 전에 자리 좀 잡을게요."
+    },
+    {
+      "en": "I usually get to the office around nine.",
+      "ko": "저는 보통 아홉 시쯤 사무실에 도착해요."
+    },
+    {
+      "en": "I need to go over my emails first thing.",
+      "ko": "제일 먼저 이메일을 쭉 살펴봐야 해요."
+    },
+    {
+      "en": "Let's kick off the meeting in ten minutes.",
+      "ko": "10분 뒤에 회의를 시작합시다."
+    }
+  ]
+}

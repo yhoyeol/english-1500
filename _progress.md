@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 120 / 1500
+진행: 125 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 35 / 450
+- 기본 일상: 38 / 450
 - 상황별 회화: 42 / 525
 - 관계·소통: 25 / 300
-- 비즈니스 기본: 18 / 225
+- 비즈니스 기본: 20 / 225
 
-## 관용구·구동사 포함 문장: 75 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 79 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -180,3 +180,10 @@
 - I'm so proud of how far you've come.
 - Let's go out for dinner to celebrate.
 - This calls for a celebration!
+
+### 2026-05-26 (Day 25)
+- I like to plan out my day over breakfast.
+- Let me settle in before we get started.
+- I usually get to the office around nine.
+- I need to go over my emails first thing.
+- Let's kick off the meeting in ten minutes.

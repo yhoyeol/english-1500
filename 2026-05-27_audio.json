@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-27",
+  "day": 26,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'd like a trim, please.", "ko": "다듬어만 주시면 돼요."},
+    {"en": "Could you take a little off the sides?", "ko": "옆머리만 조금 쳐 주시겠어요?"},
+    {"en": "I'm thinking of going for a fresh look.", "ko": "분위기를 좀 바꿔 볼까 해서요."},
+    {"en": "I'd love to, but I'll have to pass this time.", "ko": "저도 그러고 싶지만 이번엔 사양할게요."},
+    {"en": "I appreciate the offer, but it's not for me.", "ko": "제안은 감사하지만 저랑은 잘 안 맞을 것 같아요."}
+  ]
+}

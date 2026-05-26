@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 125 / 1500
+진행: 130 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 38 / 450
-- 상황별 회화: 42 / 525
-- 관계·소통: 25 / 300
+- 상황별 회화: 45 / 525
+- 관계·소통: 27 / 300
 - 비즈니스 기본: 20 / 225
 
-## 관용구·구동사 포함 문장: 79 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 82 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -187,3 +187,10 @@
 - I usually get to the office around nine.
 - I need to go over my emails first thing.
 - Let's kick off the meeting in ten minutes.
+
+### 2026-05-27 (Day 26)
+- I'd like a trim, please.
+- Could you take a little off the sides?
+- I'm thinking of going for a fresh look.
+- I'd love to, but I'll have to pass this time.
+- I appreciate the offer, but it's not for me.

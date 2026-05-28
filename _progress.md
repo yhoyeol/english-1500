@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 130 / 1500
+진행: 135 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 38 / 450
-- 상황별 회화: 45 / 525
+- 기본 일상: 41 / 450
+- 상황별 회화: 47 / 525
 - 관계·소통: 27 / 300
 - 비즈니스 기본: 20 / 225
 
-## 관용구·구동사 포함 문장: 82 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 86 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -194,3 +194,10 @@
 - I'm thinking of going for a fresh look.
 - I'd love to, but I'll have to pass this time.
 - I appreciate the offer, but it's not for me.
+
+### 2026-05-28 (Day 27)
+- I'm trying to get in shape this year.
+- I usually work out before breakfast.
+- My muscles are sore from yesterday's workout.
+- I'm a regular at this gym.
+- I'm trying to keep up with my routine.

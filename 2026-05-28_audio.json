@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-28",
+  "day": 27,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm trying to get in shape this year.", "ko": "올해는 몸을 좀 만들어 보려고 해요."},
+    {"en": "I usually work out before breakfast.", "ko": "저는 보통 아침 먹기 전에 운동해요."},
+    {"en": "My muscles are sore from yesterday's workout.", "ko": "어제 운동 때문에 근육이 쑤셔요."},
+    {"en": "I'm a regular at this gym.", "ko": "저 이 헬스장 단골이에요."},
+    {"en": "I'm trying to keep up with my routine.", "ko": "제 루틴을 잘 지키려고 노력하는 중이에요."}
+  ]
+}

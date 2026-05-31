@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-01",
+  "day": 28,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'd like to send this package overseas.", "ko": "이 소포를 해외로 보내고 싶어요."},
+    {"en": "How long does shipping usually take?", "ko": "배송이 보통 얼마나 걸리나요?"},
+    {"en": "I'm just following up on the email I sent last week.", "ko": "지난주에 보낸 이메일에 대해 확인차 연락드립니다."},
+    {"en": "Could you cc me on that email?", "ko": "그 이메일에 저를 참조로 넣어 주실 수 있나요?"},
+    {"en": "I'll loop you in once I hear back.", "ko": "답변을 받는 대로 알려드릴게요."}
+  ]
+}

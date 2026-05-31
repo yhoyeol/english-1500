@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 135 / 1500
+진행: 140 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 41 / 450
-- 상황별 회화: 47 / 525
+- 상황별 회화: 49 / 525
 - 관계·소통: 27 / 300
-- 비즈니스 기본: 20 / 225
+- 비즈니스 기본: 23 / 225
 
-## 관용구·구동사 포함 문장: 86 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 88 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -201,3 +201,10 @@
 - My muscles are sore from yesterday's workout.
 - I'm a regular at this gym.
 - I'm trying to keep up with my routine.
+
+### 2026-06-01 (Day 28)
+- I'd like to send this package overseas.
+- How long does shipping usually take?
+- I'm just following up on the email I sent last week.
+- Could you cc me on that email?
+- I'll loop you in once I hear back.

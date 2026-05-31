@@ -1,0 +1,140 @@
+{
+  "date": "2026-06-01",
+  "type": "weekly",
+  "week_start": "2026-05-25",
+  "week_end": "2026-05-28",
+  "rate": "-5%",
+  "repeats": 2,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "[Scene 1: Friday evening at the cafe]",
+      "ko": "(Scene 1: 금요일 저녁, 카페)"
+    },
+    {
+      "en": "[Bob] Congratulations on your promotion! You earned it.",
+      "ko": "승진 축하해! 네가 받을 만했어."
+    },
+    {
+      "en": "[Alice] Thank you so much, Bob. It still doesn't feel real.",
+      "ko": "정말 고마워, Bob. 아직 실감이 안 나."
+    },
+    {
+      "en": "[Bob] I knew everything would work out for you.",
+      "ko": "난 다 잘 풀릴 줄 알았어."
+    },
+    {
+      "en": "[Bob] I'm so proud of how far you've come.",
+      "ko": "네가 이만큼 해낸 게 정말 자랑스러워."
+    },
+    {
+      "en": "[Alice] That means the world to me.",
+      "ko": "그 말이 정말 큰 힘이 돼."
+    },
+    {
+      "en": "[Bob] Let's go out for dinner to celebrate.",
+      "ko": "축하하러 저녁 먹으러 나가자."
+    },
+    {
+      "en": "[Alice] Yes! This calls for a celebration!",
+      "ko": "좋아! 이건 정말 축하할 일이야!"
+    },
+    {
+      "en": "[Scene 2: Monday morning at the new office]",
+      "ko": "(Scene 2: 월요일 아침, 새 부서 사무실)"
+    },
+    {
+      "en": "[Alice] I like to plan out my day over breakfast.",
+      "ko": "저는 아침을 먹으며 하루 일정을 짜는 걸 좋아해요."
+    },
+    {
+      "en": "[Alice] Let me settle in before we get started.",
+      "ko": "시작하기 전에 자리 좀 잡을게요."
+    },
+    {
+      "en": "[Bob] Take your time. I usually get to the office around nine.",
+      "ko": "천천히 해. 나는 보통 아홉 시쯤 사무실에 도착해."
+    },
+    {
+      "en": "[Alice] I need to go over my emails first thing.",
+      "ko": "제일 먼저 이메일을 쭉 살펴봐야 해요."
+    },
+    {
+      "en": "[Bob] Sounds good. Let's kick off the meeting in ten minutes.",
+      "ko": "좋아. 10분 뒤에 회의를 시작합시다."
+    },
+    {
+      "en": "[Scene 3: After work at the hair salon]",
+      "ko": "(Scene 3: 퇴근 후 미용실)"
+    },
+    {
+      "en": "[Cathy] Welcome! What are we doing today?",
+      "ko": "어서 오세요! 오늘 어떻게 해 드릴까요?"
+    },
+    {
+      "en": "[Alice] I'd like a trim, please.",
+      "ko": "다듬어만 주시면 돼요."
+    },
+    {
+      "en": "[Alice] Could you take a little off the sides?",
+      "ko": "옆머리만 조금 쳐 주시겠어요?"
+    },
+    {
+      "en": "[Alice] I'm thinking of going for a fresh look.",
+      "ko": "분위기를 좀 바꿔 볼까 해서요."
+    },
+    {
+      "en": "[Cathy] Great! Would you like to try our color treatment too?",
+      "ko": "좋아요! 컬러 트리트먼트도 같이 해 보실래요?"
+    },
+    {
+      "en": "[Alice] I'd love to, but I'll have to pass this time.",
+      "ko": "저도 그러고 싶지만 이번엔 사양할게요."
+    },
+    {
+      "en": "[Cathy] We also have a deep conditioning add-on.",
+      "ko": "딥 컨디셔닝 추가 서비스도 있어요."
+    },
+    {
+      "en": "[Alice] I appreciate the offer, but it's not for me.",
+      "ko": "제안은 감사하지만 저랑은 잘 안 맞을 것 같아요."
+    },
+    {
+      "en": "[Scene 4: Next morning at the gym]",
+      "ko": "(Scene 4: 다음 날 아침, 헬스장)"
+    },
+    {
+      "en": "[Dan] Morning! Haven't seen you in a few days.",
+      "ko": "좋은 아침이에요! 며칠 안 보이셨네요."
+    },
+    {
+      "en": "[Alice] I'm trying to get in shape this year.",
+      "ko": "올해는 몸을 좀 만들어 보려고 해요."
+    },
+    {
+      "en": "[Alice] I usually work out before breakfast.",
+      "ko": "저는 보통 아침 먹기 전에 운동해요."
+    },
+    {
+      "en": "[Alice] My muscles are sore from yesterday's workout.",
+      "ko": "어제 운동 때문에 근육이 쑤셔요."
+    },
+    {
+      "en": "[Dan] That's a good sign. First time here?",
+      "ko": "좋은 신호예요. 여기 처음이세요?"
+    },
+    {
+      "en": "[Alice] Oh no, I'm a regular at this gym.",
+      "ko": "아뇨, 저 이 헬스장 단골이에요."
+    },
+    {
+      "en": "[Alice] I'm trying to keep up with my routine.",
+      "ko": "제 루틴을 잘 지키려고 노력하는 중이에요."
+    },
+    {
+      "en": "[Dan] Stick with it. You'll see results soon!",
+      "ko": "계속하세요. 곧 결과가 보일 거예요!"
+    }
+  ]
+}

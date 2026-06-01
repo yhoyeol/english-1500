@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-02",
+  "day": 29,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I really owe you big time for this favor.", "ko": "이번 부탁 정말 크게 신세 졌어."},
+    {"en": "You can count on me whenever you need help.", "ko": "도움이 필요할 땐 언제든 나만 믿어."},
+    {"en": "Thanks for always having my back at work.", "ko": "회사에서 늘 내 편 들어줘서 고마워."},
+    {"en": "It's finally warming up outside these days.", "ko": "요즘 바깥이 드디어 따뜻해지고 있어."},
+    {"en": "I love the cool breeze on summer evenings.", "ko": "여름 저녁의 시원한 바람이 정말 좋아."}
+  ]
+}

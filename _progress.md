@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 145 / 1500
+진행: 150 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 43 / 450
-- 상황별 회화: 49 / 525
+- 기본 일상: 45 / 450
+- 상황별 회화: 52 / 525
 - 관계·소통: 30 / 300
 - 비즈니스 기본: 23 / 225
 
-## 관용구·구동사 포함 문장: 92 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 94 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -215,3 +215,10 @@
 - Thanks for always having my back at work.
 - It's finally warming up outside these days.
 - I love the cool breeze on summer evenings.
+
+### 2026-06-03 (Day 30)
+- Does this train go to Gangnam Station?
+- Could you let me know when to get off?
+- I have to transfer to the green line.
+- I'll whip up a quick stir-fry for dinner.
+- Could you set the table while I cook?

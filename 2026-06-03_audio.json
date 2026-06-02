@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-03",
+  "day": 30,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Does this train go to Gangnam Station?", "ko": "이 지하철 강남역 가요?"},
+    {"en": "Could you let me know when to get off?", "ko": "언제 내려야 할지 알려주실 수 있나요?"},
+    {"en": "I have to transfer to the green line.", "ko": "초록색 노선으로 환승해야 해요."},
+    {"en": "I'll whip up a quick stir-fry for dinner.", "ko": "저녁으로 간단히 볶음 요리 만들게요."},
+    {"en": "Could you set the table while I cook?", "ko": "제가 요리하는 동안 식탁 좀 차려주실래요?"}
+  ]
+}

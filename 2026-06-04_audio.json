@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-04",
+  "day": 31,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could you put my bag in the overhead bin?", "ko": "제 가방을 머리 위 짐칸에 넣어주실 수 있을까요?"},
+    {"en": "I'm just passing through on my way to Tokyo.", "ko": "저는 도쿄로 가는 길에 잠깐 경유하는 거예요."},
+    {"en": "My flight got bumped to tomorrow morning.", "ko": "제 비행기가 내일 아침으로 미뤄졌어요."},
+    {"en": "Could you weigh in on my decision?", "ko": "제 결정에 대해 의견 좀 주실 수 있나요?"},
+    {"en": "I'm torn between these two options.", "ko": "저는 이 두 선택지 사이에서 갈등하고 있어요."}
+  ]
+}

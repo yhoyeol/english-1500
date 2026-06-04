@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 155 / 1500
+진행: 160 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 45 / 450
+- 기본 일상: 48 / 450
 - 상황별 회화: 55 / 525
 - 관계·소통: 32 / 300
-- 비즈니스 기본: 23 / 225
+- 비즈니스 기본: 25 / 225
 
-## 관용구·구동사 포함 문장: 97 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 102 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -229,3 +229,10 @@
 - My flight got bumped to tomorrow morning.
 - Could you weigh in on my decision?
 - I'm torn between these two options.
+
+### 2026-06-05 (Day 32)
+- I need to do the dishes before bed.
+- Could you take out the trash on your way out?
+- I'm running out to grab some groceries.
+- Let's table this discussion until next week.
+- Could you send out the minutes after the meeting?

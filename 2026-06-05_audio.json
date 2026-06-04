@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-05",
+  "day": 32,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I need to do the dishes before bed.", "ko": "자기 전에 설거지를 해야 해."},
+    {"en": "Could you take out the trash on your way out?", "ko": "나가는 길에 쓰레기 좀 버려줄래?"},
+    {"en": "I'm running out to grab some groceries.", "ko": "장 좀 보러 잠깐 다녀올게."},
+    {"en": "Let's table this discussion until next week.", "ko": "이 논의는 다음 주로 미루죠."},
+    {"en": "Could you send out the minutes after the meeting?", "ko": "회의 끝나고 회의록 좀 돌려주실 수 있어요?"}
+  ]
+}

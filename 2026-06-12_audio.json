@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-12",
+  "day": 34,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I think I'll just stay in tonight.",
+      "ko": "오늘 밤은 그냥 집에 있을까 봐."
+    },
+    {
+      "en": "Do you want to hang out this weekend?",
+      "ko": "이번 주말에 같이 놀래?"
+    },
+    {
+      "en": "I can't wait for the weekend to come.",
+      "ko": "주말이 빨리 왔으면 좋겠어."
+    },
+    {
+      "en": "Let's set up a meeting for early next week.",
+      "ko": "다음 주 초에 회의를 잡읍시다."
+    },
+    {
+      "en": "I'll send over the files this afternoon.",
+      "ko": "오후에 파일들을 보내드릴게요."
+    }
+  ]
+}

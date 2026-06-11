@@ -1,0 +1,172 @@
+{
+  "date": "2026-06-11",
+  "type": "weekly",
+  "week_start": "2026-06-01",
+  "week_end": "2026-06-05",
+  "rate": "-5%",
+  "repeats": 2,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "[Scene 1: Monday morning at the office]",
+      "ko": "(Scene 1: 월요일 아침, 사무실)"
+    },
+    {
+      "en": "[Cathy] Morning, Alice. I'm just following up on the email I sent last week.",
+      "ko": "지난주에 보낸 이메일에 대해 확인차 연락드립니다."
+    },
+    {
+      "en": "[Alice] Oh, sorry — it slipped past me. Could you cc me on that email?",
+      "ko": "그 이메일에 저를 참조로 넣어 주실 수 있나요?"
+    },
+    {
+      "en": "[Cathy] Sure. I'll loop you in once I hear back.",
+      "ko": "답변을 받는 대로 알려드릴게요."
+    },
+    {
+      "en": "[Alice] Thanks for always having my back at work.",
+      "ko": "회사에서 늘 내 편 들어줘서 고마워."
+    },
+    {
+      "en": "[Cathy] Of course. Hey, could you weigh in on my decision?",
+      "ko": "제 결정에 대해 의견 좀 주실 수 있나요?"
+    },
+    {
+      "en": "[Alice] Sure, what's going on?",
+      "ko": "그럼요, 무슨 일인데요?"
+    },
+    {
+      "en": "[Cathy] I'm torn between these two options.",
+      "ko": "저는 이 두 선택지 사이에서 갈등하고 있어요."
+    },
+    {
+      "en": "[Alice] That's a tough one. Let's table this discussion until next week.",
+      "ko": "이 논의는 다음 주로 미루죠."
+    },
+    {
+      "en": "[Cathy] Good call. Could you send out the minutes after the meeting?",
+      "ko": "회의 끝나고 회의록 좀 돌려주실 수 있어요?"
+    },
+    {
+      "en": "[Alice] Will do. And go ahead home early — I'll wrap things up here.",
+      "ko": "그럴게요. 그리고 먼저 들어가세요 — 여긴 제가 마무리할게요."
+    },
+    {
+      "en": "[Cathy] Really? I really owe you big time for this favor.",
+      "ko": "이번 부탁 정말 크게 신세 졌어."
+    },
+    {
+      "en": "[Alice] Don't worry. You can count on me whenever you need help.",
+      "ko": "도움이 필요할 땐 언제든 나만 믿어."
+    },
+    {
+      "en": "[Scene 2: On the way home — subway & post office]",
+      "ko": "(Scene 2: 퇴근길, 지하철과 우체국)"
+    },
+    {
+      "en": "[Alice] Excuse me, does this train go to Gangnam Station?",
+      "ko": "이 지하철 강남역 가요?"
+    },
+    {
+      "en": "[Passenger] It does, but you'll have to change trains.",
+      "ko": "가긴 가는데, 환승하셔야 해요."
+    },
+    {
+      "en": "[Alice] Right, I have to transfer to the green line.",
+      "ko": "초록색 노선으로 환승해야 해요."
+    },
+    {
+      "en": "[Alice] Could you let me know when to get off?",
+      "ko": "언제 내려야 할지 알려주실 수 있나요?"
+    },
+    {
+      "en": "[Passenger] Sure, I'll give you a heads-up.",
+      "ko": "네, 미리 말씀드릴게요."
+    },
+    {
+      "en": "[Alice] Hi, I'd like to send this package overseas.",
+      "ko": "이 소포를 해외로 보내고 싶어요."
+    },
+    {
+      "en": "[Clerk] No problem. Anything fragile inside?",
+      "ko": "그럼요. 안에 깨지는 물건 있나요?"
+    },
+    {
+      "en": "[Alice] No. How long does shipping usually take?",
+      "ko": "배송이 보통 얼마나 걸리나요?"
+    },
+    {
+      "en": "[Clerk] About a week to most countries.",
+      "ko": "대부분 국가까지 일주일 정도요."
+    },
+    {
+      "en": "[Alice] It's finally warming up outside these days.",
+      "ko": "요즘 바깥이 드디어 따뜻해지고 있어."
+    },
+    {
+      "en": "[Alice] I love the cool breeze on summer evenings.",
+      "ko": "여름 저녁의 시원한 바람이 정말 좋아."
+    },
+    {
+      "en": "[Scene 3: Home — dinner & packing]",
+      "ko": "(Scene 3: 집, 저녁 준비와 여행 짐)"
+    },
+    {
+      "en": "[Alice] I'm home! I'll whip up a quick stir-fry for dinner.",
+      "ko": "저녁으로 간단히 볶음 요리 만들게요."
+    },
+    {
+      "en": "[Bob] Sounds perfect. What can I do?",
+      "ko": "좋아. 내가 뭘 도울까?"
+    },
+    {
+      "en": "[Alice] Could you set the table while I cook?",
+      "ko": "제가 요리하는 동안 식탁 좀 차려주실래요?"
+    },
+    {
+      "en": "[Bob] On it. Oh — I'm running out to grab some groceries.",
+      "ko": "장 좀 보러 잠깐 다녀올게."
+    },
+    {
+      "en": "[Alice] Okay, and could you take out the trash on your way out?",
+      "ko": "나가는 길에 쓰레기 좀 버려줄래?"
+    },
+    {
+      "en": "[Bob] Sure thing.",
+      "ko": "그래, 알겠어."
+    },
+    {
+      "en": "[Alice] I need to do the dishes before bed.",
+      "ko": "자기 전에 설거지를 해야 해."
+    },
+    {
+      "en": "[Bob] I'll dry. So, all set for your trip?",
+      "ko": "내가 물기 닦을게. 그래서, 여행 준비는 다 됐어?"
+    },
+    {
+      "en": "[Alice] Almost. My flight got bumped to tomorrow morning.",
+      "ko": "제 비행기가 내일 아침으로 미뤄졌어요."
+    },
+    {
+      "en": "[Bob] Already? Are you flying straight there?",
+      "ko": "벌써? 거기로 바로 가는 거야?"
+    },
+    {
+      "en": "[Alice] No, I'm just passing through on my way to Tokyo.",
+      "ko": "저는 도쿄로 가는 길에 잠깐 경유하는 거예요."
+    },
+    {
+      "en": "[Bob] Got it. Travel light, then.",
+      "ko": "알겠어. 그럼 짐은 가볍게 챙겨."
+    },
+    {
+      "en": "[Alice] I will. At the gate I'll just ask, 'Could you put my bag in the overhead bin?'",
+      "ko": "제 가방을 머리 위 짐칸에 넣어주실 수 있을까요?"
+    },
+    {
+      "en": "[Bob] Ha, good plan. Safe travels.",
+      "ko": "하하, 좋은 계획이야. 잘 다녀와."
+    }
+  ]
+}

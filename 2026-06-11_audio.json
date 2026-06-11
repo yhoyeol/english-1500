@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-11",
+  "day": 33,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "Can I try these jeans on, please?",
+      "ko": "이 청바지 입어 봐도 될까요?"
+    },
+    {
+      "en": "Do you have this in a bigger size?",
+      "ko": "이거 더 큰 사이즈 있나요?"
+    },
+    {
+      "en": "I'd like to take this back and get a refund.",
+      "ko": "이거 반품하고 환불받고 싶어요."
+    },
+    {
+      "en": "Does this jacket go with my jeans?",
+      "ko": "이 재킷이 내 청바지랑 어울려?"
+    },
+    {
+      "en": "That dress looks amazing on you—it's so you!",
+      "ko": "그 원피스 너한테 정말 잘 어울려, 완전 네 스타일이야!"
+    }
+  ]
+}

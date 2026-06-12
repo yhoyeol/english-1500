@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-13",
+  "day": 35,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "Two tickets for the seven o'clock show, please.",
+      "ko": "7시 영화 두 장 주세요."
+    },
+    {
+      "en": "I heard the tickets sold out within an hour.",
+      "ko": "표가 한 시간 만에 매진됐다고 들었어."
+    },
+    {
+      "en": "Could we get seats in the back row?",
+      "ko": "뒷줄 좌석으로 주실 수 있나요?"
+    },
+    {
+      "en": "I'm sorry you're going through such a tough time.",
+      "ko": "네가 그렇게 힘든 시간을 보내고 있다니 마음이 아파."
+    },
+    {
+      "en": "If you ever need to talk, I'm all ears.",
+      "ko": "언제든 이야기하고 싶으면 말해, 잘 들어줄게."
+    }
+  ]
+}

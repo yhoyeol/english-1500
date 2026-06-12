@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 170 / 1500
+진행: 175 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 51 / 450
-- 상황별 회화: 58 / 525
-- 관계·소통: 34 / 300
+- 상황별 회화: 61 / 525
+- 관계·소통: 36 / 300
 - 비즈니스 기본: 27 / 225
 
-## 관용구·구동사 포함 문장: 110 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 113 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -250,3 +250,10 @@
 - I can't wait for the weekend to come.
 - Let's set up a meeting for early next week.
 - I'll send over the files this afternoon.
+
+### 2026-06-13 (Day 35)
+- Two tickets for the seven o'clock show, please.
+- I heard the tickets sold out within an hour.
+- Could we get seats in the back row?
+- I'm sorry you're going through such a tough time.
+- If you ever need to talk, I'm all ears.

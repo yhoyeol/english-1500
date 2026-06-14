@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-15",
+  "day": 36,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "It's so muggy outside today—I'm sweating already.", "ko": "오늘 밖이 너무 후덥지근해서 벌써 땀이 나."},
+    {"en": "The rain caught me off guard without an umbrella.", "ko": "우산도 없는데 갑자기 비가 와서 완전히 당황했어."},
+    {"en": "I love going for a walk in cooler evening weather.", "ko": "선선한 저녁 날씨에 산책하는 게 너무 좋아."},
+    {"en": "Do you think it'll clear up by this afternoon?", "ko": "오늘 오후쯤엔 날씨가 맑아질 것 같아요?"},
+    {"en": "We had to call off the picnic because of the rain.", "ko": "비 때문에 소풍을 취소할 수밖에 없었어."}
+  ]
+}

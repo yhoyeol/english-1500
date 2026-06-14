@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 175 / 1500
+진행: 180 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 51 / 450
-- 상황별 회화: 61 / 525
+- 기본 일상: 54 / 450
+- 상황별 회화: 63 / 525
 - 관계·소통: 36 / 300
 - 비즈니스 기본: 27 / 225
 
-## 관용구·구동사 포함 문장: 113 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 115 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -257,3 +257,10 @@
 - Could we get seats in the back row?
 - I'm sorry you're going through such a tough time.
 - If you ever need to talk, I'm all ears.
+
+### 2026-06-15 (Day 36)
+- It's so muggy outside today—I'm sweating already.
+- The rain caught me off guard without an umbrella.
+- I love going for a walk in cooler evening weather.
+- Do you think it'll clear up by this afternoon?
+- We had to call off the picnic because of the rain.

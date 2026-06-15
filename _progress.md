@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 180 / 1500
+진행: 185 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 54 / 450
 - 상황별 회화: 63 / 525
-- 관계·소통: 36 / 300
-- 비즈니스 기본: 27 / 225
+- 관계·소통: 38 / 300
+- 비즈니스 기본: 30 / 225
 
-## 관용구·구동사 포함 문장: 115 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 119 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -264,3 +264,10 @@
 - I love going for a walk in cooler evening weather.
 - Do you think it'll clear up by this afternoon?
 - We had to call off the picnic because of the rain.
+
+### 2026-06-16 (Day 37)
+- It's great to finally put a face to the name.
+- I look forward to working with you on this project.
+- Would you like to grab coffee and pick each other's brains?
+- Let me introduce you to my colleague—she knows the ropes around here.
+- Here's my card—feel free to reach out any time.

@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-16",
+  "day": 37,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "It's great to finally put a face to the name.", "ko": "드디어 얼굴을 뵙게 되어 정말 반갑습니다."},
+    {"en": "I look forward to working with you on this project.", "ko": "이 프로젝트에서 함께 일하게 되어 기대됩니다."},
+    {"en": "Would you like to grab coffee and pick each other's brains?", "ko": "커피 마시면서 서로 아이디어를 나눠볼까요?"},
+    {"en": "Let me introduce you to my colleague—she knows the ropes around here.", "ko": "제 동료를 소개해 드릴게요—이곳 사정을 잘 알거든요."},
+    {"en": "Here's my card—feel free to reach out any time.", "ko": "명함 드릴게요—언제든지 편하게 연락 주세요."}
+  ]
+}

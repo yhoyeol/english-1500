@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 185 / 1500
+진행: 190 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 54 / 450
-- 상황별 회화: 63 / 525
+- 기본 일상: 57 / 450
+- 상황별 회화: 65 / 525
 - 관계·소통: 38 / 300
 - 비즈니스 기본: 30 / 225
 
-## 관용구·구동사 포함 문장: 119 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 122 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -271,3 +271,10 @@
 - Would you like to grab coffee and pick each other's brains?
 - Let me introduce you to my colleague—she knows the ropes around here.
 - Here's my card—feel free to reach out any time.
+
+### 2026-06-17 (Day 38)
+- I usually set aside an hour each evening to study.
+- Could you keep it down? I'm trying to focus here.
+- Do you have a study room I could book for an hour?
+- I'm trying to brush up on my English before the trip.
+- I find it much easier to concentrate in a quiet place.

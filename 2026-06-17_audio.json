@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-17",
+  "day": 38,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I usually set aside an hour each evening to study.", "ko": "저는 보통 매일 저녁 공부하기 위해 한 시간을 따로 확보해 둡니다."},
+    {"en": "Could you keep it down? I'm trying to focus here.", "ko": "조용히 해주실 수 있나요? 저 여기서 집중하려고 하거든요."},
+    {"en": "Do you have a study room I could book for an hour?", "ko": "한 시간 예약할 수 있는 스터디 룸이 있나요?"},
+    {"en": "I'm trying to brush up on my English before the trip.", "ko": "여행 전에 영어를 다시 익히려고 노력 중이에요."},
+    {"en": "I find it much easier to concentrate in a quiet place.", "ko": "저는 조용한 곳에서 훨씬 더 쉽게 집중이 되는 것 같아요."}
+  ]
+}

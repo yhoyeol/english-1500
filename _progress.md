@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 190 / 1500
+진행: 195 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 57 / 450
-- 상황별 회화: 65 / 525
+- 기본 일상: 59 / 450
+- 상황별 회화: 68 / 525
 - 관계·소통: 38 / 300
 - 비즈니스 기본: 30 / 225
 
-## 관용구·구동사 포함 문장: 122 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 124 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -278,3 +278,10 @@
 - Do you have a study room I could book for an hour?
 - I'm trying to brush up on my English before the trip.
 - I find it much easier to concentrate in a quiet place.
+
+### 2026-06-18 (Day 39)
+- Could I get something for a headache, please?
+- How long does it take for this to kick in?
+- Are there any side effects I should watch out for?
+- My new neighbor just moved in next door.
+- Could you turn down the volume a little? I'm trying to sleep.

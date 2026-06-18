@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-18",
+  "day": 39,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could I get something for a headache, please?", "ko": "두통에 좋은 약 좀 주실 수 있나요?"},
+    {"en": "How long does it take for this to kick in?", "ko": "이 약은 얼마나 지나야 효과가 나타나나요?"},
+    {"en": "Are there any side effects I should watch out for?", "ko": "주의해야 할 부작용이 있나요?"},
+    {"en": "My new neighbor just moved in next door.", "ko": "옆집에 새 이웃이 막 이사 왔어."},
+    {"en": "Could you turn down the volume a little? I'm trying to sleep.", "ko": "소리 좀 줄여줄 수 있어요? 자려고 하는데요."}
+  ]
+}

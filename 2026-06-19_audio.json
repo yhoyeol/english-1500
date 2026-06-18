@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-19",
+  "day": 40,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Have you ever thought about taking up a new hobby?", "ko": "새로운 취미를 시작해 볼 생각을 해 본 적 있어요?"},
+    {"en": "You really went out of your way to help me out.", "ko": "당신은 정말 수고를 아끼지 않고 저를 도와주었어요."},
+    {"en": "I'm really into hiking these days—it really clears my head.", "ko": "요즘 하이킹에 푹 빠져 있어요. 머리가 진짜 맑아지거든요."},
+    {"en": "I didn't mean to come across as rude—I was just tired.", "ko": "무례하게 보이려던 건 아니었어요. 그냥 피곤했을 뿐이에요."},
+    {"en": "Your kind words mean the world to me—thank you.", "ko": "당신의 다정한 말이 저에게 정말 큰 의미예요. 감사해요."}
+  ]
+}

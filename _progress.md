@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 195 / 1500
+진행: 200 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 59 / 450
-- 상황별 회화: 68 / 525
-- 관계·소통: 38 / 300
+- 상황별 회화: 70 / 525
+- 관계·소통: 41 / 300
 - 비즈니스 기본: 30 / 225
 
-## 관용구·구동사 포함 문장: 124 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 128 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -285,3 +285,10 @@
 - Are there any side effects I should watch out for?
 - My new neighbor just moved in next door.
 - Could you turn down the volume a little? I'm trying to sleep.
+
+### 2026-06-19 (Day 40)
+- Have you ever thought about taking up a new hobby?
+- You really went out of your way to help me out.
+- I'm really into hiking these days—it really clears my head.
+- I didn't mean to come across as rude—I was just tired.
+- Your kind words mean the world to me—thank you.

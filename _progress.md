@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 200 / 1500
+진행: 205 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 59 / 450
+- 기본 일상: 62 / 450
 - 상황별 회화: 70 / 525
 - 관계·소통: 41 / 300
-- 비즈니스 기본: 30 / 225
+- 비즈니스 기본: 32 / 225
 
-## 관용구·구동사 포함 문장: 128 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 130 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -292,3 +292,10 @@
 - I'm really into hiking these days—it really clears my head.
 - I didn't mean to come across as rude—I was just tired.
 - Your kind words mean the world to me—thank you.
+
+### 2026-06-20 (Day 41)
+- I usually hit the snooze button a couple of times before getting up.
+- I always lay out my clothes the night before to save time in the morning.
+- I always make sure to eat a proper breakfast before I leave the house.
+- Could you brief me on what was discussed before I joined?
+- Let's run through the agenda quickly before we get started.

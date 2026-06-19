@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-20",
+  "day": 41,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I usually hit the snooze button a couple of times before getting up.", "ko": "일어나기 전에 보통 스누즈 버튼을 두어 번 누르는 편이에요."},
+    {"en": "I always lay out my clothes the night before to save time in the morning.", "ko": "아침에 시간을 아끼려고 항상 전날 밤에 옷을 미리 꺼내 놓아요."},
+    {"en": "I always make sure to eat a proper breakfast before I leave the house.", "ko": "집을 나서기 전에 항상 제대로 된 아침 식사를 챙겨 먹어요."},
+    {"en": "Could you brief me on what was discussed before I joined?", "ko": "제가 합류하기 전에 논의된 내용을 간략히 설명해 주시겠어요?"},
+    {"en": "Let's run through the agenda quickly before we get started.", "ko": "시작 전에 안건을 빠르게 훑어봅시다."}
+  ]
+}

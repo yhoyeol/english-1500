@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-21",
+  "type": "weekly",
+  "rate": "-5%",
+  "repeats": 2,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "[Mia] I usually hit the snooze button a couple of times before getting up.",
+      "ko": "일어나기 전에 보통 스누즈 버튼을 두어 번 누르는 편이에요."
+    },
+    {
+      "en": "[Mia] I always lay out my clothes the night before to save time in the morning.",
+      "ko": "아침에 시간을 아끼려고 항상 전날 밤에 옷을 미리 꺼내 놓아요."
+    },
+    {
+      "en": "[Mia] I always make sure to eat a proper breakfast before I leave the house.",
+      "ko": "집을 나서기 전에 항상 제대로 된 아침 식사를 챙겨 먹어요."
+    },
+    {
+      "en": "[Mia] My new neighbor just moved in next door.",
+      "ko": "옆집에 새 이웃이 막 이사 왔어."
+    },
+    {
+      "en": "[Mia] Could you turn down the volume a little? I'm trying to sleep.",
+      "ko": "소리 좀 줄여줄 수 있어요? 자려고 하는데요."
+    },
+    {
+      "en": "[Jake] It's so muggy outside today—I'm sweating already.",
+      "ko": "오늘 밖이 너무 후덥지근해서 벌써 땀이 나요."
+    },
+    {
+      "en": "[Mia] The rain caught me off guard without an umbrella.",
+      "ko": "우산도 없는데 갑자기 비가 와서 완전히 당황했거든요."
+    },
+    {
+      "en": "[Mia] Do you think it'll clear up by this afternoon?",
+      "ko": "오늘 오후쯤엔 날씨가 맑아질 것 같아요?"
+    },
+    {
+      "en": "[Sarah] It's great to finally put a face to the name.",
+      "ko": "드디어 얼굴을 뵙게 되어 정말 반갑습니다."
+    },
+    {
+      "en": "[Mia] I look forward to working with you on this project.",
+      "ko": "이 프로젝트에서 함께 일하게 되어 기대됩니다."
+    },
+    {
+      "en": "[Sarah] Would you like to grab coffee and pick each other's brains?",
+      "ko": "커피 마시면서 서로 아이디어를 나눠볼까요?"
+    },
+    {
+      "en": "[Sarah] Let me introduce you to my colleague—she knows the ropes around here.",
+      "ko": "제 동료를 소개해 드릴게요. 이곳 사정을 잘 알거든요."
+    },
+    {
+      "en": "[David] Here's my card—feel free to reach out any time.",
+      "ko": "명함 드릴게요. 언제든지 편하게 연락 주세요."
+    },
+    {
+      "en": "[Mia] Could you brief me on what was discussed before I joined?",
+      "ko": "제가 합류하기 전에 논의된 내용을 간략히 설명해 주시겠어요?"
+    },
+    {
+      "en": "[David] Let's run through the agenda quickly before we get started.",
+      "ko": "시작 전에 안건을 빠르게 훑어봅시다."
+    },
+    {
+      "en": "[Mia] Could you keep it down? I'm trying to focus here.",
+      "ko": "조용히 해주실 수 있나요? 저 여기서 집중하려고 하거든요."
+    },
+    {
+      "en": "[Sarah] I find it much easier to concentrate in a quiet place.",
+      "ko": "저도 조용한 곳에서 훨씬 더 쉽게 집중이 되더라고요."
+    },
+    {
+      "en": "[Sarah] Do you have a study room I could book for an hour?",
+      "ko": "한 시간 예약할 수 있는 스터디룸이 있나요?"
+    },
+    {
+      "en": "[Mia] I'm trying to brush up on my English before the trip.",
+      "ko": "여행 전에 영어를 다시 익히려고 노력 중이에요."
+    },
+    {
+      "en": "[Mia] I usually set aside an hour each evening to study.",
+      "ko": "보통 매일 저녁 공부를 위해 한 시간을 따로 확보해 둬요."
+    },
+    {
+      "en": "[Sarah] Have you ever thought about taking up a new hobby?",
+      "ko": "새로운 취미를 시작해 볼 생각을 해 본 적 있어요?"
+    },
+    {
+      "en": "[Mia] I'm really into hiking these days—it really clears my head.",
+      "ko": "요즘 하이킹에 푹 빠져 있어요. 머리가 진짜 맑아지거든요."
+    },
+    {
+      "en": "[Mia] I love going for a walk in cooler evening weather.",
+      "ko": "선선한 저녁 날씨에 산책하는 게 너무 좋아요."
+    },
+    {
+      "en": "[Sarah] We had to call off the picnic because of the rain.",
+      "ko": "비 때문에 소풍을 취소할 수밖에 없었어요."
+    },
+    {
+      "en": "[Mia] Could I get something for a headache, please?",
+      "ko": "두통에 좋은 약 좀 주실 수 있나요?"
+    },
+    {
+      "en": "[Pharmacist] How long does it take for this to kick in?",
+      "ko": "이 약은 얼마나 지나야 효과가 나타나나요?"
+    },
+    {
+      "en": "[Mia] Are there any side effects I should watch out for?",
+      "ko": "주의해야 할 부작용이 있나요?"
+    },
+    {
+      "en": "[Sarah] You really went out of your way to help me out.",
+      "ko": "당신은 정말 수고를 아끼지 않고 저를 도와주었어요."
+    },
+    {
+      "en": "[Mia] I didn't mean to come across as rude—I was just tired.",
+      "ko": "무례하게 보이려던 건 아니었어요. 그냥 피곤했을 뿐이에요."
+    },
+    {
+      "en": "[Sarah] Your kind words mean the world to me—thank you.",
+      "ko": "당신의 다정한 말이 저에게 정말 큰 의미예요. 감사해요."
+    }
+  ]
+}

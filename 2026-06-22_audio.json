@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-22",
+  "day": 42,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I just placed an order online—it should arrive by tomorrow.", "ko": "방금 온라인으로 주문했어요. 내일까지 도착할 거예요."},
+    {"en": "Could you track my package? It hasn't shown up yet.", "ko": "제 택배 좀 추적해 줄 수 있나요? 아직 안 왔어요."},
+    {"en": "The app keeps acting up, so let's just call and order.", "ko": "앱이 계속 말썽을 부려요. 그냥 전화로 주문하죠."},
+    {"en": "I see your point, but let me offer a different perspective.", "ko": "말씀은 이해해요. 다른 시각으로도 한번 생각해 봐요."},
+    {"en": "Let's talk this over before we make a final decision.", "ko": "최종 결정을 내리기 전에 함께 이 문제를 논의해 봐요."}
+  ]
+}

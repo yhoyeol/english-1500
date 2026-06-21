@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 205 / 1500
+진행: 210 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 62 / 450
-- 상황별 회화: 70 / 525
-- 관계·소통: 41 / 300
+- 상황별 회화: 73 / 525
+- 관계·소통: 43 / 300
 - 비즈니스 기본: 32 / 225
 
-## 관용구·구동사 포함 문장: 130 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 132 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -299,3 +299,10 @@
 - I always make sure to eat a proper breakfast before I leave the house.
 - Could you brief me on what was discussed before I joined?
 - Let's run through the agenda quickly before we get started.
+
+### 2026-06-22 (Day 42)
+- I just placed an order online—it should arrive by tomorrow.
+- Could you track my package? It hasn't shown up yet.
+- The app keeps acting up, so let's just call and order.
+- I see your point, but let me offer a different perspective.
+- Let's talk this over before we make a final decision.

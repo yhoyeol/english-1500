@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-23",
+  "day": 43,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm starving—let's figure out what to have for dinner tonight.", "ko": "배고파 죽겠어—오늘 저녁에 뭐 먹을지 정해보자."},
+    {"en": "Could you help me tidy up the kitchen before dinner?", "ko": "저녁 전에 주방 정리하는 거 좀 도와줄 수 있어?"},
+    {"en": "I'm beat after a long day—let's just order in tonight.", "ko": "하루 종일 힘들었어—오늘 밤은 그냥 배달 시키자."},
+    {"en": "Excuse me, could you tell me where the reference section is?", "ko": "저기요, 참고 자료실이 어디 있는지 알려주실 수 있나요?"},
+    {"en": "I'd like to check out a few books—do I need a library card for that?", "ko": "책 몇 권을 빌리고 싶은데—그러려면 도서관 카드가 필요한가요?"}
+  ]
+}

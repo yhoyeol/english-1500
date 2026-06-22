@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 210 / 1500
+진행: 215 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 62 / 450
-- 상황별 회화: 73 / 525
+- 기본 일상: 65 / 450
+- 상황별 회화: 75 / 525
 - 관계·소통: 43 / 300
 - 비즈니스 기본: 32 / 225
 
-## 관용구·구동사 포함 문장: 132 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 135 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -306,3 +306,10 @@
 - The app keeps acting up, so let's just call and order.
 - I see your point, but let me offer a different perspective.
 - Let's talk this over before we make a final decision.
+
+### 2026-06-23 (Day 43)
+- I'm starving—let's figure out what to have for dinner tonight.
+- Could you help me tidy up the kitchen before dinner?
+- I'm beat after a long day—let's just order in tonight.
+- Excuse me, could you tell me where the reference section is?
+- I'd like to check out a few books—do I need a library card for that?

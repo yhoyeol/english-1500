@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-24",
+  "day": 44,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'd like to follow up on the report you shared.", "ko": "보내주신 보고서에 대해 후속 논의를 하고 싶습니다."},
+    {"en": "Your suggestions really helped us improve the final draft.", "ko": "당신의 제안들이 최종 초안을 개선하는 데 정말 도움이 됐습니다."},
+    {"en": "Let's put our heads together and figure this out.", "ko": "함께 머리를 맞대고 이 문제를 해결해 봅시다."},
+    {"en": "I really appreciate your honest and constructive feedback.", "ko": "솔직하고 건설적인 피드백 정말 감사합니다."},
+    {"en": "Could you look over my work before I send it out?", "ko": "제가 보내기 전에 제 작업을 한번 검토해 주시겠어요?"}
+  ]
+}

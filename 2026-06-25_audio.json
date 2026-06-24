@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-25",
+  "day": 45,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I've been looking forward to this concert for months.", "ko": "이 콘서트를 몇 달 동안 손꼽아 기다려 왔어."},
+    {"en": "My whole family is coming over for dinner this weekend.", "ko": "이번 주말에 온 가족이 저녁 식사하러 올 거야."},
+    {"en": "Could we grab a seat closer to the stage?", "ko": "무대에 더 가까운 자리로 앉을 수 있을까요?"},
+    {"en": "We're all getting together at my grandma's place for the holidays.", "ko": "명절에 할머니 댁에 다 같이 모일 거야."},
+    {"en": "The lead singer's voice was absolutely breathtaking tonight.", "ko": "오늘 밤 메인 보컬의 목소리는 정말 숨막히게 아름다웠어."}
+  ]
+}

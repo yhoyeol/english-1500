@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 220 / 1500
+진행: 225 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 65 / 450
-- 상황별 회화: 75 / 525
+- 기본 일상: 67 / 450
+- 상황별 회화: 78 / 525
 - 관계·소통: 45 / 300
 - 비즈니스 기본: 35 / 225
 
-## 관용구·구동사 포함 문장: 138 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 140 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -320,3 +320,10 @@
 - Let's put our heads together and figure this out.
 - I really appreciate your honest and constructive feedback.
 - Could you look over my work before I send it out?
+
+### 2026-06-25 (Day 45)
+- I've been looking forward to this concert for months.
+- My whole family is coming over for dinner this weekend.
+- Could we grab a seat closer to the stage?
+- We're all getting together at my grandma's place for the holidays.
+- The lead singer's voice was absolutely breathtaking tonight.

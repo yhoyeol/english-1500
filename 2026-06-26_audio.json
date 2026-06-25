@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-26",
+  "day": 46,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "You look great today—did you do something different?", "ko": "오늘 정말 좋아 보여요—뭔가 바꿨어요?"},
+    {"en": "You pulled it off better than anyone else could.", "ko": "그 누구보다도 잘 해냈어요."},
+    {"en": "Don't be too hard on yourself—everyone makes mistakes.", "ko": "너무 자책하지 마세요—누구나 실수해요."},
+    {"en": "Could we look at a place that's move-in ready?", "ko": "바로 입주 가능한 곳을 볼 수 있을까요?"},
+    {"en": "How much is the monthly rent, and are utilities included?", "ko": "월세가 얼마예요, 그리고 공과금이 포함되나요?"}
+  ]
+}

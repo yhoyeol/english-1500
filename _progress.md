@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 225 / 1500
+진행: 230 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 67 / 450
-- 상황별 회화: 78 / 525
+- 기본 일상: 70 / 450
+- 상황별 회화: 80 / 525
 - 관계·소통: 45 / 300
 - 비즈니스 기본: 35 / 225
 
-## 관용구·구동사 포함 문장: 140 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 143 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -327,3 +327,10 @@
 - Could we grab a seat closer to the stage?
 - We're all getting together at my grandma's place for the holidays.
 - The lead singer's voice was absolutely breathtaking tonight.
+
+### 2026-06-26 (Day 46)
+- You look great today—did you do something different?
+- You pulled it off better than anyone else could.
+- Don't be too hard on yourself—everyone makes mistakes.
+- Could we look at a place that's move-in ready?
+- How much is the monthly rent, and are utilities included?

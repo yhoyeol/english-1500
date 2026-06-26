@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-27",
+  "day": 47,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I hope we can put this behind us and move on.", "ko": "이 일은 잊어버리고 앞으로 나아갈 수 있으면 좋겠어."},
+    {"en": "I'm sorry things got so heated—that wasn't fair to you.", "ko": "상황이 너무 격해졌던 것 같아. 너한테 그러면 안 됐어."},
+    {"en": "I value our friendship too much to let one argument ruin it.", "ko": "우리 우정이 논쟁 하나로 망가지기엔 너무 소중해."},
+    {"en": "I'm afraid we're fully booked this weekend—shall I put you down for next Saturday?", "ko": "이번 주말은 예약이 꽉 찼습니다. 다음 주 토요일로 잡아드릴까요?"},
+    {"en": "Is there a shuttle service that runs between the hotel and the airport?", "ko": "호텔과 공항 사이에 셔틀 서비스가 있나요?"}
+  ]
+}

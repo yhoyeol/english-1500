@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 230 / 1500
+진행: 235 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 70 / 450
-- 상황별 회화: 80 / 525
-- 관계·소통: 45 / 300
+- 상황별 회화: 82 / 525
+- 관계·소통: 48 / 300
 - 비즈니스 기본: 35 / 225
 
-## 관용구·구동사 포함 문장: 143 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 145 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -334,3 +334,10 @@
 - Don't be too hard on yourself—everyone makes mistakes.
 - Could we look at a place that's move-in ready?
 - How much is the monthly rent, and are utilities included?
+
+### 2026-06-27 (Day 47)
+- I hope we can put this behind us and move on.
+- I'm sorry things got so heated—that wasn't fair to you.
+- I value our friendship too much to let one argument ruin it.
+- I'm afraid we're fully booked this weekend—shall I put you down for next Saturday?
+- Is there a shuttle service that runs between the hotel and the airport?

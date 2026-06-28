@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-29",
+  "day": 48,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could you watch my dog while I run some errands?", "ko": "심부름하는 동안 제 강아지 좀 봐줄 수 있어요?"},
+    {"en": "My cat gets into everything the moment I leave home.", "ko": "제가 집을 나서는 순간 고양이가 여기저기 다 건드려요."},
+    {"en": "My dog is due for his annual vet checkup next week.", "ko": "제 강아지가 다음 주에 연간 수의사 검진을 받을 때가 됐어요."},
+    {"en": "Could we set up a call to go over the details?", "ko": "세부 사항을 검토하려고 통화를 잡을 수 있을까요?"},
+    {"en": "I'd like to put forward a new idea for your consideration.", "ko": "검토해 주실 새로운 아이디어를 제안드리고 싶습니다."}
+  ]
+}

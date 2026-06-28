@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 235 / 1500
+진행: 240 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 70 / 450
+- 기본 일상: 73 / 450
 - 상황별 회화: 82 / 525
 - 관계·소통: 48 / 300
-- 비즈니스 기본: 35 / 225
+- 비즈니스 기본: 37 / 225
 
-## 관용구·구동사 포함 문장: 145 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 149 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -341,3 +341,10 @@
 - I value our friendship too much to let one argument ruin it.
 - I'm afraid we're fully booked this weekend—shall I put you down for next Saturday?
 - Is there a shuttle service that runs between the hotel and the airport?
+
+### 2026-06-29 (Day 48)
+- Could you watch my dog while I run some errands?
+- My cat gets into everything the moment I leave home.
+- My dog is due for his annual vet checkup next week.
+- Could we set up a call to go over the details?
+- I'd like to put forward a new idea for your consideration.

@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 240 / 1500
+진행: 245 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 73 / 450
-- 상황별 회화: 82 / 525
-- 관계·소통: 48 / 300
+- 상황별 회화: 85 / 525
+- 관계·소통: 50 / 300
 - 비즈니스 기본: 37 / 225
 
-## 관용구·구동사 포함 문장: 149 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 151 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -348,3 +348,10 @@
 - My dog is due for his annual vet checkup next week.
 - Could we set up a call to go over the details?
 - I'd like to put forward a new idea for your consideration.
+
+### 2026-06-30 (Day 49)
+- Could you recommend a local spot that's off the beaten path?
+- Is there an audio guide available in Korean here?
+- What time does the last tour of the day start?
+- You've come a long way—don't sell yourself short.
+- I believe in you—you'll do great out there.

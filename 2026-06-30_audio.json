@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-30",
+  "day": 49,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could you recommend a local spot that's off the beaten path?", "ko": "잘 알려지지 않은 현지 명소를 추천해 주실 수 있나요?"},
+    {"en": "Is there an audio guide available in Korean here?", "ko": "여기에 한국어로 된 오디오 가이드가 있나요?"},
+    {"en": "What time does the last tour of the day start?", "ko": "오늘 마지막 투어는 몇 시에 시작하나요?"},
+    {"en": "You've come a long way—don't sell yourself short.", "ko": "정말 많이 성장했어요—자신을 과소평가하지 마세요."},
+    {"en": "I believe in you—you'll do great out there.", "ko": "당신을 믿어요—정말 잘 해낼 거예요."}
+  ]
+}

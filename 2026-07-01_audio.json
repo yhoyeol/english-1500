@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-01",
+  "day": 50,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Can you hear me okay? Your voice keeps cutting in and out.", "ko": "잘 들려요? 목소리가 계속 끊겨요."},
+    {"en": "Could you share your screen so we can go over the slides together?", "ko": "슬라이드를 같이 볼 수 있도록 화면을 공유해 주시겠어요?"},
+    {"en": "I'm totally swamped today—let's catch up over chat instead of a call.", "ko": "오늘 너무 정신없어서요. 통화 대신 채팅으로 연락할게요."},
+    {"en": "I'll send you a quick summary of what we covered in the meeting.", "ko": "회의에서 다룬 내용을 간단히 정리해서 보내드릴게요."},
+    {"en": "Working from home has really grown on me—I can't imagine going back.", "ko": "재택근무가 점점 저한테 잘 맞는 것 같아요. 다시 출근하는 건 상상도 못하겠어요."}
+  ]
+}

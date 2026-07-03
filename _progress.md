@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 250 / 1500
+진행: 255 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 75 / 450
 - 상황별 회화: 88 / 525
-- 관계·소통: 50 / 300
-- 비즈니스 기본: 37 / 225
+- 관계·소통: 52 / 300
+- 비즈니스 기본: 40 / 225
 
-## 관용구·구동사 포함 문장: 155 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 157 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -362,3 +362,10 @@
 - I'm totally swamped today—let's catch up over chat instead of a call.
 - I'll send you a quick summary of what we covered in the meeting.
 - Working from home has really grown on me—I can't imagine going back.
+
+### 2026-07-04 (Day 51)
+- Could we reschedule our meeting to Thursday?
+- Can we sync up before the call?
+- I'll send a calendar invite shortly.
+- I want to throw him a surprise party.
+- Happy birthday! I hope all your wishes come true.

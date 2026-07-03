@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-04",
+  "day": 51,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could we reschedule our meeting to Thursday?", "ko": "회의를 목요일로 옮길 수 있을까요?"},
+    {"en": "Can we sync up before the call?", "ko": "통화 전에 미리 의견을 맞춰볼까요?"},
+    {"en": "I'll send a calendar invite shortly.", "ko": "곧 캘린더 초대를 보내드릴게요."},
+    {"en": "I want to throw him a surprise party.", "ko": "그를 위해 깜짝 파티를 열어주고 싶어."},
+    {"en": "Happy birthday! I hope all your wishes come true.", "ko": "생일 축하해! 소원이 모두 이루어지길 바라."}
+  ]
+}

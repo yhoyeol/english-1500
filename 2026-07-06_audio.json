@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-06",
+  "day": 52,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "Mondays always feel like such a drag.",
+      "ko": "월요일은 항상 너무 힘들게 느껴져요."
+    },
+    {
+      "en": "I need to ease back into my work routine.",
+      "ko": "다시 업무 루틴에 서서히 적응해야 해요."
+    },
+    {
+      "en": "Do you have a table for two, please?",
+      "ko": "두 명 자리 있나요?"
+    },
+    {
+      "en": "We're running a bit behind—could we get seated soon?",
+      "ko": "저희가 좀 늦었는데, 곧 자리에 앉을 수 있을까요?"
+    },
+    {
+      "en": "Could we sit by the window if possible?",
+      "ko": "가능하면 창가 자리에 앉을 수 있을까요?"
+    }
+  ]
+}

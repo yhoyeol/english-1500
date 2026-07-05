@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 255 / 1500
+진행: 260 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 75 / 450
-- 상황별 회화: 88 / 525
+- 기본 일상: 77 / 450
+- 상황별 회화: 91 / 525
 - 관계·소통: 52 / 300
 - 비즈니스 기본: 40 / 225
 
-## 관용구·구동사 포함 문장: 157 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 159 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -369,3 +369,10 @@
 - I'll send a calendar invite shortly.
 - I want to throw him a surprise party.
 - Happy birthday! I hope all your wishes come true.
+
+### 2026-07-06 (Day 52)
+- Mondays always feel like such a drag.
+- I need to ease back into my work routine.
+- Do you have a table for two, please?
+- We're running a bit behind—could we get seated soon?
+- Could we sit by the window if possible?

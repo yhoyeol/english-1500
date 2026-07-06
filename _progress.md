@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 260 / 1500
+진행: 265 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 77 / 450
-- 상황별 회화: 91 / 525
+- 기본 일상: 80 / 450
+- 상황별 회화: 93 / 525
 - 관계·소통: 52 / 300
 - 비즈니스 기본: 40 / 225
 
-## 관용구·구동사 포함 문장: 159 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 161 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -376,3 +376,10 @@
 - Do you have a table for two, please?
 - We're running a bit behind—could we get seated soon?
 - Could we sit by the window if possible?
+
+### 2026-07-07 (Day 53)
+- I need to hurry up or I'll miss my bus.
+- I always grab a quick breakfast before I leave.
+- Could you drop by the cafe with me?
+- I'll have a caramel latte and a blueberry muffin, please.
+- This muffin is out of this world!

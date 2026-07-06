@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-07",
+  "day": 53,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I need to hurry up or I'll miss my bus.", "ko": "서둘러야 해요, 안 그러면 버스를 놓칠 거예요."},
+    {"en": "I always grab a quick breakfast before I leave.", "ko": "저는 항상 나가기 전에 간단히 아침을 먹어요."},
+    {"en": "Could you drop by the cafe with me?", "ko": "저랑 같이 카페에 들를래요?"},
+    {"en": "I'll have a caramel latte and a blueberry muffin, please.", "ko": "카라멜 라떼랑 블루베리 머핀 주세요."},
+    {"en": "This muffin is out of this world!", "ko": "이 머핀 진짜 최고예요!"}
+  ]
+}

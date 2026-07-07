@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 265 / 1500
+진행: 270 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 80 / 450
-- 상황별 회화: 93 / 525
-- 관계·소통: 52 / 300
+- 상황별 회화: 95 / 525
+- 관계·소통: 55 / 300
 - 비즈니스 기본: 40 / 225
 
-## 관용구·구동사 포함 문장: 161 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 163 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -383,3 +383,10 @@
 - Could you drop by the cafe with me?
 - I'll have a caramel latte and a blueberry muffin, please.
 - This muffin is out of this world!
+
+### 2026-07-08 (Day 54)
+- Can I get something off my chest?
+- I really needed someone to talk to.
+- Thanks so much for listening to me.
+- I'd like to get my eyes checked.
+- Could you help me pick out new glasses?

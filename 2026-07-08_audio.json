@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-08",
+  "day": 54,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Can I get something off my chest?", "ko": "고민 좀 털어놓아도 될까?"},
+    {"en": "I really needed someone to talk to.", "ko": "정말 이야기할 사람이 필요했어."},
+    {"en": "Thanks so much for listening to me.", "ko": "내 얘기 들어줘서 정말 고마워."},
+    {"en": "I'd like to get my eyes checked.", "ko": "시력 검사를 받고 싶어요."},
+    {"en": "Could you help me pick out new glasses?", "ko": "새 안경 고르는 걸 도와주시겠어요?"}
+  ]
+}

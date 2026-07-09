@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-09",
+  "day": 55,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I need to clean out my closet this weekend.", "ko": "이번 주말에 옷장을 정리해야 해요."},
+    {"en": "Could you vacuum the living room before the guests arrive?", "ko": "손님들이 오기 전에 거실 청소기 좀 돌려줄래요?"},
+    {"en": "I finally got around to fixing the leaky faucet.", "ko": "드디어 새는 수도꼭지를 고칠 시간을 냈어요."},
+    {"en": "Let's prioritize the most urgent tasks for tomorrow morning.", "ko": "내일 아침에 가장 급한 일들부터 처리합시다."},
+    {"en": "We need to think outside the box for this project.", "ko": "이 프로젝트는 기존 틀을 벗어나서 생각해야 해요."}
+  ]
+}

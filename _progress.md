@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 270 / 1500
+진행: 275 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 80 / 450
+- 기본 일상: 83 / 450
 - 상황별 회화: 95 / 525
 - 관계·소통: 55 / 300
-- 비즈니스 기본: 40 / 225
+- 비즈니스 기본: 42 / 225
 
-## 관용구·구동사 포함 문장: 163 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 165 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -390,3 +390,10 @@
 - Thanks so much for listening to me.
 - I'd like to get my eyes checked.
 - Could you help me pick out new glasses?
+
+### 2026-07-09 (Day 55)
+- I need to clean out my closet this weekend.
+- Could you vacuum the living room before the guests arrive?
+- I finally got around to fixing the leaky faucet.
+- Let's prioritize the most urgent tasks for tomorrow morning.
+- We need to think outside the box for this project.

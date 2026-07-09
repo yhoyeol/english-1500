@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 275 / 1500
+진행: 280 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 83 / 450
-- 상황별 회화: 95 / 525
-- 관계·소통: 55 / 300
+- 상황별 회화: 98 / 525
+- 관계·소통: 57 / 300
 - 비즈니스 기본: 42 / 225
 
-## 관용구·구동사 포함 문장: 165 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 167 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -397,3 +397,10 @@
 - I finally got around to fixing the leaky faucet.
 - Let's prioritize the most urgent tasks for tomorrow morning.
 - We need to think outside the box for this project.
+
+### 2026-07-10 (Day 56)
+- Is it okay if I sit here?
+- I'm looking forward to meeting everyone tonight.
+- How long have you been coming to this group?
+- Can I pick your brain about something?
+- I could really use your advice on this.

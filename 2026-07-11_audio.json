@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-11",
+  "day": 57,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I love lounging around in my pajamas on weekends.", "ko": "저는 주말에 잠옷 차림으로 뒹굴거리는 걸 좋아해요."},
+    {"en": "I'm making pancakes and coffee for a late brunch.", "ko": "저는 늦은 브런치로 팬케이크와 커피를 만들고 있어요."},
+    {"en": "I could eat a horse right now!", "ko": "저 지금 배고파서 뭐든 다 먹을 수 있을 것 같아요!"},
+    {"en": "Please reply to my email at your earliest convenience.", "ko": "가능한 한 빨리 제 이메일에 답장 부탁드립니다."},
+    {"en": "Let's iron out the details before the meeting starts.", "ko": "회의 시작 전에 세부 사항을 정리합시다."}
+  ]
+}

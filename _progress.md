@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 280 / 1500
+진행: 285 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 83 / 450
+- 기본 일상: 86 / 450
 - 상황별 회화: 98 / 525
 - 관계·소통: 57 / 300
-- 비즈니스 기본: 42 / 225
+- 비즈니스 기본: 44 / 225
 
-## 관용구·구동사 포함 문장: 167 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 170 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -404,3 +404,10 @@
 - How long have you been coming to this group?
 - Can I pick your brain about something?
 - I could really use your advice on this.
+
+### 2026-07-11 (Day 57)
+- I love lounging around in my pajamas on weekends.
+- I'm making pancakes and coffee for a late brunch.
+- I could eat a horse right now!
+- Please reply to my email at your earliest convenience.
+- Let's iron out the details before the meeting starts.

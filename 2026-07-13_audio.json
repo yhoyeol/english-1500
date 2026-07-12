@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-13",
+  "day": 58,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I'm thinking about booking a trip for next month.",
+      "ko": "다음 달에 여행을 예약할까 생각 중이에요."
+    },
+    {
+      "en": "Let's map out our itinerary before we book flights.",
+      "ko": "항공권을 예약하기 전에 일정을 짜보자."
+    },
+    {
+      "en": "It's so hot outside that I sweat just walking to work.",
+      "ko": "밖이 너무 더워서 출근길에 걷기만 해도 땀이 나요."
+    },
+    {
+      "en": "I try to cool off with iced coffee every afternoon.",
+      "ko": "저는 매일 오후 아이스커피로 더위를 식히려고 해요."
+    },
+    {
+      "en": "Could you recommend a good place to stay near the beach?",
+      "ko": "해변 근처에 묵을 만한 좋은 곳을 추천해 주실 수 있나요?"
+    }
+  ]
+}

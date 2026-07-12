@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 285 / 1500
+진행: 290 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 86 / 450
-- 상황별 회화: 98 / 525
+- 기본 일상: 88 / 450
+- 상황별 회화: 101 / 525
 - 관계·소통: 57 / 300
 - 비즈니스 기본: 44 / 225
 
-## 관용구·구동사 포함 문장: 170 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 172 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -411,3 +411,10 @@
 - I could eat a horse right now!
 - Please reply to my email at your earliest convenience.
 - Let's iron out the details before the meeting starts.
+
+### 2026-07-13 (Day 58)
+- I'm thinking about booking a trip for next month.
+- Let's map out our itinerary before we book flights.
+- It's so hot outside that I sweat just walking to work.
+- I try to cool off with iced coffee every afternoon.
+- Could you recommend a good place to stay near the beach?

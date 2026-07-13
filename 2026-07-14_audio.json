@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-14",
+  "day": 59,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "Could you bear with me for a moment?",
+      "ko": "잠시만 참고 기다려 주시겠어요?"
+    },
+    {
+      "en": "I'm sorry, but I have to say no this time.",
+      "ko": "죄송하지만 이번엔 거절해야 할 것 같아요."
+    },
+    {
+      "en": "I'd like to renew my ID card, please.",
+      "ko": "신분증을 갱신하고 싶습니다."
+    },
+    {
+      "en": "It's not rocket science, so don't worry.",
+      "ko": "어려운 일이 아니니 걱정하지 마세요."
+    },
+    {
+      "en": "I hate to ask, but could you cover my shift for me?",
+      "ko": "부탁드리기 죄송하지만 제 근무를 대신해 주실 수 있나요?"
+    }
+  ]
+}

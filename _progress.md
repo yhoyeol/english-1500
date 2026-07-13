@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 290 / 1500
+진행: 295 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 88 / 450
-- 상황별 회화: 101 / 525
-- 관계·소통: 57 / 300
+- 상황별 회화: 103 / 525
+- 관계·소통: 60 / 300
 - 비즈니스 기본: 44 / 225
 
-## 관용구·구동사 포함 문장: 172 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 174 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -418,3 +418,10 @@
 - It's so hot outside that I sweat just walking to work.
 - I try to cool off with iced coffee every afternoon.
 - Could you recommend a good place to stay near the beach?
+
+### 2026-07-14 (Day 59)
+- Could you bear with me for a moment?
+- I'm sorry, but I have to say no this time.
+- I'd like to renew my ID card, please.
+- It's not rocket science, so don't worry.
+- I hate to ask, but could you cover my shift for me?

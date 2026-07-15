@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 295 / 1500
+진행: 300 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 88 / 450
+- 기본 일상: 91 / 450
 - 상황별 회화: 103 / 525
 - 관계·소통: 60 / 300
-- 비즈니스 기본: 44 / 225
+- 비즈니스 기본: 46 / 225
 
-## 관용구·구동사 포함 문장: 174 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 177 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -425,3 +425,10 @@
 - I'd like to renew my ID card, please.
 - It's not rocket science, so don't worry.
 - I hate to ask, but could you cover my shift for me?
+
+### 2026-07-15 (Day 60)
+- I like to read a few pages before falling asleep.
+- I always turn in early on weekdays.
+- Could you turn off the lights before you sleep?
+- I'd like to share my thoughts on this matter.
+- Let's get down to business and start the meeting.

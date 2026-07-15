@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-15",
+  "day": 60,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I like to read a few pages before falling asleep.",
+      "ko": "자기 전에 책을 몇 페이지 읽는 걸 좋아해요."
+    },
+    {
+      "en": "I always turn in early on weekdays.",
+      "ko": "저는 평일엔 항상 일찍 잠자리에 들어요."
+    },
+    {
+      "en": "Could you turn off the lights before you sleep?",
+      "ko": "자기 전에 불 좀 꺼줄래요?"
+    },
+    {
+      "en": "I'd like to share my thoughts on this matter.",
+      "ko": "이 문제에 대해 제 생각을 말씀드리고 싶어요."
+    },
+    {
+      "en": "Let's get down to business and start the meeting.",
+      "ko": "본론으로 들어가서 회의를 시작합시다."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-16",
+  "day": 61,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "Could you have this dry-cleaned by Friday?",
+      "ko": "이거 금요일까지 드라이클리닝해 주실 수 있나요?"
+    },
+    {
+      "en": "This stain won't come out no matter what.",
+      "ko": "이 얼룩이 아무리 해도 안 지워져요."
+    },
+    {
+      "en": "What time does the shop close today?",
+      "ko": "오늘 가게는 몇 시에 닫나요?"
+    },
+    {
+      "en": "Thanks for covering for me yesterday.",
+      "ko": "어제 저 대신 일해줘서 고마워요."
+    },
+    {
+      "en": "Let's grab lunch together sometime this week.",
+      "ko": "이번 주에 같이 점심 먹어요."
+    }
+  ]
+}

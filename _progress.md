@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 300 / 1500
+진행: 305 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 91 / 450
-- 상황별 회화: 103 / 525
-- 관계·소통: 60 / 300
+- 상황별 회화: 106 / 525
+- 관계·소통: 62 / 300
 - 비즈니스 기본: 46 / 225
 
-## 관용구·구동사 포함 문장: 177 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 179 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -432,3 +432,10 @@
 - Could you turn off the lights before you sleep?
 - I'd like to share my thoughts on this matter.
 - Let's get down to business and start the meeting.
+
+### 2026-07-16 (Day 61)
+- Could you have this dry-cleaned by Friday?
+- This stain won't come out no matter what.
+- What time does the shop close today?
+- Thanks for covering for me yesterday.
+- Let's grab lunch together sometime this week.

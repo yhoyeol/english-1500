@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-17",
+  "day": 62,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I'd like to open a checking account, please.",
+      "ko": "입출금 계좌를 개설하고 싶어요."
+    },
+    {
+      "en": "Could you look up my account balance for me?",
+      "ko": "제 계좌 잔액을 좀 조회해 주시겠어요?"
+    },
+    {
+      "en": "I need to transfer some money to my sister.",
+      "ko": "여동생에게 돈을 좀 송금해야 해요."
+    },
+    {
+      "en": "Money doesn't grow on trees, so I'm saving up.",
+      "ko": "돈이 하늘에서 떨어지는 게 아니니까 저축하고 있어요."
+    },
+    {
+      "en": "Are there any fees for using this ATM?",
+      "ko": "이 ATM을 사용하는 데 수수료가 있나요?"
+    }
+  ]
+}

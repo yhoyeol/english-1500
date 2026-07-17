@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-18",
+  "day": 63,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Let's sort out this misunderstanding together.", "ko": "오해를 함께 풀어봅시다."},
+    {"en": "Could you clarify what you meant in the email?", "ko": "이메일에서 말씀하신 부분을 좀 더 설명해 주시겠어요?"},
+    {"en": "I didn't mean to step on your toes.", "ko": "기분 상하게 할 의도는 아니었어요."},
+    {"en": "Let's find a middle ground on this issue.", "ko": "이 문제에 대해 절충안을 찾아봅시다."},
+    {"en": "I appreciate your patience while we resolve this.", "ko": "이 문제를 해결하는 동안 인내해 주셔서 감사합니다."}
+  ]
+}

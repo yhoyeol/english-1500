@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-20",
+  "day": 64,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I've decided to work out every morning before work.",
+      "ko": "저는 출근 전에 매일 아침 운동하기로 했어요."
+    },
+    {
+      "en": "I need to get into the habit of stretching daily.",
+      "ko": "저는 매일 스트레칭하는 습관을 들여야 해요."
+    },
+    {
+      "en": "My car has been making a strange noise lately.",
+      "ko": "요즘 제 차에서 이상한 소리가 나요."
+    },
+    {
+      "en": "Could you check out the engine for me?",
+      "ko": "엔진 좀 확인해 주시겠어요?"
+    },
+    {
+      "en": "How much will the repair cost, roughly?",
+      "ko": "수리 비용이 대략 얼마나 나올까요?"
+    }
+  ]
+}

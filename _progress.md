@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 315 / 1500
+진행: 320 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 93 / 450
-- 상황별 회화: 109 / 525
+- 기본 일상: 95 / 450
+- 상황별 회화: 112 / 525
 - 관계·소통: 64 / 300
 - 비즈니스 기본: 49 / 225
 
-## 관용구·구동사 포함 문장: 183 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 185 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -453,3 +453,10 @@
 - I didn't mean to step on your toes.
 - Let's find a middle ground on this issue.
 - I appreciate your patience while we resolve this.
+
+### 2026-07-20 (Day 64)
+- I've decided to work out every morning before work.
+- I need to get into the habit of stretching daily.
+- My car has been making a strange noise lately.
+- Could you check out the engine for me?
+- How much will the repair cost, roughly?

@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 320 / 1500
+진행: 325 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 95 / 450
+- 기본 일상: 98 / 450
 - 상황별 회화: 112 / 525
-- 관계·소통: 64 / 300
+- 관계·소통: 66 / 300
 - 비즈니스 기본: 49 / 225
 
-## 관용구·구동사 포함 문장: 185 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 187 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -460,3 +460,10 @@
 - My car has been making a strange noise lately.
 - Could you check out the engine for me?
 - How much will the repair cost, roughly?
+
+### 2026-07-23 (Day 65)
+- Let's split up the housework evenly this week.
+- I usually vacuum the living room on Sundays.
+- Could you fold the laundry after dinner?
+- I called my mom just to check in.
+- I should text my sister more often.

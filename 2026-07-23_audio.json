@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-23",
+  "day": 65,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Let's split up the housework evenly this week.", "ko": "이번 주는 집안일을 공평하게 나눠서 하자."},
+    {"en": "I usually vacuum the living room on Sundays.", "ko": "나는 보통 일요일에 거실을 청소기로 청소해."},
+    {"en": "Could you fold the laundry after dinner?", "ko": "저녁 먹고 나서 빨래 좀 개켜줄래?"},
+    {"en": "I called my mom just to check in.", "ko": "그냥 안부 확인하려고 엄마한테 전화했어."},
+    {"en": "I should text my sister more often.", "ko": "여동생한테 더 자주 문자해야겠어."}
+  ]
+}

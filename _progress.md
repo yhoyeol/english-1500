@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 325 / 1500
+진행: 330 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 98 / 450
-- 상황별 회화: 112 / 525
+- 상황별 회화: 115 / 525
 - 관계·소통: 66 / 300
-- 비즈니스 기본: 49 / 225
+- 비즈니스 기본: 51 / 225
 
-## 관용구·구동사 포함 문장: 187 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 189 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -467,3 +467,10 @@
 - Could you fold the laundry after dinner?
 - I called my mom just to check in.
 - I should text my sister more often.
+
+### 2026-07-24 (Day 66)
+- Could you order more printer paper for the office?
+- My laptop keeps freezing up during meetings.
+- Could you put in a request for a new keyboard?
+- It'll take me a while to get up to speed.
+- Could you show me how this software works?

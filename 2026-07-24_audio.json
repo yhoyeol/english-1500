@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-24",
+  "day": 66,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could you order more printer paper for the office?", "ko": "사무실에 프린터 용지 좀 더 주문해 주시겠어요?"},
+    {"en": "My laptop keeps freezing up during meetings.", "ko": "제 노트북이 회의 중에 자꾸 멈춰요."},
+    {"en": "Could you put in a request for a new keyboard?", "ko": "새 키보드 신청 좀 넣어주시겠어요?"},
+    {"en": "It'll take me a while to get up to speed.", "ko": "익숙해지려면 시간이 좀 걸릴 것 같아요."},
+    {"en": "Could you show me how this software works?", "ko": "이 소프트웨어 사용법 좀 알려주시겠어요?"}
+  ]
+}

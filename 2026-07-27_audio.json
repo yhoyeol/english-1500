@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-27",
+  "day": 67,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I ran into my neighbor in the hallway today.", "ko": "오늘 복도에서 이웃을 우연히 마주쳤어요."},
+    {"en": "She invited me over for dinner this Friday.", "ko": "그녀가 이번 금요일 저녁 식사에 저를 초대했어요."},
+    {"en": "I need to clean the living room before guests arrive.", "ko": "손님들이 오기 전에 거실을 청소해야 해요."},
+    {"en": "Could we push back our reservation by an hour?", "ko": "예약을 한 시간 늦출 수 있을까요?"},
+    {"en": "I'm looking forward to seeing you this weekend.", "ko": "이번 주말에 당신을 만나기를 기대하고 있어요."}
+  ]
+}

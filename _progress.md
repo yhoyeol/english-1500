@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 330 / 1500
+진행: 335 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 98 / 450
-- 상황별 회화: 115 / 525
+- 기본 일상: 101 / 450
+- 상황별 회화: 117 / 525
 - 관계·소통: 66 / 300
 - 비즈니스 기본: 51 / 225
 
-## 관용구·구동사 포함 문장: 189 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 191 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -474,3 +474,10 @@
 - Could you put in a request for a new keyboard?
 - It'll take me a while to get up to speed.
 - Could you show me how this software works?
+
+### 2026-07-27 (Day 67)
+- I ran into my neighbor in the hallway today.
+- She invited me over for dinner this Friday.
+- I need to clean the living room before guests arrive.
+- Could we push back our reservation by an hour?
+- I'm looking forward to seeing you this weekend.

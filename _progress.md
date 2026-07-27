@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 335 / 1500
+진행: 340 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 101 / 450
-- 상황별 회화: 117 / 525
-- 관계·소통: 66 / 300
+- 상황별 회화: 119 / 525
+- 관계·소통: 69 / 300
 - 비즈니스 기본: 51 / 225
 
-## 관용구·구동사 포함 문장: 191 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 193 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -481,3 +481,10 @@
 - I need to clean the living room before guests arrive.
 - Could we push back our reservation by an hour?
 - I'm looking forward to seeing you this weekend.
+
+### 2026-07-28 (Day 68)
+- Don't beat yourself up over this.
+- You've been working so hard lately.
+- Let's grab dinner tonight after work.
+- Could we book a table for two at seven?
+- I'm glad I could cheer you up.

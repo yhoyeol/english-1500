@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-28",
+  "day": 68,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "Don't beat yourself up over this.",
+      "ko": "그 일로 자신을 너무 탓하지 마."
+    },
+    {
+      "en": "You've been working so hard lately.",
+      "ko": "요즘 정말 열심히 일하고 있잖아."
+    },
+    {
+      "en": "Let's grab dinner tonight after work.",
+      "ko": "퇴근 후 오늘 저녁 같이 먹자."
+    },
+    {
+      "en": "Could we book a table for two at seven?",
+      "ko": "7시에 두 명 자리 예약할 수 있을까요?"
+    },
+    {
+      "en": "I'm glad I could cheer you up.",
+      "ko": "너를 기운 나게 해줄 수 있어서 기뻐."
+    }
+  ]
+}

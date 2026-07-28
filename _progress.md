@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 340 / 1500
+진행: 345 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 101 / 450
+- 기본 일상: 104 / 450
 - 상황별 회화: 119 / 525
 - 관계·소통: 69 / 300
-- 비즈니스 기본: 51 / 225
+- 비즈니스 기본: 53 / 225
 
-## 관용구·구동사 포함 문장: 193 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 195 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -488,3 +488,10 @@
 - Let's grab dinner tonight after work.
 - Could we book a table for two at seven?
 - I'm glad I could cheer you up.
+
+### 2026-07-29 (Day 69)
+- I'm getting ready to move next weekend.
+- Could you help me sort out these boxes?
+- Let's set aside some time for feedback today.
+- I appreciate you being straight with me about it.
+- I should ask my friend for moving tips.

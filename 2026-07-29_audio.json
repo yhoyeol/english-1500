@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-29",
+  "day": 69,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm getting ready to move next weekend.", "ko": "다음 주말에 이사 갈 준비를 하고 있어요."},
+    {"en": "Could you help me sort out these boxes?", "ko": "이 상자들 정리하는 것 좀 도와줄 수 있어요?"},
+    {"en": "Let's set aside some time for feedback today.", "ko": "오늘 피드백을 위한 시간을 좀 마련해봐요."},
+    {"en": "I appreciate you being straight with me about it.", "ko": "그 일에 대해 솔직하게 말해줘서 고마워요."},
+    {"en": "I should ask my friend for moving tips.", "ko": "이사 팁을 친구에게 물어봐야 해요."}
+  ]
+}

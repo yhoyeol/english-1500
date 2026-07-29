@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-30",
+  "day": 70,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Could you please keep it down a bit?", "ko": "소리 좀 조금 줄여주시겠어요?"},
+    {"en": "I'm sorry to bring this up, but it's been noisy.", "ko": "이런 말씀드려 죄송하지만, 요즘 좀 시끄러워서요."},
+    {"en": "I don't want to make a big deal out of it.", "ko": "이 일을 크게 만들고 싶지는 않아요."},
+    {"en": "I just wanted to bring it to your attention.", "ko": "그냥 알려드리고 싶었어요."},
+    {"en": "Thanks for understanding — I really appreciate it.", "ko": "이해해 주셔서 감사해요, 정말 고마워요."}
+  ]
+}

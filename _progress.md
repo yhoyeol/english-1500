@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 350 / 1500
+진행: 355 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 104 / 450
-- 상황별 회화: 122 / 525
+- 기본 일상: 107 / 450
+- 상황별 회화: 124 / 525
 - 관계·소통: 71 / 300
 - 비즈니스 기본: 53 / 225
 
-## 관용구·구동사 포함 문장: 197 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 199 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -502,3 +502,9 @@
 - I don't want to make a big deal out of it.
 - I just wanted to bring it to your attention.
 - Thanks for understanding — I really appreciate it.
+### 2026-07-31 (Day 71)
+- I should clean out the fridge this weekend.
+- This milk is about to go bad.
+- Could you check the expiration date on this?
+- I need to push back my hair appointment.
+- Could I reschedule for next Tuesday instead?

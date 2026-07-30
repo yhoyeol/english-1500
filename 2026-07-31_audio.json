@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-31",
+  "day": 71,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I should clean out the fridge this weekend.",
+      "ko": "이번 주말에 냉장고를 정리해야겠어요."
+    },
+    {
+      "en": "This milk is about to go bad.",
+      "ko": "이 우유 상할 때가 다 됐어요."
+    },
+    {
+      "en": "Could you check the expiration date on this?",
+      "ko": "이거 유통기한 좀 확인해 줄래요?"
+    },
+    {
+      "en": "I need to push back my hair appointment.",
+      "ko": "미용실 예약을 미뤄야 할 것 같아요."
+    },
+    {
+      "en": "Could I reschedule for next Tuesday instead?",
+      "ko": "대신 다음 주 화요일로 일정을 바꿀 수 있을까요?"
+    }
+  ]
+}

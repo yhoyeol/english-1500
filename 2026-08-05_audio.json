@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-05",
+  "day": 72,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I need to book a flight for my upcoming business trip.", "ko": "다가오는 출장을 위해 항공편을 예약해야 해요."},
+    {"en": "Let's touch base before you head out for the trip.", "ko": "출장 떠나기 전에 잠깐 얘기 나눠요."},
+    {"en": "Could you recommend a good hotel near the conference center?", "ko": "컨퍼런스 센터 근처 좋은 호텔 추천해 주실 수 있나요?"},
+    {"en": "I need to check in online before I head to the airport.", "ko": "공항 가기 전에 온라인 체크인을 해야 해요."},
+    {"en": "Please make sure the itinerary is ready by Friday.", "ko": "금요일까지 일정표가 준비되도록 해 주세요."}
+  ]
+}

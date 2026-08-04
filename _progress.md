@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 355 / 1500
+진행: 360 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 107 / 450
-- 상황별 회화: 124 / 525
+- 상황별 회화: 126 / 525
 - 관계·소통: 71 / 300
-- 비즈니스 기본: 53 / 225
+- 비즈니스 기본: 56 / 225
 
-## 관용구·구동사 포함 문장: 199 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 201 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -508,3 +508,9 @@
 - Could you check the expiration date on this?
 - I need to push back my hair appointment.
 - Could I reschedule for next Tuesday instead?
+### 2026-08-05 (Day 72)
+- I need to book a flight for my upcoming business trip.
+- Let's touch base before you head out for the trip.
+- Could you recommend a good hotel near the conference center?
+- I need to check in online before I head to the airport.
+- Please make sure the itinerary is ready by Friday.

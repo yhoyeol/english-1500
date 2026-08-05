@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-06",
+  "day": 73,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I just wanted to check in and see how you're doing.",
+      "ko": "그냥 안부 확인차 연락했어요. 어떻게 지내는지 궁금해서요."
+    },
+    {
+      "en": "I like to sip my coffee slowly in the morning.",
+      "ko": "저는 아침에 커피를 천천히 음미하며 마시는 걸 좋아해요."
+    },
+    {
+      "en": "Let's break the ice before the meeting starts.",
+      "ko": "회의 시작 전에 어색한 분위기를 좀 풀어봐요."
+    },
+    {
+      "en": "I always check the weather before I leave home.",
+      "ko": "저는 집을 나서기 전에 항상 날씨를 확인해요."
+    },
+    {
+      "en": "It's nice to see a familiar face here.",
+      "ko": "여기서 낯익은 얼굴을 보니 반갑네요."
+    }
+  ]
+}

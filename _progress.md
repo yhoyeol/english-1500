@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 360 / 1500
+진행: 365 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 107 / 450
+- 기본 일상: 109 / 450
 - 상황별 회화: 126 / 525
-- 관계·소통: 71 / 300
+- 관계·소통: 74 / 300
 - 비즈니스 기본: 56 / 225
 
-## 관용구·구동사 포함 문장: 201 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 203 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -514,3 +514,9 @@
 - Could you recommend a good hotel near the conference center?
 - I need to check in online before I head to the airport.
 - Please make sure the itinerary is ready by Friday.
+### 2026-08-06 (Day 73)
+- I just wanted to check in and see how you're doing.
+- I like to sip my coffee slowly in the morning.
+- Let's break the ice before the meeting starts.
+- I always check the weather before I leave home.
+- It's nice to see a familiar face here.

@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 365 / 1500
+진행: 370 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 109 / 450
-- 상황별 회화: 126 / 525
+- 기본 일상: 111 / 450
+- 상황별 회화: 129 / 525
 - 관계·소통: 74 / 300
 - 비즈니스 기본: 56 / 225
 
-## 관용구·구동사 포함 문장: 203 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 205 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -520,3 +520,9 @@
 - Let's break the ice before the meeting starts.
 - I always check the weather before I leave home.
 - It's nice to see a familiar face here.
+### 2026-08-07 (Day 74)
+- I like to take a walk around my neighborhood.
+- Let's check out that new park this weekend.
+- I always bring a bottle of water when I go out.
+- Do you want to grab some ice cream after our walk?
+- Let's just play it by ear and see how it goes.

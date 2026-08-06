@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-07",
+  "day": 74,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I like to take a walk around my neighborhood.",
+      "ko": "저는 동네를 산책하는 걸 좋아해요."
+    },
+    {
+      "en": "Let's check out that new park this weekend.",
+      "ko": "이번 주말에 그 새로 생긴 공원에 가보자."
+    },
+    {
+      "en": "I always bring a bottle of water when I go out.",
+      "ko": "저는 외출할 때 항상 물 한 병을 챙겨요."
+    },
+    {
+      "en": "Do you want to grab some ice cream after our walk?",
+      "ko": "산책 후에 아이스크림 먹으러 갈래요?"
+    },
+    {
+      "en": "Let's just play it by ear and see how it goes.",
+      "ko": "그냥 상황 봐가면서 결정하자."
+    }
+  ]
+}

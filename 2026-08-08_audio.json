@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-08",
+  "day": 75,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I'd like to change my mobile plan, please.",
+      "ko": "휴대폰 요금제를 변경하고 싶어요."
+    },
+    {
+      "en": "My data keeps running out before the month ends.",
+      "ko": "이번 달이 끝나기도 전에 데이터가 다 떨어져요."
+    },
+    {
+      "en": "Is there a plan with more data available?",
+      "ko": "데이터가 더 많은 요금제가 있나요?"
+    },
+    {
+      "en": "I could really use some advice right now.",
+      "ko": "지금 정말 조언이 필요해요."
+    },
+    {
+      "en": "Can we talk this over sometime this week?",
+      "ko": "이번 주중에 이 얘기 좀 나눌 수 있을까요?"
+    }
+  ]
+}

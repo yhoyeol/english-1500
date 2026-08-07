@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 370 / 1500
+진행: 375 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 111 / 450
-- 상황별 회화: 129 / 525
-- 관계·소통: 74 / 300
+- 상황별 회화: 132 / 525
+- 관계·소통: 76 / 300
 - 비즈니스 기본: 56 / 225
 
-## 관용구·구동사 포함 문장: 205 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 207 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -526,3 +526,9 @@
 - I always bring a bottle of water when I go out.
 - Do you want to grab some ice cream after our walk?
 - Let's just play it by ear and see how it goes.
+### 2026-08-08 (Day 75)
+- I'd like to change my mobile plan, please.
+- My data keeps running out before the month ends.
+- Is there a plan with more data available?
+- I could really use some advice right now.
+- Can we talk this over sometime this week?

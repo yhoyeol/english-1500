@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-10",
+  "day": 76,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm expecting a package to arrive this afternoon.", "ko": "오늘 오후에 택배가 도착할 예정이에요."},
+    {"en": "This package never showed up at my door.", "ko": "이 택배가 우리 집 앞에 도착하지 않았어요."},
+    {"en": "I'd like to return this item and get a refund.", "ko": "이 물건을 반품하고 환불받고 싶어요."},
+    {"en": "I need to finish my slides before the presentation.", "ko": "발표 전에 슬라이드를 마무리해야 해요."},
+    {"en": "Let's go over the main points before we present.", "ko": "발표하기 전에 핵심 내용을 짚어봐요."}
+  ]
+}

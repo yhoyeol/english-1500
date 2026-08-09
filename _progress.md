@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 375 / 1500
+진행: 380 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 111 / 450
+- 기본 일상: 114 / 450
 - 상황별 회화: 132 / 525
 - 관계·소통: 76 / 300
-- 비즈니스 기본: 56 / 225
+- 비즈니스 기본: 58 / 225
 
-## 관용구·구동사 포함 문장: 207 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 209 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -532,3 +532,9 @@
 - Is there a plan with more data available?
 - I could really use some advice right now.
 - Can we talk this over sometime this week?
+### 2026-08-10 (Day 76)
+- I'm expecting a package to arrive this afternoon.
+- This package never showed up at my door.
+- I'd like to return this item and get a refund.
+- I need to finish my slides before the presentation.
+- Let's go over the main points before we present.

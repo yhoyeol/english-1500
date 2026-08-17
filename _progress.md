@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 380 / 1500
+진행: 385 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 114 / 450
-- 상황별 회화: 132 / 525
-- 관계·소통: 76 / 300
+- 상황별 회화: 135 / 525
+- 관계·소통: 78 / 300
 - 비즈니스 기본: 58 / 225
 
-## 관용구·구동사 포함 문장: 209 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 211 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -538,3 +538,9 @@
 - I'd like to return this item and get a refund.
 - I need to finish my slides before the presentation.
 - Let's go over the main points before we present.
+### 2026-08-18 (Day 77)
+- I'd like to report a lost item, please.
+- Where's the lost and found in this building?
+- I think I left my bag behind on the bus.
+- Don't beat yourself up over it, it happens.
+- I'm sure everything will work out fine.

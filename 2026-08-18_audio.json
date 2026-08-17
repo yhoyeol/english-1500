@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-18",
+  "day": 77,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'd like to report a lost item, please.", "ko": "분실물 신고를 하고 싶습니다."},
+    {"en": "Where's the lost and found in this building?", "ko": "이 건물에 분실물 센터가 어디에 있나요?"},
+    {"en": "I think I left my bag behind on the bus.", "ko": "버스에 가방을 두고 내린 것 같아요."},
+    {"en": "Don't beat yourself up over it, it happens.", "ko": "너무 자책하지 마, 그런 일은 흔히 있어."},
+    {"en": "I'm sure everything will work out fine.", "ko": "분명 다 잘 풀릴 거야."}
+  ]
+}

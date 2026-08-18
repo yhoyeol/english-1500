@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 385 / 1500
+진행: 390 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 114 / 450
-- 상황별 회화: 135 / 525
+- 기본 일상: 117 / 450
+- 상황별 회화: 137 / 525
 - 관계·소통: 78 / 300
 - 비즈니스 기본: 58 / 225
 
-## 관용구·구동사 포함 문장: 211 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 213 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -544,3 +544,9 @@
 - I think I left my bag behind on the bus.
 - Don't beat yourself up over it, it happens.
 - I'm sure everything will work out fine.
+### 2026-08-19 (Day 78)
+- My washing machine is making a strange noise.
+- It broke down out of the blue this morning.
+- Could you send a technician to take a look?
+- How soon can you fit me in for a repair?
+- I'll have to do the laundry by hand until it's fixed.

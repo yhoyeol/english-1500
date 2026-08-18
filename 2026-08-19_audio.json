@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-19",
+  "day": 78,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "My washing machine is making a strange noise.", "ko": "세탁기에서 이상한 소리가 나요."},
+    {"en": "It broke down out of the blue this morning.", "ko": "오늘 아침 갑자기 고장 났어요."},
+    {"en": "Could you send a technician to take a look?", "ko": "기사님을 보내서 한번 봐주실 수 있나요?"},
+    {"en": "How soon can you fit me in for a repair?", "ko": "수리하러 언제 오실 수 있나요?"},
+    {"en": "I'll have to do the laundry by hand until it's fixed.", "ko": "고칠 때까지 손빨래를 해야겠어요."}
+  ]
+}

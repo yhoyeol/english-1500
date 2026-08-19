@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-20",
+  "day": 79,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I need to tidy up my room this weekend.", "ko": "이번 주말에 방을 정리해야 해요."},
+    {"en": "Could you put these boxes in the closet?", "ko": "이 상자들을 옷장에 넣어 줄 수 있어요?"},
+    {"en": "I finally sorted out my messy desk today.", "ko": "드디어 오늘 지저분한 책상을 정리했어요."},
+    {"en": "I need to reply to this email by noon.", "ko": "정오까지 이 이메일에 답장해야 해요."},
+    {"en": "I'm on top of all my tasks today.", "ko": "오늘 제 업무를 다 잘 관리하고 있어요."}
+  ]
+}

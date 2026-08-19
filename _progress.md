@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 390 / 1500
+진행: 395 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 117 / 450
+- 기본 일상: 120 / 450
 - 상황별 회화: 137 / 525
 - 관계·소통: 78 / 300
-- 비즈니스 기본: 58 / 225
+- 비즈니스 기본: 60 / 225
 
-## 관용구·구동사 포함 문장: 213 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 215 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -550,3 +550,9 @@
 - Could you send a technician to take a look?
 - How soon can you fit me in for a repair?
 - I'll have to do the laundry by hand until it's fixed.
+### 2026-08-20 (Day 79)
+- I need to tidy up my room this weekend.
+- Could you put these boxes in the closet?
+- I finally sorted out my messy desk today.
+- I need to reply to this email by noon.
+- I'm on top of all my tasks today.

@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-21",
+  "day": 80,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "It's been way too long since we last met!", "ko": "우리 만난 지 너무 오래됐네요!"},
+    {"en": "You look exactly the same as before!", "ko": "예전이랑 똑같아 보여요!"},
+    {"en": "Let's not lose touch this time.", "ko": "이번엔 연락 끊지 말아요."},
+    {"en": "I just ordered a new bookshelf online.", "ko": "방금 온라인으로 새 책장을 주문했어요."},
+    {"en": "I need to put this furniture together tonight.", "ko": "오늘 밤에 이 가구를 조립해야 해요."}
+  ]
+}

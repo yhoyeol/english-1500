@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 395 / 1500
+진행: 400 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 120 / 450
-- 상황별 회화: 137 / 525
-- 관계·소통: 78 / 300
+- 상황별 회화: 139 / 525
+- 관계·소통: 81 / 300
 - 비즈니스 기본: 60 / 225
 
-## 관용구·구동사 포함 문장: 215 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 217 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -556,3 +556,9 @@
 - I finally sorted out my messy desk today.
 - I need to reply to this email by noon.
 - I'm on top of all my tasks today.
+### 2026-08-21 (Day 80)
+- It's been way too long since we last met!
+- You look exactly the same as before!
+- Let's not lose touch this time.
+- I just ordered a new bookshelf online.
+- I need to put this furniture together tonight.

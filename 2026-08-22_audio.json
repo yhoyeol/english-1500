@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-22",
+  "day": 81,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I need to fill out this form before I submit it.", "ko": "제출하기 전에 이 서류를 작성해야 해요."},
+    {"en": "Which window should I go to for this?", "ko": "이 일은 몇 번 창구로 가야 하나요?"},
+    {"en": "How long will it take to process this application?", "ko": "이 신청서 처리하는 데 얼마나 걸리나요?"},
+    {"en": "I need to pick up a few things at the store.", "ko": "마트에서 몇 가지 살 게 있어요."},
+    {"en": "Could you grab some eggs while you're out?", "ko": "나간 김에 계란 좀 사다 줄 수 있어요?"}
+  ]
+}

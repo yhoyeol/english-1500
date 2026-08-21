@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 400 / 1500
+진행: 405 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 120 / 450
-- 상황별 회화: 139 / 525
+- 기본 일상: 122 / 450
+- 상황별 회화: 142 / 525
 - 관계·소통: 81 / 300
 - 비즈니스 기본: 60 / 225
 
-## 관용구·구동사 포함 문장: 217 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 220 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -562,3 +562,9 @@
 - Let's not lose touch this time.
 - I just ordered a new bookshelf online.
 - I need to put this furniture together tonight.
+### 2026-08-22 (Day 81)
+- I need to fill out this form before I submit it.
+- Which window should I go to for this?
+- How long will it take to process this application?
+- I need to pick up a few things at the store.
+- Could you grab some eggs while you're out?

@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 405 / 1500
+진행: 410 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 122 / 450
 - 상황별 회화: 142 / 525
-- 관계·소통: 81 / 300
-- 비즈니스 기본: 60 / 225
+- 관계·소통: 83 / 300
+- 비즈니스 기본: 63 / 225
 
-## 관용구·구동사 포함 문장: 220 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 222 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -568,3 +568,9 @@
 - How long will it take to process this application?
 - I need to pick up a few things at the store.
 - Could you grab some eggs while you're out?
+### 2026-08-24 (Day 82)
+- Could we move the deadline up by two days?
+- I'll draft the proposal and send it over.
+- You've got what it takes to succeed.
+- I'm always here to cheer you on.
+- Let's nail down the budget numbers by Friday.

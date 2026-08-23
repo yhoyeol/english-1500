@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-24",
+  "day": 82,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "Could we move the deadline up by two days?",
+      "ko": "마감일을 이틀 앞당길 수 있을까요?"
+    },
+    {
+      "en": "I'll draft the proposal and send it over.",
+      "ko": "제안서 초안을 작성해서 보내드릴게요."
+    },
+    {
+      "en": "You've got what it takes to succeed.",
+      "ko": "넌 성공할 자질이 있어."
+    },
+    {
+      "en": "I'm always here to cheer you on.",
+      "ko": "난 항상 널 응원할게."
+    },
+    {
+      "en": "Let's nail down the budget numbers by Friday.",
+      "ko": "금요일까지 예산 수치를 확정합시다."
+    }
+  ]
+}

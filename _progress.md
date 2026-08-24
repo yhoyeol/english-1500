@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 410 / 1500
+진행: 415 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 122 / 450
-- 상황별 회화: 142 / 525
+- 기본 일상: 124 / 450
+- 상황별 회화: 145 / 525
 - 관계·소통: 83 / 300
 - 비즈니스 기본: 63 / 225
 
-## 관용구·구동사 포함 문장: 222 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 224 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -574,3 +574,10 @@
 - You've got what it takes to succeed.
 - I'm always here to cheer you on.
 - Let's nail down the budget numbers by Friday.
+
+### 2026-08-25 (Day 83)
+- I'd like to pay my electricity bill today.
+- Could I set up automatic payments for my bills?
+- I usually pay my bills online these days.
+- I always check my bills at the end of the month.
+- I'm trying to make ends meet this month.

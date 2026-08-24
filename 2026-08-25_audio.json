@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-25",
+  "day": 83,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I'd like to pay my electricity bill today.",
+      "ko": "오늘 전기 요금을 내고 싶어요."
+    },
+    {
+      "en": "Could I set up automatic payments for my bills?",
+      "ko": "공과금 자동이체를 신청할 수 있을까요?"
+    },
+    {
+      "en": "I usually pay my bills online these days.",
+      "ko": "저는 요즘 보통 온라인으로 공과금을 내요."
+    },
+    {
+      "en": "I always check my bills at the end of the month.",
+      "ko": "저는 항상 월말에 청구서를 확인해요."
+    },
+    {
+      "en": "I'm trying to make ends meet this month.",
+      "ko": "이번 달에는 그럭저럭 생활비를 맞추려고 해요."
+    }
+  ]
+}

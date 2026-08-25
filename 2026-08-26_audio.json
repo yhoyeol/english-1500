@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-26",
+  "day": 84,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I usually take a short walk after dinner.",
+      "ko": "저는 보통 저녁 식사 후에 짧게 산책을 해요."
+    },
+    {
+      "en": "Let's swing by the convenience store on our way back.",
+      "ko": "돌아오는 길에 편의점에 잠깐 들르자."
+    },
+    {
+      "en": "I need to charge my phone before we head out.",
+      "ko": "나가기 전에 휴대폰을 충전해야 해요."
+    },
+    {
+      "en": "Do you have this in a smaller size?",
+      "ko": "이거 더 작은 사이즈 있나요?"
+    },
+    {
+      "en": "I'll just grab a quick snack for the road.",
+      "ko": "가는 길에 간단히 요기할 걸 사야겠어요."
+    }
+  ]
+}

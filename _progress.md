@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 415 / 1500
+진행: 420 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 124 / 450
-- 상황별 회화: 145 / 525
+- 기본 일상: 126 / 450
+- 상황별 회화: 148 / 525
 - 관계·소통: 83 / 300
 - 비즈니스 기본: 63 / 225
 
-## 관용구·구동사 포함 문장: 224 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 226 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -581,3 +581,9 @@
 - I usually pay my bills online these days.
 - I always check my bills at the end of the month.
 - I'm trying to make ends meet this month.
+### 2026-08-26 (Day 84)
+- I usually take a short walk after dinner.
+- Let's swing by the convenience store on our way back.
+- I need to charge my phone before we head out.
+- Do you have this in a smaller size?
+- I'll just grab a quick snack for the road.

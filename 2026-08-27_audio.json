@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-27",
+  "day": 85,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Let's hear everyone's opinion before deciding.", "ko": "결정하기 전에 모두의 의견을 들어봅시다."},
+    {"en": "I'd like to weigh in on this point.", "ko": "이 부분에 대해 제 의견을 보태고 싶어요."},
+    {"en": "Let's hash out our differences calmly.", "ko": "차분하게 의견 차이를 해결해봅시다."},
+    {"en": "I respect your opinion, even though I disagree.", "ko": "동의하지 않지만 당신의 의견을 존중해요."},
+    {"en": "Can we reach a compromise on this issue?", "ko": "이 문제에 대해 타협점을 찾을 수 있을까요?"}
+  ]
+}

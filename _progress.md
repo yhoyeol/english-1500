@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 420 / 1500
+진행: 425 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 126 / 450
 - 상황별 회화: 148 / 525
-- 관계·소통: 83 / 300
-- 비즈니스 기본: 63 / 225
+- 관계·소통: 85 / 300
+- 비즈니스 기본: 66 / 225
 
-## 관용구·구동사 포함 문장: 226 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 228 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -587,3 +587,9 @@
 - I need to charge my phone before we head out.
 - Do you have this in a smaller size?
 - I'll just grab a quick snack for the road.
+### 2026-08-27 (Day 85)
+- Let's hear everyone's opinion before deciding.
+- I'd like to weigh in on this point.
+- Let's hash out our differences calmly.
+- I respect your opinion, even though I disagree.
+- Can we reach a compromise on this issue?

@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-28",
+  "day": 86,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I always set my alarm for six thirty.", "ko": "저는 항상 알람을 6시 30분에 맞춰요."},
+    {"en": "I need to get a move on this morning.", "ko": "오늘 아침엔 좀 서둘러야겠어요."},
+    {"en": "I like to have breakfast before I leave home.", "ko": "저는 집을 나서기 전에 아침을 먹는 걸 좋아해요."},
+    {"en": "Could you touch up this nail for me?", "ko": "이 손톱 좀 다듬어 주시겠어요?"},
+    {"en": "How much does a manicure cost here?", "ko": "여기 매니큐어는 얼마예요?"}
+  ]
+}

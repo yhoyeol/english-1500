@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 430 / 1500
+진행: 435 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 129 / 450
-- 상황별 회화: 150 / 525
-- 관계·소통: 85 / 300
+- 상황별 회화: 152 / 525
+- 관계·소통: 88 / 300
 - 비즈니스 기본: 66 / 225
 
-## 관용구·구동사 포함 문장: 230 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 232 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -599,3 +599,10 @@
 - I like to have breakfast before I leave home.
 - Could you touch up this nail for me?
 - How much does a manicure cost here?
+
+### 2026-08-29 (Day 87)
+- I ran into my new neighbor this morning.
+- Welcome to the building — let me know if you need anything.
+- I racked my brain for the perfect gift idea.
+- Could you gift-wrap this for me, please?
+- It means a lot that you remembered my birthday.

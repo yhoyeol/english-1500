@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-29",
+  "day": 87,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I ran into my new neighbor this morning.",
+      "ko": "오늘 아침에 새로 이사 온 이웃과 마주쳤어요."
+    },
+    {
+      "en": "Welcome to the building — let me know if you need anything.",
+      "ko": "건물에 오신 걸 환영해요, 필요한 게 있으면 말씀해 주세요."
+    },
+    {
+      "en": "I racked my brain for the perfect gift idea.",
+      "ko": "완벽한 선물 아이디어를 생각해내려고 머리를 쥐어짰어요."
+    },
+    {
+      "en": "Could you gift-wrap this for me, please?",
+      "ko": "이거 선물 포장해 주시겠어요?"
+    },
+    {
+      "en": "It means a lot that you remembered my birthday.",
+      "ko": "제 생일을 기억해줘서 정말 큰 의미가 있어요."
+    }
+  ]
+}

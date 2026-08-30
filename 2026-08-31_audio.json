@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-31",
+  "day": 88,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I need to leave the house by eight.",
+      "ko": "여덟 시까지는 집에서 나가야 해요."
+    },
+    {
+      "en": "I want to look neat and professional today.",
+      "ko": "오늘은 단정하고 프로페셔널하게 보이고 싶어요."
+    },
+    {
+      "en": "I have a job interview at ten this morning.",
+      "ko": "오늘 오전 10시에 면접이 있어요."
+    },
+    {
+      "en": "I want to make a good first impression.",
+      "ko": "좋은 첫인상을 남기고 싶어요."
+    },
+    {
+      "en": "Could you look over my resume before I go?",
+      "ko": "가기 전에 제 이력서 좀 봐주시겠어요?"
+    }
+  ]
+}

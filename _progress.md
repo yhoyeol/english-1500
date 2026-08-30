@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 435 / 1500
+진행: 440 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 129 / 450
-- 상황별 회화: 152 / 525
+- 기본 일상: 131 / 450
+- 상황별 회화: 155 / 525
 - 관계·소통: 88 / 300
 - 비즈니스 기본: 66 / 225
 
-## 관용구·구동사 포함 문장: 232 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 234 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -606,3 +606,10 @@
 - I racked my brain for the perfect gift idea.
 - Could you gift-wrap this for me, please?
 - It means a lot that you remembered my birthday.
+
+### 2026-08-31 (Day 88)
+- I need to leave the house by eight.
+- I want to look neat and professional today.
+- I have a job interview at ten this morning.
+- I want to make a good first impression.
+- Could you look over my resume before I go?

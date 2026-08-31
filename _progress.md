@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 440 / 1500
+진행: 445 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 131 / 450
+- 기본 일상: 134 / 450
 - 상황별 회화: 155 / 525
 - 관계·소통: 88 / 300
-- 비즈니스 기본: 66 / 225
+- 비즈니스 기본: 68 / 225
 
-## 관용구·구동사 포함 문장: 234 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 236 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -613,3 +613,10 @@
 - I have a job interview at ten this morning.
 - I want to make a good first impression.
 - Could you look over my resume before I go?
+
+### 2026-09-01 (Day 89)
+- I hung the laundry out to dry this morning.
+- Could you bring in the laundry before it rains?
+- I'd like to prioritize these tasks for this week.
+- Let's stay on track with our current plan.
+- I need to fold the clothes before dinner.

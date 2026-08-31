@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-01",
+  "day": 89,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I hung the laundry out to dry this morning.",
+      "ko": "오늘 아침에 빨래를 널어서 말렸어요."
+    },
+    {
+      "en": "Could you bring in the laundry before it rains?",
+      "ko": "비 오기 전에 빨래 좀 걷어줄래요?"
+    },
+    {
+      "en": "I'd like to prioritize these tasks for this week.",
+      "ko": "이번 주에는 이 업무들을 우선순위에 두고 싶어요."
+    },
+    {
+      "en": "Let's stay on track with our current plan.",
+      "ko": "현재 계획대로 차질 없이 진행합시다."
+    },
+    {
+      "en": "I need to fold the clothes before dinner.",
+      "ko": "저녁 전에 옷을 개어야 해요."
+    }
+  ]
+}

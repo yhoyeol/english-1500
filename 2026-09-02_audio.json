@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-02",
+  "day": 90,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "Could you tell me where the post office is?",
+      "ko": "우체국이 어디 있는지 알려주시겠어요?"
+    },
+    {
+      "en": "I'd like to fill out this shipping form, please.",
+      "ko": "이 배송 신청서를 작성하고 싶은데요."
+    },
+    {
+      "en": "I really admire how patient you are with everyone.",
+      "ko": "모두에게 인내심을 갖는 당신이 정말 존경스러워요."
+    },
+    {
+      "en": "Let's bury the hatchet and start fresh.",
+      "ko": "지난 일은 잊고 새로 시작해요."
+    },
+    {
+      "en": "How long will it take for this to arrive?",
+      "ko": "이게 도착하는 데 얼마나 걸릴까요?"
+    }
+  ]
+}

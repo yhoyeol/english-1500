@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 445 / 1500
+진행: 450 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 134 / 450
-- 상황별 회화: 155 / 525
-- 관계·소통: 88 / 300
+- 상황별 회화: 158 / 525
+- 관계·소통: 90 / 300
 - 비즈니스 기본: 68 / 225
 
-## 관용구·구동사 포함 문장: 236 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 238 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -620,3 +620,9 @@
 - I'd like to prioritize these tasks for this week.
 - Let's stay on track with our current plan.
 - I need to fold the clothes before dinner.
+### 2026-09-02 (Day 90)
+- Could you tell me where the post office is?
+- I'd like to fill out this shipping form, please.
+- I really admire how patient you are with everyone.
+- Let's bury the hatchet and start fresh.
+- How long will it take for this to arrive?

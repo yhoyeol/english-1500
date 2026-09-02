@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 450 / 1500
+진행: 455 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 134 / 450
+- 기본 일상: 137 / 450
 - 상황별 회화: 158 / 525
-- 관계·소통: 90 / 300
+- 관계·소통: 92 / 300
 - 비즈니스 기본: 68 / 225
 
-## 관용구·구동사 포함 문장: 238 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 240 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -626,3 +626,9 @@
 - I really admire how patient you are with everyone.
 - Let's bury the hatchet and start fresh.
 - How long will it take for this to arrive?
+### 2026-09-03 (Day 91)
+- I'm chopping vegetables for the soup.
+- Could you set out the plates for dinner?
+- Dinner will be ready in ten minutes.
+- You did such a great job today.
+- You really made my day.

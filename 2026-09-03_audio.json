@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-03",
+  "day": 91,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm chopping vegetables for the soup.", "ko": "수프에 넣을 채소를 썰고 있어요."},
+    {"en": "Could you set out the plates for dinner?", "ko": "저녁 먹게 접시 좀 꺼내줄래요?"},
+    {"en": "Dinner will be ready in ten minutes.", "ko": "저녁은 십 분 후에 준비될 거예요."},
+    {"en": "You did such a great job today.", "ko": "오늘 정말 잘했어요."},
+    {"en": "You really made my day.", "ko": "네 덕분에 오늘 기분이 정말 좋아졌어."}
+  ]
+}

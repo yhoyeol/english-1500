@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 455 / 1500
+진행: 460 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 137 / 450
-- 상황별 회화: 158 / 525
+- 상황별 회화: 161 / 525
 - 관계·소통: 92 / 300
-- 비즈니스 기본: 68 / 225
+- 비즈니스 기본: 70 / 225
 
-## 관용구·구동사 포함 문장: 240 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 242 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -632,3 +632,9 @@
 - Dinner will be ready in ten minutes.
 - You did such a great job today.
 - You really made my day.
+### 2026-09-04 (Day 92)
+- I'd like to rent a car for a few days.
+- Let's hit the road early tomorrow morning.
+- Does the rental include unlimited mileage?
+- I'll show the new hire around the office.
+- Could you help her settle in this week?

@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-04",
+  "day": 92,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'd like to rent a car for a few days.", "ko": "며칠 동안 차를 렌트하고 싶어요."},
+    {"en": "Let's hit the road early tomorrow morning.", "ko": "내일 아침 일찍 출발하자."},
+    {"en": "Does the rental include unlimited mileage?", "ko": "이 렌터카에 무제한 주행거리가 포함되나요?"},
+    {"en": "I'll show the new hire around the office.", "ko": "신입 사원에게 사무실을 안내해 줄게요."},
+    {"en": "Could you help her settle in this week?", "ko": "이번 주에 그녀가 적응하도록 도와줄 수 있나요?"}
+  ]
+}

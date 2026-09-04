@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 460 / 1500
+진행: 465 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 137 / 450
+- 기본 일상: 140 / 450
 - 상황별 회화: 161 / 525
-- 관계·소통: 92 / 300
+- 관계·소통: 94 / 300
 - 비즈니스 기본: 70 / 225
 
-## 관용구·구동사 포함 문장: 242 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 244 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -638,3 +638,9 @@
 - Does the rental include unlimited mileage?
 - I'll show the new hire around the office.
 - Could you help her settle in this week?
+### 2026-09-05 (Day 93)
+- I'm getting the guest room ready for tonight.
+- Let's give the house a once-over before guests arrive.
+- Could you help me set up the extra chairs?
+- I just wanted to check up on you today.
+- I really missed talking with you these days.

@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-05",
+  "day": 93,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm getting the guest room ready for tonight.", "ko": "오늘 밤을 위해 손님방을 준비하고 있어요."},
+    {"en": "Let's give the house a once-over before guests arrive.", "ko": "손님들이 오기 전에 집을 한번 훑어보죠."},
+    {"en": "Could you help me set up the extra chairs?", "ko": "여분의 의자를 놓는 것 좀 도와줄래요?"},
+    {"en": "I just wanted to check up on you today.", "ko": "오늘 그냥 네가 잘 지내는지 확인하고 싶었어."},
+    {"en": "I really missed talking with you these days.", "ko": "요즘 너랑 얘기 나누는 게 정말 그리웠어."}
+  ]
+}

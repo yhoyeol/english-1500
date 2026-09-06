@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 465 / 1500
+진행: 470 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 140 / 450
-- 상황별 회화: 161 / 525
+- 상황별 회화: 164 / 525
 - 관계·소통: 94 / 300
-- 비즈니스 기본: 70 / 225
+- 비즈니스 기본: 72 / 225
 
-## 관용구·구동사 포함 문장: 244 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 246 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -644,3 +644,9 @@
 - Could you help me set up the extra chairs?
 - I just wanted to check up on you today.
 - I really missed talking with you these days.
+### 2026-09-07 (Day 94)
+- I need to pick up my ID card today.
+- How long will it take to issue this certificate?
+- I'd like to apply for a new passport.
+- Let's figure out our priorities for this week.
+- Could we finish this project ahead of schedule?

@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-07",
+  "day": 94,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I need to pick up my ID card today.", "ko": "오늘 신분증을 찾으러 가야 해요."},
+    {"en": "How long will it take to issue this certificate?", "ko": "이 증명서 발급에 시간이 얼마나 걸리나요?"},
+    {"en": "I'd like to apply for a new passport.", "ko": "새 여권을 신청하고 싶어요."},
+    {"en": "Let's figure out our priorities for this week.", "ko": "이번 주 우선순위를 정해봅시다."},
+    {"en": "Could we finish this project ahead of schedule?", "ko": "이 프로젝트를 예정보다 일찍 끝낼 수 있을까요?"}
+  ]
+}

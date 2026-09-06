@@ -1,0 +1,332 @@
+{
+  "date": "2026-08-30",
+  "day": "weekly-review",
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "tag": "비즈니스 기본 + 구동사",
+      "en": "Could we move the deadline up by two days?",
+      "ko": "마감일을 이틀 앞당길 수 있을까요?",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Sure, that works for me.",
+      "ko": "네, 저도 괜찮아요.",
+      "core": false,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "비즈니스 기본",
+      "en": "I'll draft the proposal and send it over.",
+      "ko": "제안서 초안을 작성해서 보내드릴게요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Thanks, Mina. I've been a bit stressed about this project.",
+      "ko": "고마워요, 미나. 이 프로젝트 때문에 좀 스트레스를 받았어요.",
+      "core": false,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "관계·소통",
+      "en": "You've got what it takes to succeed.",
+      "ko": "넌 성공할 자질이 있어.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "That means a lot.",
+      "ko": "그 말 정말 큰 힘이 돼요.",
+      "core": false,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "관계·소통",
+      "en": "I'm always here to cheer you on.",
+      "ko": "난 항상 널 응원할게.",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Same goes for you.",
+      "ko": "저도 마찬가지예요.",
+      "core": false,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "비즈니스 기본 + 구동사",
+      "en": "Let's nail down the budget numbers by Friday.",
+      "ko": "금요일까지 예산 수치를 확정합시다.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "상황별 회화",
+      "en": "I'd like to pay my electricity bill today.",
+      "ko": "오늘 전기 요금을 내고 싶어요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "상황별 + 구동사",
+      "en": "Could I set up automatic payments for my bills?",
+      "ko": "공과금 자동이체를 신청할 수 있을까요?",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Sure, no problem — I'll set that up for you.",
+      "ko": "그럼요, 바로 설정해 드릴게요.",
+      "core": false,
+      "speaker": "Bank Staff"
+    },
+    {
+      "tag": "기본 일상",
+      "en": "I usually pay my bills online these days.",
+      "ko": "저는 요즘 보통 온라인으로 공과금을 내요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "기본 일상",
+      "en": "I always check my bills at the end of the month.",
+      "ko": "저는 항상 월말에 청구서를 확인해요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "상황별 + 관용구",
+      "en": "I'm trying to make ends meet this month.",
+      "ko": "이번 달에는 그럭저럭 생활비를 맞추려고 해요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "기본 일상",
+      "en": "I usually take a short walk after dinner.",
+      "ko": "저는 보통 저녁 식사 후에 짧게 산책을 해요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Want to join me?",
+      "ko": "같이 갈래?",
+      "core": false,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "상황별 + 관용구",
+      "en": "Sure! Let's swing by the convenience store on our way back.",
+      "ko": "좋아! 돌아오는 길에 편의점에 잠깐 들르자.",
+      "core": true,
+      "speaker": "Sora"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Good idea.",
+      "ko": "좋은 생각이야.",
+      "core": false,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "기본 일상 + 구동사",
+      "en": "I need to charge my phone before we head out.",
+      "ko": "나가기 전에 휴대폰을 충전해야 해요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "상황별 회화",
+      "en": "Do you have this in a smaller size?",
+      "ko": "이거 더 작은 사이즈 있나요?",
+      "core": true,
+      "speaker": "Sora"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Let me check in the back.",
+      "ko": "뒤에서 확인해 볼게요.",
+      "core": false,
+      "speaker": "Clerk"
+    },
+    {
+      "tag": "상황별 + 관용구",
+      "en": "While we wait, I'll just grab a quick snack for the road.",
+      "ko": "기다리는 동안 가는 길에 간단히 요기할 걸 사야겠어요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "비즈니스 기본",
+      "en": "Let's hear everyone's opinion before deciding.",
+      "ko": "결정하기 전에 모두의 의견을 들어봅시다.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "비즈니스 기본 + 구동사",
+      "en": "I'd like to weigh in on this point.",
+      "ko": "이 부분에 대해 제 의견을 보태고 싶어요.",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "I think the timeline is too tight.",
+      "ko": "일정이 너무 빠듯한 것 같아요.",
+      "core": false,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "관계 + 구동사",
+      "en": "Let's hash out our differences calmly.",
+      "ko": "차분하게 의견 차이를 해결해봅시다.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Fair enough.",
+      "ko": "그건 그렇네요.",
+      "core": false,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "관계·소통",
+      "en": "I respect your opinion, even though I disagree.",
+      "ko": "동의하지 않지만 당신의 의견을 존중해요.",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "비즈니스 기본",
+      "en": "Can we reach a compromise on this issue?",
+      "ko": "이 문제에 대해 타협점을 찾을 수 있을까요?",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "I think so. Let's extend by just one day.",
+      "ko": "그럴 수 있을 것 같아요. 하루만 더 연장합시다.",
+      "core": false,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "기본 일상",
+      "en": "I always set my alarm for six thirty.",
+      "ko": "저는 항상 알람을 6시 30분에 맞춰요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "But today I overslept.",
+      "ko": "그런데 오늘은 늦잠을 잤어요.",
+      "core": false,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "기본 일상 + 관용구",
+      "en": "I need to get a move on this morning.",
+      "ko": "오늘 아침엔 좀 서둘러야겠어요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "기본 일상",
+      "en": "I like to have breakfast before I leave home.",
+      "ko": "저는 집을 나서기 전에 아침을 먹는 걸 좋아해요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "상황별 + 구동사",
+      "en": "Could you touch up this nail for me?",
+      "ko": "이 손톱 좀 다듬어 주시겠어요?",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Sure, no problem.",
+      "ko": "그럼요, 문제없어요.",
+      "core": false,
+      "speaker": "Nail Tech"
+    },
+    {
+      "tag": "상황별",
+      "en": "How much does a manicure cost here?",
+      "ko": "여기 매니큐어는 얼마예요?",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "관계 + 구동사",
+      "en": "I ran into my new neighbor this morning.",
+      "ko": "오늘 아침에 새로 이사 온 이웃과 마주쳤어요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Oh nice, what did you say?",
+      "ko": "오, 좋다. 뭐라고 했어?",
+      "core": false,
+      "speaker": "Sora"
+    },
+    {
+      "tag": "관계",
+      "en": "Welcome to the building — let me know if you need anything.",
+      "ko": "건물에 오신 걸 환영해요, 필요한 게 있으면 말씀해 주세요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "That's so sweet of you.",
+      "ko": "정말 다정하다.",
+      "core": false,
+      "speaker": "Sora"
+    },
+    {
+      "tag": "상황별 + 관용구",
+      "en": "I racked my brain for the perfect gift idea.",
+      "ko": "완벽한 선물 아이디어를 생각해내려고 머리를 쥐어짰어요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "상황별",
+      "en": "Could you gift-wrap this for me, please?",
+      "ko": "이거 선물 포장해 주시겠어요?",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Of course.",
+      "ko": "물론이죠.",
+      "core": false,
+      "speaker": "Clerk"
+    },
+    {
+      "tag": "관계",
+      "en": "It means a lot that you remembered my birthday.",
+      "ko": "제 생일을 기억해줘서 정말 큰 의미가 있어요.",
+      "core": true,
+      "speaker": "Sora"
+    }
+  ]
+}

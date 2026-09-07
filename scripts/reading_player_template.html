@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><<<TITLE>>></title>
+<style>
+  :root { --bg:#0f1115; --card:#1a1d24; --card2:#232732; --text:#e6e8ee; --muted:#8a93a6; --accent:#6ea8fe; --accent2:#ffb86b; --border:#2c3140; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:24px; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif; line-height:1.5; max-width:820px; margin-left:auto; margin-right:auto; }
+  header { margin-bottom:20px; }
+  h1 { font-size:22px; margin:0 0 6px 0; }
+  .sub { color:var(--muted); font-size:14px; }
+  #controls { display:flex; flex-wrap:wrap; gap:8px; align-items:center; background:var(--card); padding:14px; border-radius:12px; border:1px solid var(--border); margin-bottom:18px; position:sticky; top:8px; z-index:10; }
+  button { background:var(--accent); color:#0b1220; border:0; border-radius:8px; padding:10px 14px; font-weight:600; font-size:14px; cursor:pointer; }
+  button.secondary { background:var(--card2); color:var(--text); border:1px solid var(--border); }
+  select { background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:14px; }
+  label { color:var(--muted); font-size:13px; display:flex; align-items:center; gap:6px; }
+  #status { margin-left:auto; font-size:12px; color:var(--muted); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-bottom:14px; }
+  .card.active { outline:2px solid var(--accent); }
+  .card-head { display:flex; align-items:center; gap:8px; margin-bottom:6px; flex-wrap:wrap; }
+  .num { font-weight:700; color:var(--accent2); }
+  .en { font-size:18px; font-weight:600; color:#aee0ff; margin:4px 0; }
+  .ko { font-size:15px; color:#ffd6a8; margin:0 0 10px 0; }
+  .play-one { background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:6px 10px; font-size:13px; cursor:pointer; }
+  .play-one.playing { background:var(--accent); color:#0b1220; border-color:var(--accent); }
+  details { margin-top:6px; }
+  summary { color:var(--muted); font-size:13px; cursor:pointer; }
+  footer { margin-top:24px; padding-top:14px; border-top:1px solid var(--border); color:var(--muted); font-size:12px; text-align:center; }
+</style>
+</head>
+<body>
+<header>
+  <h1><<<HEADER_LINE>>></h1>
+  <div class="sub"><<<SUB_LINE>>></div>
+</header>
+<div id="controls">
+  <button id="playAll">▶ 전체 재생</button>
+  <button id="playAllSlow" class="secondary">🐢 전체 저속</button>
+  <button id="stop" class="secondary">정지</button>
+  <label>반복 <select id="repeatSel"><option value="1">1회</option><option value="2" selected>2회</option><option value="3">3회</option></select></label>
+  <span id="status">준비됨</span>
+</div>
+<div id="cards"></div>
+<footer><<<FOOTER>>></footer>
+<audio id="player"></audio>
+<script>
+const ENTRY_ID = "{ENTRY_ID}";
+const sentences = <<<SENTENCES_JSON>>>;
+const audio = document.getElementById('player');
+const statusEl = document.getElementById('status');
+const cardsEl = document.getElementById('cards');
+let queue = [];
+let queueIndex = 0;
+let stopped = false;
+
+function audioPath(n, slow) {
+  if (n === 'full') return `../audio/${ENTRY_ID}/full${slow ? '_slow' : ''}.mp3`;
+  return `../audio/${ENTRY_ID}/${String(n).padStart(2,'0')}${slow ? '_slow' : ''}.mp3`;
+}
+
+function render() {
+  cardsEl.innerHTML = sentences.map(s => `
+    <div class="card" id="card-${s.n}">
+      <div class="card-head">
+        <span class="num">${s.n}.</span>
+        <button class="play-one" onclick="playOne(${s.n}, false)">▶</button>
+        <button class="play-one" onclick="playOne(${s.n}, true)">🐢</button>
+        <button class="play-one" onclick="playRepeat(${s.n})">🔁</button>
+      </div>
+      <div class="en">${s.en}</div>
+      <div class="ko">${s.ko}</div>
+      ${s.note ? `<details><summary>문법 포인트</summary>${s.note}</details>` : ''}
+    </div>
+  `).join('');
+}
+
+function setActive(n) {
+  document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
+  if (n) {
+    const el = document.getElementById(`card-${n}`);
+    if (el) { el.classList.add('active'); el.scrollIntoView({behavior:'smooth', block:'center'}); }
+  }
+}
+
+function playFile(src, onend) {
+  audio.src = src;
+  audio.onerror = () => { statusEl.textContent = '⏳ 음성 생성 중 — 2~3분 후 새로고침'; };
+  audio.onended = onend || null;
+  audio.play().catch(()=>{});
+}
+
+function playOne(n, slow) {
+  stopped = false;
+  setActive(n);
+  statusEl.textContent = `${n}번 재생 중${slow ? ' (저속)' : ''}`;
+  playFile(audioPath(n, slow), () => { statusEl.textContent = '준비됨'; setActive(null); });
+}
+
+function playRepeat(n) {
+  const times = parseInt(document.getElementById('repeatSel').value, 10);
+  let count = 0;
+  stopped = false;
+  setActive(n);
+  function step() {
+    if (stopped || count >= times) { statusEl.textContent = '준비됨'; setActive(null); return; }
+    count++;
+    statusEl.textContent = `${n}번 반복 재생 (${count}/${times})`;
+    playFile(audioPath(n, false), step);
+  }
+  step();
+}
+
+function playAll(slow) {
+  stopped = false;
+  queue = sentences.map(s => s.n);
+  queueIndex = 0;
+  statusEl.textContent = `전체 재생 중${slow ? ' (저속)' : ''}`;
+  function step() {
+    if (stopped || queueIndex >= queue.length) { statusEl.textContent = '준비됨'; setActive(null); return; }
+    const n = queue[queueIndex];
+    setActive(n);
+    queueIndex++;
+    playFile(audioPath(n, slow), step);
+  }
+  step();
+}
+
+document.getElementById('playAll').onclick = () => playAll(false);
+document.getElementById('playAllSlow').onclick = () => playAll(true);
+document.getElementById('stop').onclick = () => { stopped = true; audio.pause(); statusEl.textContent = '정지됨'; setActive(null); };
+
+render();
+</script>
+</body>
+</html>

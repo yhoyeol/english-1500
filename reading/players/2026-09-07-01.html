@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Don't Let Appearances Fool You · 2026-09-07</title>
+<style>
+  :root { --bg:#0f1115; --card:#1a1d24; --card2:#232732; --text:#e6e8ee; --muted:#8a93a6; --accent:#6ea8fe; --accent2:#ffb86b; --border:#2c3140; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:24px; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif; line-height:1.5; max-width:820px; margin-left:auto; margin-right:auto; }
+  header { margin-bottom:20px; }
+  h1 { font-size:22px; margin:0 0 6px 0; }
+  .sub { color:var(--muted); font-size:14px; }
+  #controls { display:flex; flex-wrap:wrap; gap:8px; align-items:center; background:var(--card); padding:14px; border-radius:12px; border:1px solid var(--border); margin-bottom:18px; position:sticky; top:8px; z-index:10; }
+  button { background:var(--accent); color:#0b1220; border:0; border-radius:8px; padding:10px 14px; font-weight:600; font-size:14px; cursor:pointer; }
+  button.secondary { background:var(--card2); color:var(--text); border:1px solid var(--border); }
+  select { background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:14px; }
+  label { color:var(--muted); font-size:13px; display:flex; align-items:center; gap:6px; }
+  #status { margin-left:auto; font-size:12px; color:var(--muted); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-bottom:14px; }
+  .card.active { outline:2px solid var(--accent); }
+  .card-head { display:flex; align-items:center; gap:8px; margin-bottom:6px; flex-wrap:wrap; }
+  .num { font-weight:700; color:var(--accent2); }
+  .en { font-size:18px; font-weight:600; color:#aee0ff; margin:4px 0; }
+  .ko { font-size:15px; color:#ffd6a8; margin:0 0 10px 0; }
+  .play-one { background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:6px 10px; font-size:13px; cursor:pointer; }
+  .play-one.playing { background:var(--accent); color:#0b1220; border-color:var(--accent); }
+  details { margin-top:6px; }
+  summary { color:var(--muted); font-size:13px; cursor:pointer; }
+  footer { margin-top:24px; padding-top:14px; border-top:1px solid var(--border); color:var(--muted); font-size:12px; text-align:center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Don't Let Appearances Fool You</h1>
+  <div class="sub">2026-09-07 · 13문장</div>
+</header>
+<div id="controls">
+  <button id="playAll">▶ 전체 재생</button>
+  <button id="playAllSlow" class="secondary">🐢 전체 저속</button>
+  <button id="stop" class="secondary">정지</button>
+  <label>반복 <select id="repeatSel"><option value="1">1회</option><option value="2" selected>2회</option><option value="3">3회</option></select></label>
+  <span id="status">준비됨</span>
+</div>
+<div id="cards"></div>
+<footer>English Reading · 2026-09-07-01</footer>
+<audio id="player"></audio>
+<script>
+const ENTRY_ID = "2026-09-07-01";
+const sentences = [{"n": 1, "en": "The taxi's radio was tuned to a classical FM broadcast.", "ko": "택시 라디오는 클래식 FM 방송에 맞춰져 있었다.", "note": "was tuned - 수동태(be+p.p.)로 상태를 묘사."}, {"n": 2, "en": "Janáček's Sinfonietta—probably not the ideal music to hear in a taxi caught in traffic.", "ko": "야나체크의 신포니에타 — 교통체증에 갇힌 택시 안에서 듣기엔 아마 이상적인 음악은 아닐 것이다.", "note": "대시 뒤에 동사(was) 생략된 문장 조각. caught in traffic은 a taxi를 수식하는 과거분사구."}, {"n": 3, "en": "The middle-aged driver didn't seem to be listening very closely, either.", "ko": "중년의 운전기사도 그다지 귀 기울여 듣고 있는 것 같지 않았다.", "note": "seem to be -ing(진행형 부정사). 부정문의 either는 '~도 마찬가지로 아니다'."}, {"n": 4, "en": "With his mouth clamped shut, he stared straight ahead at the endless line of cars stretching out on the elevated expressway, like a veteran fisherman standing in the bow of his boat, reading the ominous confluence of two currents.", "ko": "입을 굳게 다문 채, 그는 고가도로 위로 끝없이 이어진 자동차 행렬을 똑바로 응시했다. 마치 뱃머리에 서서 불길한 두 물살이 만나는 지점을 읽어내는 노련한 어부처럼.", "note": "With+목적어+과거분사(clamped shut)는 부대상황을 나타내는 독립분사구문. stretching out은 cars 수식, standing/reading은 fisherman을 수식하는 현재분사(동시동작)."}, {"n": 5, "en": "Aomame settled into the broad back seat, closed her eyes, and listened to the music.", "ko": "아오마메는 넓은 뒷좌석에 자리를 잡고, 눈을 감고, 음악을 들었다.", "note": "동사 3개(settled, closed, listened)가 콤마와 and로 병렬 연결."}, {"n": 6, "en": "How many people could recognize Janáček's Sinfonietta after hearing just the first few bars?", "ko": "처음 몇 소절만 듣고 야나체크의 신포니에타를 알아챌 수 있는 사람이 과연 몇 명이나 될까?", "note": "after+동명사(hearing)로 시간을 나타냄. could는 가능성을 묻는 수사의문문적 용법."}, {"n": 7, "en": "Probably somewhere between \"very few\" and \"almost none.\"", "ko": "아마 '극소수'와 '거의 없음' 사이 어디쯤일 것이다.", "note": "주어+동사가 생략된 문장 조각(fragment). 앞 질문에 대한 구어체적 답변 형식."}, {"n": 8, "en": "But for some reason, Aomame was one of the few who could.", "ko": "하지만 어떤 이유에서인지, 아오마메는 그 소수에 속하는 사람이었다.", "note": "관계절 who could 뒤에 recognize it이 반복을 피하기 위해 생략됨."}, {"n": 9, "en": "Janáček composed his little symphony in 1926.", "ko": "야나체크는 1926년에 그 작은 교향곡을 작곡했다.", "note": ""}, {"n": 10, "en": "He originally wrote the opening as a fanfare for a gymnastics festival.", "ko": "그는 원래 그 도입부를 체육 축제를 위한 팡파르로 작곡했다.", "note": "as+명사: '~로서'라는 자격/용도를 나타냄."}, {"n": 11, "en": "Aomame imagined 1926 Czechoslovakia: The First World War had ended, and the country was freed from the long rule of the Hapsburg Dynasty.", "ko": "아오마메는 1926년의 체코슬로바키아를 상상했다. 제1차 세계대전이 끝났고, 그 나라는 합스부르크 왕조의 오랜 지배에서 해방되어 있었다.", "note": "had ended는 과거완료로, 상상하는 시점(1926년)보다 앞선 완료 상태를 나타냄. was freed는 수동태."}, {"n": 12, "en": "As they enjoyed the peaceful respite visiting central Europe, people drank Pilsner beer in cafés and manufactured handsome light machine guns.", "ko": "중부 유럽을 찾은 평화로운 휴지기를 즐기며, 사람들은 카페에서 필스너 맥주를 마시고 근사한 경기관총을 제작했다.", "note": "As는 동시상황을 나타내는 접속사. visiting central Europe은 respite를 수식하는 것으로도, 의미상 주어 they를 수식하는 분사구문으로도 읽을 수 있어 두 독법이 가능함."}, {"n": 13, "en": "Two years earlier, in utter obscurity, Franz Kafka had left the world behind.", "ko": "그로부터 2년 전, 완전히 무명인 채로, 프란츠 카프카는 세상을 떠났다.", "note": "had left는 과거완료(1926년보다 앞선 시점, 카프카는 1924년 사망). leave the world behind는 '죽다'의 완곡 표현."}];
+const audio = document.getElementById('player');
+const statusEl = document.getElementById('status');
+const cardsEl = document.getElementById('cards');
+let queue = [];
+let queueIndex = 0;
+let stopped = false;
+
+function audioPath(n, slow) {
+  if (n === 'full') return `../audio/$2026-09-07-01/full${slow ? '_slow' : ''}.mp3`;
+  return `../audio/$2026-09-07-01/${String(n).padStart(2,'0')}${slow ? '_slow' : ''}.mp3`;
+}
+
+function render() {
+  cardsEl.innerHTML = sentences.map(s => `
+    <div class="card" id="card-${s.n}">
+      <div class="card-head">
+        <span class="num">${s.n}.</span>
+        <button class="play-one" onclick="playOne(${s.n}, false)">▶</button>
+        <button class="play-one" onclick="playOne(${s.n}, true)">🐢</button>
+        <button class="play-one" onclick="playRepeat(${s.n})">🔁</button>
+      </div>
+      <div class="en">${s.en}</div>
+      <div class="ko">${s.ko}</div>
+      ${s.note ? `<details><summary>문법 포인트</summary>${s.note}</details>` : ''}
+    </div>
+  `).join('');
+}
+
+function setActive(n) {
+  document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
+  if (n) {
+    const el = document.getElementById(`card-${n}`);
+    if (el) { el.classList.add('active'); el.scrollIntoView({behavior:'smooth', block:'center'}); }
+  }
+}
+
+function playFile(src, onend) {
+  audio.src = src;
+  audio.onerror = () => { statusEl.textContent = '⏳ 음성 생성 중 — 2~3분 후 새로고침'; };
+  audio.onended = onend || null;
+  audio.play().catch(()=>{});
+}
+
+function playOne(n, slow) {
+  stopped = false;
+  setActive(n);
+  statusEl.textContent = `${n}번 재생 중${slow ? ' (저속)' : ''}`;
+  playFile(audioPath(n, slow), () => { statusEl.textContent = '준비됨'; setActive(null); });
+}
+
+function playRepeat(n) {
+  const times = parseInt(document.getElementById('repeatSel').value, 10);
+  let count = 0;
+  stopped = false;
+  setActive(n);
+  function step() {
+    if (stopped || count >= times) { statusEl.textContent = '준비됨'; setActive(null); return; }
+    count++;
+    statusEl.textContent = `${n}번 반복 재생 (${count}/${times})`;
+    playFile(audioPath(n, false), step);
+  }
+  step();
+}
+
+function playAll(slow) {
+  stopped = false;
+  queue = sentences.map(s => s.n);
+  queueIndex = 0;
+  statusEl.textContent = `전체 재생 중${slow ? ' (저속)' : ''}`;
+  function step() {
+    if (stopped || queueIndex >= queue.length) { statusEl.textContent = '준비됨'; setActive(null); return; }
+    const n = queue[queueIndex];
+    setActive(n);
+    queueIndex++;
+    playFile(audioPath(n, slow), step);
+  }
+  step();
+}
+
+document.getElementById('playAll').onclick = () => playAll(false);
+document.getElementById('playAllSlow').onclick = () => playAll(true);
+document.getElementById('stop').onclick = () => { stopped = true; audio.pause(); statusEl.textContent = '정지됨'; setActive(null); };
+
+render();
+</script>
+</body>
+</html>

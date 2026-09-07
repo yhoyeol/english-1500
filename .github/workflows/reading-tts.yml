@@ -1,0 +1,24 @@
+name: build-reading-tts
+on:
+  push:
+    branches: [main]
+    paths: ['reading/audio/**.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install edge-tts
+      - run: python scripts/generate_reading_tts.py
+      - name: commit mp3
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reading/audio
+          git diff --staged --quiet || (git commit -m "reading TTS [skip ci]" && git push)

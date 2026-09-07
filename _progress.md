@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 470 / 1500
+진행: 475 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 140 / 450
-- 상황별 회화: 164 / 525
+- 기본 일상: 143 / 450
+- 상황별 회화: 166 / 525
 - 관계·소통: 94 / 300
 - 비즈니스 기본: 72 / 225
 
-## 관용구·구동사 포함 문장: 246 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 248 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -650,3 +650,9 @@
 - I'd like to apply for a new passport.
 - Let's figure out our priorities for this week.
 - Could we finish this project ahead of schedule?
+### 2026-09-08 (Day 95)
+- I should tidy up my desk before I leave.
+- I can't find my keys anywhere this morning.
+- I always double-check the door before leaving.
+- I'd like to book an appointment for a haircut.
+- I'm thinking about switching things up with my hair.

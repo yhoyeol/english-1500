@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-08",
+  "day": 95,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I should tidy up my desk before I leave.",
+      "ko": "나가기 전에 책상을 정리해야겠어요."
+    },
+    {
+      "en": "I can't find my keys anywhere this morning.",
+      "ko": "오늘 아침에 열쇠를 아무리 찾아도 없어요."
+    },
+    {
+      "en": "I always double-check the door before leaving.",
+      "ko": "나가기 전에 항상 문을 한 번 더 확인해요."
+    },
+    {
+      "en": "I'd like to book an appointment for a haircut.",
+      "ko": "헤어컷 예약을 하고 싶어요."
+    },
+    {
+      "en": "I'm thinking about switching things up with my hair.",
+      "ko": "머리 스타일을 좀 바꿔볼까 생각 중이에요."
+    }
+  ]
+}

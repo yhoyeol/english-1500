@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-09",
+  "day": 96,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I really need to open up to someone.", "ko": "나는 정말 누군가에게 마음을 터놓고 싶어."},
+    {"en": "Thank you for listening without judging me.", "ko": "나를 판단하지 않고 들어줘서 고마워."},
+    {"en": "It means so much to have your support.", "ko": "네가 응원해줘서 정말 큰 힘이 돼."},
+    {"en": "Could I get this coffee to go?", "ko": "이 커피 포장해 갈 수 있을까요?"},
+    {"en": "Is there a seat available near the window?", "ko": "창가 쪽에 자리 있나요?"}
+  ]
+}

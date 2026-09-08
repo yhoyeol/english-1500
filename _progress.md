@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 475 / 1500
+진행: 480 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 143 / 450
-- 상황별 회화: 166 / 525
-- 관계·소통: 94 / 300
+- 상황별 회화: 168 / 525
+- 관계·소통: 97 / 300
 - 비즈니스 기본: 72 / 225
 
-## 관용구·구동사 포함 문장: 248 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 250 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -656,3 +656,9 @@
 - I always double-check the door before leaving.
 - I'd like to book an appointment for a haircut.
 - I'm thinking about switching things up with my hair.
+### 2026-09-09 (Day 96)
+- I really need to open up to someone.
+- Thank you for listening without judging me.
+- It means so much to have your support.
+- Could I get this coffee to go?
+- Is there a seat available near the window?

@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 480 / 1500
+진행: 485 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 143 / 450
+- 기본 일상: 145 / 450
 - 상황별 회화: 168 / 525
 - 관계·소통: 97 / 300
-- 비즈니스 기본: 72 / 225
+- 비즈니스 기본: 75 / 225
 
-## 관용구·구동사 포함 문장: 250 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 253 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -662,3 +662,9 @@
 - It means so much to have your support.
 - Could I get this coffee to go?
 - Is there a seat available near the window?
+### 2026-09-10 (Day 97)
+- I barely made it out the door on time.
+- Could we push back the meeting to eleven?
+- I skipped breakfast to save some time today.
+- Let's set a clear goal for today's meeting.
+- I'll keep you posted on how it goes.

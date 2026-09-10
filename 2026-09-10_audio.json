@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-10",
+  "day": 97,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I barely made it out the door on time.", "ko": "겨우 제시간에 집을 나섰어요."},
+    {"en": "Could we push back the meeting to eleven?", "ko": "회의를 11시로 미룰 수 있을까요?"},
+    {"en": "I skipped breakfast to save some time today.", "ko": "시간을 아끼려고 오늘 아침을 걸렀어요."},
+    {"en": "Let's set a clear goal for today's meeting.", "ko": "오늘 회의의 목표를 명확히 정합시다."},
+    {"en": "I'll keep you posted on how it goes.", "ko": "어떻게 되는지 계속 알려드릴게요."}
+  ]
+}

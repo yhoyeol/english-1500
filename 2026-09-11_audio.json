@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-11",
+  "day": 98,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "en": "I like to air out my room every morning.",
+      "ko": "저는 매일 아침 방을 환기시키는 걸 좋아해요."
+    },
+    {
+      "en": "I need to freshen up before I head out.",
+      "ko": "나가기 전에 좀 씻고 단장해야 해요."
+    },
+    {
+      "en": "Could you fill up the tank, please?",
+      "ko": "탱크를 가득 채워 주시겠어요?"
+    },
+    {
+      "en": "I'd like to get my car washed today.",
+      "ko": "오늘 세차를 하고 싶어요."
+    },
+    {
+      "en": "Could you check the tire pressure too?",
+      "ko": "타이어 공기압도 확인해 주시겠어요?"
+    }
+  ]
+}

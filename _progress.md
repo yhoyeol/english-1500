@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 485 / 1500
+진행: 490 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 145 / 450
-- 상황별 회화: 168 / 525
+- 기본 일상: 147 / 450
+- 상황별 회화: 171 / 525
 - 관계·소통: 97 / 300
 - 비즈니스 기본: 75 / 225
 
-## 관용구·구동사 포함 문장: 253 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 255 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -668,3 +668,9 @@
 - I skipped breakfast to save some time today.
 - Let's set a clear goal for today's meeting.
 - I'll keep you posted on how it goes.
+### 2026-09-11 (Day 98)
+- I like to air out my room every morning.
+- I need to freshen up before I head out.
+- Could you fill up the tank, please?
+- I'd like to get my car washed today.
+- Could you check the tire pressure too?

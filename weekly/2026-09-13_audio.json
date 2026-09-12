@@ -1,0 +1,304 @@
+{
+  "date": "2026-09-13",
+  "day": "weekly-review",
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {
+      "tag": "연결 대사",
+      "en": "Good morning! How can I help you today?",
+      "ko": "안녕하세요! 오늘 무엇을 도와드릴까요?",
+      "core": false,
+      "speaker": "Clerk"
+    },
+    {
+      "tag": "상황별 + 구동사",
+      "en": "I need to pick up my ID card today.",
+      "ko": "오늘 신분증을 찾으러 가야 해요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Sure, here it is. Anything else?",
+      "ko": "네, 여기 있습니다. 다른 건요?",
+      "core": false,
+      "speaker": "Clerk"
+    },
+    {
+      "tag": "상황별 회화",
+      "en": "How long will it take to issue this certificate?",
+      "ko": "이 증명서 발급에 시간이 얼마나 걸리나요?",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "About three business days.",
+      "ko": "영업일 기준 3일 정도 걸려요.",
+      "core": false,
+      "speaker": "Clerk"
+    },
+    {
+      "tag": "상황별 회화",
+      "en": "I'd like to apply for a new passport.",
+      "ko": "새 여권을 신청하고 싶어요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Sure, just fill out this form.",
+      "ko": "네, 이 서류만 작성해 주세요.",
+      "core": false,
+      "speaker": "Clerk"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Hey Mina, how was the government office?",
+      "ko": "미나, 구청 일은 어땠어?",
+      "core": false,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "비즈니스 + 구동사",
+      "en": "Let's figure out our priorities for this week.",
+      "ko": "이번 주 우선순위를 정해봅시다.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "비즈니스 기본",
+      "en": "Could we finish this project ahead of schedule?",
+      "ko": "이 프로젝트를 예정보다 일찍 끝낼 수 있을까요?",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Let's try. I'll start today.",
+      "ko": "해보죠. 오늘부터 시작할게요.",
+      "core": false,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "기본 일상 + 구동사",
+      "en": "I should tidy up my desk before I leave.",
+      "ko": "나가기 전에 책상을 정리해야겠어요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Same — oh wait,",
+      "ko": "나도 그런데 — 어, 잠깐,",
+      "core": false,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "기본 일상",
+      "en": "I can't find my keys anywhere this morning.",
+      "ko": "오늘 아침에 열쇠를 아무리 찾아도 없어요.",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Did you check your coat pocket? You know,",
+      "ko": "코트 주머니 확인했어요? 저는,",
+      "core": false,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "기본 일상",
+      "en": "I always double-check the door before leaving.",
+      "ko": "나가기 전에 항상 문을 한 번 더 확인해요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Found them! Thanks. Anyway —",
+      "ko": "찾았어요! 고마워요. 그건 그렇고 —",
+      "core": false,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "상황별 회화",
+      "en": "I'd like to book an appointment for a haircut.",
+      "ko": "헤어컷 예약을 하고 싶어요.",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "상황별 + 관용구",
+      "en": "I'm thinking about switching things up with my hair.",
+      "ko": "머리 스타일을 좀 바꿔볼까 생각 중이에요.",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Ooh, exciting. Let me know how it turns out.",
+      "ko": "오, 기대되네요. 어떻게 됐는지 알려줘요.",
+      "core": false,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "You look a little tired lately. What's going on?",
+      "ko": "요즘 좀 피곤해 보여. 무슨 일 있어?",
+      "core": false,
+      "speaker": "Sora"
+    },
+    {
+      "tag": "관계 + 구동사",
+      "en": "I really need to open up to someone.",
+      "ko": "나는 정말 누군가에게 마음을 터놓고 싶어.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "I'm listening. Take your time.",
+      "ko": "듣고 있어. 천천히 말해.",
+      "core": false,
+      "speaker": "Sora"
+    },
+    {
+      "tag": "관계·소통",
+      "en": "Thank you for listening without judging me.",
+      "ko": "나를 판단하지 않고 들어줘서 고마워.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "관계·소통",
+      "en": "It means so much to have your support.",
+      "ko": "네가 응원해줘서 정말 큰 힘이 돼.",
+      "core": true,
+      "speaker": "Sora"
+    },
+    {
+      "tag": "상황별 + 관용구",
+      "en": "Could I get this coffee to go?",
+      "ko": "이 커피 포장해 갈 수 있을까요?",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "상황별 회화",
+      "en": "Is there a seat available near the window?",
+      "ko": "창가 쪽에 자리 있나요?",
+      "core": true,
+      "speaker": "Sora"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Works for me.",
+      "ko": "그게 좋겠어.",
+      "core": false,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "기본 일상 + 관용구",
+      "en": "I barely made it out the door on time.",
+      "ko": "겨우 제시간에 집을 나섰어요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "기본 일상",
+      "en": "I skipped breakfast to save some time today.",
+      "ko": "시간을 아끼려고 오늘 아침을 걸렀어요.",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "비즈니스 기본 + 구동사",
+      "en": "Could we push back the meeting to eleven?",
+      "ko": "회의를 11시로 미룰 수 있을까요?",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "비즈니스 기본",
+      "en": "Let's set a clear goal for today's meeting.",
+      "ko": "오늘 회의의 목표를 명확히 정합시다.",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Agreed. About the client project —",
+      "ko": "좋아요. 그 클라이언트 프로젝트는요 —",
+      "core": false,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "비즈니스 + 관용구",
+      "en": "I'll keep you posted on how it goes.",
+      "ko": "어떻게 되는지 계속 알려드릴게요.",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "기본 일상",
+      "en": "I like to air out my room every morning.",
+      "ko": "저는 매일 아침 방을 환기시키는 걸 좋아해요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "(honking outside) Ready? Let's get gas before work.",
+      "ko": "(밖에서 경적) 준비됐어? 출근 전에 기름부터 넣자.",
+      "core": false,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "기본 일상 + 구동사",
+      "en": "I need to freshen up before I head out.",
+      "ko": "나가기 전에 좀 씻고 단장해야 해요.",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "상황별 + 구동사",
+      "en": "Could you fill up the tank, please?",
+      "ko": "탱크를 가득 채워 주시겠어요?",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "Sure, regular or premium?",
+      "ko": "네, 일반이요 고급이요?",
+      "core": false,
+      "speaker": "Attendant"
+    },
+    {
+      "tag": "상황별 회화",
+      "en": "I'd like to get my car washed today.",
+      "ko": "오늘 세차를 하고 싶어요.",
+      "core": true,
+      "speaker": "Jake"
+    },
+    {
+      "tag": "상황별 회화",
+      "en": "Could you check the tire pressure too?",
+      "ko": "타이어 공기압도 확인해 주시겠어요?",
+      "core": true,
+      "speaker": "Mina"
+    },
+    {
+      "tag": "연결 대사",
+      "en": "No problem, give me a few minutes.",
+      "ko": "문제없어요, 몇 분만 기다려 주세요.",
+      "core": false,
+      "speaker": "Attendant"
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 490 / 1500
+진행: 495 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
 - 기본 일상: 147 / 450
-- 상황별 회화: 171 / 525
-- 관계·소통: 97 / 300
+- 상황별 회화: 173 / 525
+- 관계·소통: 100 / 300
 - 비즈니스 기본: 75 / 225
 
-## 관용구·구동사 포함 문장: 255 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 257 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -674,3 +674,9 @@
 - Could you fill up the tank, please?
 - I'd like to get my car washed today.
 - Could you check the tire pressure too?
+### 2026-09-14 (Day 99)
+- Let's patch things up before it gets worse.
+- I didn't mean to hurt your feelings.
+- I hope we can move past this.
+- I'd like to opt out of this subscription.
+- Could you tell me how to cancel my membership?

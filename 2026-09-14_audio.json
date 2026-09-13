@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-14",
+  "day": 99,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "Let's patch things up before it gets worse.", "ko": "더 나빠지기 전에 화해하자."},
+    {"en": "I didn't mean to hurt your feelings.", "ko": "네 기분을 상하게 할 생각은 없었어."},
+    {"en": "I hope we can move past this.", "ko": "우리가 이 일을 잘 넘겼으면 좋겠어."},
+    {"en": "I'd like to opt out of this subscription.", "ko": "이 구독 서비스를 해지하고 싶어요."},
+    {"en": "Could you tell me how to cancel my membership?", "ko": "멤버십을 어떻게 취소하는지 알려주시겠어요?"}
+  ]
+}

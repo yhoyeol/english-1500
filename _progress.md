@@ -1,15 +1,15 @@
 # 1500 Core Sentences Progress
 
 시작일: 2026-04-25
-진행: 495 / 1500
+진행: 500 / 1500
 
 ## 카테고리별 진도 (현재 / 목표)
-- 기본 일상: 147 / 450
-- 상황별 회화: 173 / 525
+- 기본 일상: 150 / 450
+- 상황별 회화: 175 / 525
 - 관계·소통: 100 / 300
 - 비즈니스 기본: 75 / 225
 
-## 관용구·구동사 포함 문장: 257 / 1500 (목표 40%)
+## 관용구·구동사 포함 문장: 259 / 1500 (목표 40%)
 
 ## 학습 완료 문장 (중복방지용)
 
@@ -680,3 +680,9 @@
 - I hope we can move past this.
 - I'd like to opt out of this subscription.
 - Could you tell me how to cancel my membership?
+### 2026-09-15 (Day 100)
+- I'm almost out of coffee, so I'll grab some today.
+- Could you pick up some bread on your way home?
+- Excuse me, which aisle has the cooking oil?
+- Could you throw in a free sample with my order?
+- I like to organize my pantry every month.

@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-15",
+  "day": 100,
+  "rate": "-5%",
+  "repeats": 5,
+  "voiceEN": "en-US-AriaNeural",
+  "voiceKO": "ko-KR-InJoonNeural",
+  "sentences": [
+    {"en": "I'm almost out of coffee, so I'll grab some today.", "ko": "커피가 거의 다 떨어져서 오늘 좀 사야겠어요."},
+    {"en": "Could you pick up some bread on your way home?", "ko": "집에 오는 길에 빵 좀 사다 줄 수 있어요?"},
+    {"en": "Excuse me, which aisle has the cooking oil?", "ko": "저기요, 식용유는 몇 번 코너에 있나요?"},
+    {"en": "Could you throw in a free sample with my order?", "ko": "주문하면 무료 샘플도 좀 넣어 주실 수 있나요?"},
+    {"en": "I like to organize my pantry every month.", "ko": "저는 매달 식료품 저장고를 정리하는 걸 좋아해요."}
+  ]
+}
